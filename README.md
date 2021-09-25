@@ -19,7 +19,7 @@ The mod list is structured and near-sorted alphabetically with following markers
 - [Akashic Tome] <sup>Util</sup> <sub>requires [AutoRegLib]</sub> - Add a book called Akashic Tome that can mimics another mods' guide book.
 - [Angel Ring] <sup>Util & End-game</sup> <sub>requires [Curios API (Forge)]</sub> - Add a item called Angel Ring which allow you to fly like the creative mode.
 - [AppleSkin] <sup>Util</sup> - Show the saturation, exhaustion, and the hungers, saturations and the healths to be restored by eating the food in hand.
-- [Architectury API (Forge)] <sup>Lib</sup> - An intermediary api aimed to ease developing multiplatform mods, mostly used by FTB mods in this modpack.
+- [Architectury API (Forge)] <sup>Lib</sup> - An intermediary api aimed to ease developing multiplatform mods, mostly used by [FTB mods] in this modpack.
 - [Ars Nouveau] <sup>Main</sup> <sub>requires [Curios API (Forge)], [GeckoLib] and [Patchouli]</sub> - A magic mod allows you to craft your own spell.
 - [AutoRegLib] <sup>Lib</sup> - A library mod for Vazkii's mod, like [Akashic Tome] in this modpack.
 - [BetterEnd (Forge)] - Make the end fancier than vanilla Minecraft.
@@ -62,7 +62,7 @@ The mod list is structured and near-sorted alphabetically with following markers
 - ForgeEndertech - ???
 - [Forgiving Void] <sup>U</sup>
 - [FPS Reducer] <sup>O</sup>
-- [FTB Backups (Forge)]
+- <a id="ftb-mods"></a> [FTB Backups (Forge)]
 - [FTB Chunks (Forge)]
   - Architectury API (Forge)
   - FTB Library (Forge)
@@ -182,6 +182,7 @@ The mod list is structured and near-sorted alphabetically with following markers
 [Flywheel]: https://www.curseforge.com/minecraft/mc-mods/flywheel
 [Forgiving Void]: https://www.curseforge.com/minecraft/mc-mods/forgiving-void
 [FPS Reducer]: https://www.curseforge.com/minecraft/mc-mods/fps-reducer
+[FTB mods]: #ftb-mods
 [FTB Backups (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge
 [FTB Chunks (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge
 [FTB Library (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge
