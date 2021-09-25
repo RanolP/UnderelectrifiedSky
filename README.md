@@ -4,38 +4,30 @@ A skyblock modpack heavily based on Create mod
 
 ## Mod List
 
-| Marker | Meaning                                     |
-| ------ | ------------------------------------------- |
-| P      | It is primary mod of this modpack           |
-| L      | It is a library mod, you may want to ignore |
-| U      | It is just an utility mod                   |
-| E      | It is end-game mod                          |
-| O      | It is optimization mod                      |
-| C      | It is cooking mod                           |
-| M      | It is modpack making mod                    |
+The mod list is structured and near-sorted alphabetically with following markers.
 
-- [Akashic Tome] <sup>U</sup>
-  - AutoRegLib
-- [Angel Ring] <sup>U, E</sup>
-  - Curios API (Forge)
-- [AppleSkin] <sup>U</sup>
-- Architectury API (Forge) - ???
-- [Armor Toughness Bar]
-- [Ars Nouveau] <sup>P</sup>
-  - Curios API (Forge)
-  - GeckoLib
-  - Patchouli
-- [AutoRegLib] <sup>L</sup> - it is library mod for [Akashic Tome]
-- [BetterEnd (Forge)]
-- Bookshelf <sup>L</sup> - ???
-- [Botany Pots] <sup>U</sup>
-  - Bookshelf
-- [Botany Pots Tiers] <sup>U</sup>
-  - Botany Pots
-  - Bookshelf
-- [Botany Trees] <sup>U</sup>
-  - Botany Pots
-- [Carry On] <sup>U</sup>
+| Marker   | Meaning                                     |
+| -------- | ------------------------------------------- |
+| Main     | It is main mod of this modpack              |
+| Lib      | It is a library mod, you may want to ignore |
+| Util     | It is just an utility mod                   |
+| End-game | It is end-game mod                          |
+| O        | It is optimization mod                      |
+| C        | It is cooking mod                           |
+| M        | It is modpack making mod                    |
+
+- [Akashic Tome] <sup>Util</sup> <sub>requires [AutoRegLib]</sub> - Add a book called Akashic Tome that can mimics another mods' guide book.
+- [Angel Ring] <sup>Util & End-game</sup> <sub>requires [Curios API (Forge)]</sub> - Add a item called Angel Ring which allow you to fly like the creative mode.
+- [AppleSkin] <sup>Util</sup> - Show the saturation, exhaustion, and the hungers, saturations and the healths to be restored by eating the food in hand.
+- [Architectury API (Forge)] <sup>Lib</sup> - An intermediary api aimed to ease developing multiplatform mods, mostly used by FTB mods in this modpack.
+- [Ars Nouveau] <sup>Main</sup> <sub>requires [Curios API (Forge)], [GeckoLib] and [Patchouli]</sub> - A magic mod allows you to craft your own spell.
+- [AutoRegLib] <sup>Lib</sup> - A library mod for Vazkii's mod, like [Akashic Tome] in this modpack.
+- [BetterEnd (Forge)] - Make the end fancier than vanilla Minecraft.
+- [Bookshelf] <sup>Lib</sup> - A library mod, used by [Botany Pots] and [Botany Pots Tiers] in this modpack.
+- [Botany Pots] <sup>Util</sup> <sub>requires [Bookshelf]</sub> - Add a botany pot which grows all kind of crops.
+- [Botany Pots Tiers] <sup>Util</sup> <sub>requires [Botany Pots] and [Bookshelf]</sub> - Add elite, ultra, creative botany pot which is 2x, 6x, 10x accelerated botany pot respectively.
+- [Botany Trees] <sup>Util</sup> <sub>requires [Botany Pots]</sub> - Allow botany pot to grow trees.
+- [Carry On] <sup>Util</sup> - Allow players to pick up and carry and place tile entity blocks.
 - Cloth Config API (Forge) - ???
 - [CobbleForDays] <sup>U</sup>
 - [Construction Wand] <sup>U</sup>
@@ -157,10 +149,12 @@ A skyblock modpack heavily based on Create mod
 [Akashic Tome]: https://www.curseforge.com/minecraft/mc-mods/akashic-tome
 [Angel Ring]: https://www.curseforge.com/minecraft/mc-mods/angel-ring
 [AppleSkin]: https://www.curseforge.com/minecraft/mc-mods/appleskin
+[Architectury API (Forge)]: https://www.curseforge.com/minecraft/mc-mods/architectury-forge
 [Armor Toughness Bar]: https://www.curseforge.com/minecraft/mc-mods/armor-toughness-bar
 [Ars Nouveau]: https://www.curseforge.com/minecraft/mc-mods/ars-nouveau
 [AutoRegLib]: https://www.curseforge.com/minecraft/mc-mods/autoreglib
 [BetterEnd (Forge)]: https://www.curseforge.com/minecraft/mc-mods/betterend-forge-port
+[Bookshelf]: https://www.curseforge.com/minecraft/mc-mods/bookshelf
 [Botany Pots]: https://www.curseforge.com/minecraft/mc-mods/botany-pots
 [Botany Pots Tiers]: https://www.curseforge.com/minecraft/mc-mods/botany-pots-tiers
 [Botany Trees]: https://www.curseforge.com/minecraft/mc-mods/botany-trees
