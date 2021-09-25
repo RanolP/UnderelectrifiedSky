@@ -4,8 +4,6 @@ A skyblock modpack heavily based on Create mod
 
 ## Mod List
 
-- Advanced Hook Launchers - to be tested
-  - ForgeEndertech
 - Akashic Tome
 - Angel Ring
 - AppleSkin
@@ -87,6 +85,7 @@ A skyblock modpack heavily based on Create mod
 - ProjectE
 - Rhino - ???
 - ScrewTheNether
+- Shutup Experimental Settings!
 - Silent Lib (silentlib)
 - Simple Storage Network
 - Skyblock Builder
