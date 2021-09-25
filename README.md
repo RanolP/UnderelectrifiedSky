@@ -18,7 +18,7 @@ The mod list is structured and near-sorted alphabetically with following markers
 
 - [Akashic Tome] <sup>Util</sup> <sub>requires [AutoRegLib]</sub> - Add a book called Akashic Tome that can mimics another mods' guide book.
 - [Angel Ring] <sup>Util & End-game</sup> <sub>requires [Curios API (Forge)]</sub> - Add a item called Angel Ring which allow you to fly like the creative mode.
-- [AppleSkin] <sup>Util</sup> - Show the hungers, saturations and the healths to be restored by eating the food in hand, saturation, and exhaustion.
+- [AppleSkin] <sup>Util</sup> - Show not only the saturation and the exhaustion but also the hungers, saturations and the healths to be restored by eating the food in hand.
 - [Architectury API (Forge)] <sup>Lib</sup> - An intermediary api aimed to ease developing multiplatform mods, mostly used by [FTB mods] in this modpack.
 - [Ars Nouveau] <sup>Main</sup> <sub>requires [Curios API (Forge)], [GeckoLib] and [Patchouli]</sub> - A magic mod allows you to craft your own spell.
 - [AutoRegLib] <sup>Lib</sup> - A library mod for Vazkii's mod, like [Akashic Tome] in this modpack.
