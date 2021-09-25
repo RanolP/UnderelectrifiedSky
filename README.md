@@ -5,6 +5,7 @@ A skyblock modpack heavily based on Create mod
 ## Mod List
 
 - Advanced Hook Launchers - to be tested
+  - ForgeEndertech
 - Akashic Tome
 - Angel Ring
 - AppleSkin
