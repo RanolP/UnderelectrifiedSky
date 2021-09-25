@@ -1,6 +1,6 @@
 # Underelectrified Sky
 
-A skyblock modpack heavily based on Create mod
+A skyblock modpack with less electricity.
 
 ## Mod List
 
@@ -8,16 +8,16 @@ The mod list is structured and near-sorted alphabetically with following markers
 
 | Marker   | Meaning                                     |
 | -------- | ------------------------------------------- |
-| Main     | It is main mod of this modpack              |
-| Lib      | It is a library mod, you may want to ignore |
-| Util     | It is just an utility mod                   |
+| Devs     | It is modpack developing mod                |
 | End-game | It is end-game mod                          |
-| O        | It is optimization mod                      |
-| C        | It is cooking mod                           |
-| M        | It is modpack making mod                    |
+| Food     | It is a mod related to foods                |
+| Lib      | It is a library mod, you may want to ignore |
+| Main     | It is main mod of this modpack              |
+| Opt      | It is optimization mod                      |
+| Util     | It is just an utility mod                   |
 
 - [Akashic Tome] <sup>Util</sup> <sub>requires [AutoRegLib]</sub> - Add a book called Akashic Tome that can mimics another mods' guide book.
-- [Angel Ring] <sup>Util & End-game</sup> <sub>requires [Curios API (Forge)]</sub> - Add a item called Angel Ring which allow you to fly like the creative mode.
+- [Angel Ring] <sup>End-game & Util</sup> <sub>requires [Curios API (Forge)]</sub> - Add a item called Angel Ring which allow you to fly like the creative mode.
 - [AppleSkin] <sup>Util</sup> - Show not only the saturation and the exhaustion but also the hungers, saturations and the healths to be restored by eating the food in hand.
 - [Architectury API (Forge)] <sup>Lib</sup> - An intermediary api aimed to ease developing multiplatform mods, mostly used by [FTB mods] in this modpack.
 - [Ars Nouveau] <sup>Main</sup> <sub>requires [Curios API (Forge)], [GeckoLib] and [Patchouli]</sub> - A magic mod allows you to craft your own spell.
@@ -28,14 +28,12 @@ The mod list is structured and near-sorted alphabetically with following markers
 - [Botany Pots Tiers] <sup>Util</sup> <sub>requires [Botany Pots] and [Bookshelf]</sub> - Add elite, ultra, creative botany pot which is 2x, 6x, 10x accelerated botany pot respectively.
 - [Botany Trees] <sup>Util</sup> <sub>requires [Botany Pots]</sub> - Allow botany pot to grow trees.
 - [Carry On] <sup>Util</sup> - Allow players to pick up and carry and place tile entity blocks.
-- Cloth Config API (Forge) - ???
-- [CobbleForDays] <sup>U</sup>
-- [Construction Wand] <sup>U</sup>
-- [Controlling] <sup>U</sup>
-- [Cooking for Blockheads] <sup>C, U</sup>
-  - Pam's HarvestCraft
-- [Create] <sup>P</sup>
-  - Flywheel
+- [Cloth Config API (Forge)] <sup>Lib</sup> - A library for creating config screen, used by [Light Overlay (Rift/Forge/Fabric)] in this modpack.
+- [CobbleForDays] <sup>Util</sup> - Add five-tiered cobblestone generator.
+- [Construction Wand] <sup>Util</sup> - Add construction wands that utilize to expand platform.
+- [Controlling] <sup>Util</sup> - Make keybind editing better.
+- [Cooking for Blockheads] <sup>Food, Util</sup> - Add various blocks for kitchen allowing you to complete complex cooking recipes easily.
+- [Create] <sup>Main</sup> <sub>requires [Flywheel]</sub> - Aesthetic technology based on the rotational force.
 - Cucumber Library - ???
 - [Curios API (Forge)] <sup>L</sup>
 - [Custom Starter Gear] <sup>M</sup>
@@ -159,6 +157,7 @@ The mod list is structured and near-sorted alphabetically with following markers
 [Botany Pots Tiers]: https://www.curseforge.com/minecraft/mc-mods/botany-pots-tiers
 [Botany Trees]: https://www.curseforge.com/minecraft/mc-mods/botany-trees
 [Carry On]: https://www.curseforge.com/minecraft/mc-mods/carry-on
+[Cloth Config API (Forge)]: https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge
 [CobbleForDays]: https://www.curseforge.com/minecraft/mc-mods/cobblefordays
 [Construction Wand]: https://www.curseforge.com/minecraft/mc-mods/construction-wand
 [Controlling]: https://www.curseforge.com/minecraft/mc-mods/controlling
