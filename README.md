@@ -4,28 +4,45 @@ A skyblock modpack heavily based on Create mod
 
 ## Mod List
 
-- Akashic Tome
-- Angel Ring
-- AppleSkin
+| Marker | Meaning                                     |
+| ------ | ------------------------------------------- |
+| P      | It is primary mod of this modpack           |
+| L      | It is a library mod, you may want to ignore |
+| U      | It is just an utility mod                   |
+| E      | It is end-game mod                          |
+
+- [Akashic Tome] <sup>U</sup>
+  - AutoRegLib
+- [Angel Ring] <sup>U, E</sup>
+  - Curios API (Forge)
+- [AppleSkin] <sup>U</sup>
 - Architectury API (Forge) - ???
-- Ars Nouveau
-- AutoRegLib - ???
-- BetterEnd (Forge)
-- Bookshelf - ???
-- Botany Pots
-- Botany Pots Tiers
-- Botany Trees
-- Carry On
+- [Ars Nouveau] <sup>P</sup>
+  - Curios API (Forge)
+  - GeckoLib
+  - Patchouli
+- [AutoRegLib] <sup>L</sup> - it is library mod for [Akashic Tome]
+- [BetterEnd (Forge)]
+- Bookshelf <sup>L</sup> - ???
+- [Botany Pots] <sup>U</sup>
+  - Bookshelf
+- [Botany Pots Tiers]
+  - Botany Pots
+  - Bookshelf
+- [Botany Trees]
+  - Botany Pots
+- [Carry On]
 - Cloth Config API (Forge) - ???
-- CobbleForDays
-- Construction Wand
-- Controlling
-- Cooking for Blockheads
-- Create Addon
-- Create
+- [CobbleForDays]
+- [Construction Wand]
+- [Controlling]
+- [Cooking for Blockheads]
+  - Pam's HarvestCraft
+- [Create]
+  - Flywheel
 - Cucumber Library - ???
-- Curios API (Forge) - ???
-- Custom Starter Gear
+- [Curios API (Forge)]
+- [Custom Starter Gear]
 - Cyclops Core - ???
 - Default Options
 - Default World Type \[Forge\]
@@ -104,3 +121,21 @@ A skyblock modpack heavily based on Create mod
 - Upgraded Netherite
 - Uppers
 - Wither Skeleton Tweaks
+
+[Akashic Tome]: https://www.curseforge.com/minecraft/mc-mods/akashic-tome
+[Angel Ring]: https://www.curseforge.com/minecraft/mc-mods/angel-ring
+[AppleSkin]: https://www.curseforge.com/minecraft/mc-mods/appleskin
+[Ars Nouveau]: https://www.curseforge.com/minecraft/mc-mods/ars-nouveau
+[AutoRegLib]: https://www.curseforge.com/minecraft/mc-mods/autoreglib
+[BetterEnd (Forge)]: https://www.curseforge.com/minecraft/mc-mods/betterend-forge-port
+[Botany Pots]: https://www.curseforge.com/minecraft/mc-mods/botany-pots
+[Botany Pots Tiers]: https://www.curseforge.com/minecraft/mc-mods/botany-pots-tiers
+[Botany Trees]: https://www.curseforge.com/minecraft/mc-mods/botany-trees
+[Carry On]: https://www.curseforge.com/minecraft/mc-mods/carry-on
+[CobbleForDays]: https://www.curseforge.com/minecraft/mc-mods/cobblefordays
+[Construction Wand]: https://www.curseforge.com/minecraft/mc-mods/construction-wand
+[Controlling]: https://www.curseforge.com/minecraft/mc-mods/controlling
+[Cooking for Blockheads]: https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads
+[Create]: https://www.curseforge.com/minecraft/mc-mods/create
+[Curios API (Forge)]: https://www.curseforge.com/minecraft/mc-mods/curios
+[Custom Starter Gear]: https://www.curseforge.com/minecraft/mc-mods/custom-starter-gear
