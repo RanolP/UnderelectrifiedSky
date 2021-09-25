@@ -135,7 +135,6 @@ A skyblock modpack heavily based on Create mod
   - Architectury API (Forge)
 - [ScrewTheNether]
 - [Shutup Experimental Settings!]
-- [Silent Lib (silentlib)]
 - [Simple Storage Network]
 - [Skyblock Builder]
   - LibX
@@ -226,7 +225,6 @@ A skyblock modpack heavily based on Create mod
 [Rhino]: https://www.curseforge.com/minecraft/mc-mods/rhino
 [ScrewTheNether]: https://www.curseforge.com/minecraft/mc-mods/screwthenether
 [Shutup Experimental Settings!]: https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings
-[Silent Lib (silentlib)]: https://www.curseforge.com/minecraft/mc-mods/silent-lib
 [Simple Storage Network]: https://www.curseforge.com/minecraft/mc-mods/simple-storage-network
 [Skyblock Builder]: https://www.curseforge.com/minecraft/mc-mods/skyblock-builder
 [Spice of Life: Carrot Edition]: https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition
