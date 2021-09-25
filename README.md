@@ -10,6 +10,9 @@ A skyblock modpack heavily based on Create mod
 | L      | It is a library mod, you may want to ignore |
 | U      | It is just an utility mod                   |
 | E      | It is end-game mod                          |
+| O      | It is optimization mod                      |
+| C      | It is cooking mod                           |
+| M      | It is modpack making mod                    |
 
 - [Akashic Tome] <sup>U</sup>
   - AutoRegLib
@@ -26,41 +29,46 @@ A skyblock modpack heavily based on Create mod
 - Bookshelf <sup>L</sup> - ???
 - [Botany Pots] <sup>U</sup>
   - Bookshelf
-- [Botany Pots Tiers]
+- [Botany Pots Tiers] <sup>U</sup>
   - Botany Pots
   - Bookshelf
-- [Botany Trees]
+- [Botany Trees] <sup>U</sup>
   - Botany Pots
-- [Carry On]
+- [Carry On] <sup>U</sup>
 - Cloth Config API (Forge) - ???
-- [CobbleForDays]
-- [Construction Wand]
-- [Controlling]
-- [Cooking for Blockheads]
+- [CobbleForDays] <sup>U</sup>
+- [Construction Wand] <sup>U</sup>
+- [Controlling] <sup>U</sup>
+- [Cooking for Blockheads] <sup>C, U</sup>
   - Pam's HarvestCraft
-- [Create]
+- [Create] <sup>P</sup>
   - Flywheel
 - Cucumber Library - ???
-- [Curios API (Forge)]
-- [Custom Starter Gear]
+- [Curios API (Forge)] <sup>L</sup>
+- [Custom Starter Gear] <sup>M</sup>
 - Cyclops Core - ???
-- Default Options
-- Default World Type \[Forge\]
-- Drawers Tooltip
-- EverlastingAbilities
-- Ex Compressum
-- Ex Nihilo: Sequentia
-- Extended Crafting
-- Extreme sound muffler (Forge)
-- FancyMenu \[Forge\]
-- Farming for Blockheads
-- Fast Leaf Decay
-- FerriteCore (Forge)
-- FindMe
-- Flywheel - ???
+- [Default Options] <sup>M</sup>
+- [Default World Type \[Forge\]] <sup>M</sup>
+- [Drawers Tooltip] <sup>U</sup>
+  - Storage Drawers
+- [EverlastingAbilities] <sup>U</sup>
+  - Cyclops Core
+- [Ex Compressum] <sup>P, U</sup>
+  - Ex Nihilo: Sequentia
+- [Ex Nihilo: Sequentia] <sup>P</sup>
+- [Extended Crafting] <sup>M, E</sup>
+  - Cucumber Library
+- [Extreme sound muffler (Forge)] <sup>U</sup>
+- [FancyMenu \[Forge\]] <sup>M</sup>
+  - Konkrete \[Forge\]
+- [Farming for Blockheads] <sup>C, U</sup>
+- [Fast Leaf Decay] <sup>U</sup>
+- [FerriteCore (Forge)] <sup>O</sup>
+- [FindMe] <sup>U</sup>
+- [Flywheel] <sup>L</sup>
 - ForgeEndertech - ???
-- Forgiving Void
-- FPS Reducer
+- [Forgiving Void] <sup>U</sup>
+- [FPS Reducer] <sup>O</sup>
 - FTB Backups (Forge)
 - FTB Chunks (Forge)
 - FTB Library (Forge)
@@ -139,3 +147,19 @@ A skyblock modpack heavily based on Create mod
 [Create]: https://www.curseforge.com/minecraft/mc-mods/create
 [Curios API (Forge)]: https://www.curseforge.com/minecraft/mc-mods/curios
 [Custom Starter Gear]: https://www.curseforge.com/minecraft/mc-mods/custom-starter-gear
+[Default Options]: https://www.curseforge.com/minecraft/mc-mods/default-options
+[Default World Type \[Forge\]]: https://www.curseforge.com/minecraft/mc-mods/defaultworldtype
+[Drawers Tooltip]: https://www.curseforge.com/minecraft/mc-mods/drawers-tooltip
+[EverlastingAbilities]: https://www.curseforge.com/minecraft/mc-mods/everlastingabilities
+[Ex Compressum]: https://www.curseforge.com/minecraft/mc-mods/ex-compressum
+[Ex Nihilo: Sequentia]: https://www.curseforge.com/minecraft/mc-mods/ex-nihilo-sequentia
+[Extended Crafting]: https://www.curseforge.com/minecraft/mc-mods/extended-crafting
+[Extreme sound muffler (Forge)]: https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler
+[FancyMenu \[Forge\]]: https://www.curseforge.com/minecraft/mc-mods/fancymenu
+[Farming for Blockheads]: https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads
+[Fast Leaf Decay]: https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay
+[FerriteCore (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ferritecore
+[FindMe]: https://www.curseforge.com/minecraft/mc-mods/findme
+[Flywheel]: https://www.curseforge.com/minecraft/mc-mods/flywheel
+[Forgiving Void]: https://www.curseforge.com/minecraft/mc-mods/forgiving-void
+[FPS Reducer]: https://www.curseforge.com/minecraft/mc-mods/fps-reducer
