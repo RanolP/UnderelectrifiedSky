@@ -4,10 +4,11 @@ A skyblock modpack with less electricity.
 
 ## Mod List
 
-The mod list is structured and near-sorted alphabetically with following markers.
+The mod list is sorted alphabetically with following markers.
 
 | Marker   | Meaning                                     |
 | -------- | ------------------------------------------- |
+| Admin    | It is utility mod for server administration |
 | Devs     | It is modpack developing mod                |
 | End-game | It is end-game mod                          |
 | Food     | It is a mod related to foods                |
@@ -34,37 +35,28 @@ The mod list is structured and near-sorted alphabetically with following markers
 - [Controlling] <sup>Util</sup> - Make keybind editing better.
 - [Cooking for Blockheads] <sup>Food, Util</sup> - Add various blocks for kitchen allowing you to complete complex cooking recipes easily.
 - [Create] <sup>Main</sup> <sub>requires [Flywheel]</sub> - Aesthetic technology based on the rotational force.
-- Cucumber Library - ???
-- [Curios API (Forge)] <sup>L</sup>
-- [Custom Starter Gear] <sup>M</sup>
-- Cyclops Core - ???
-- [Default Options] <sup>M</sup>
-- [Default World Type \[Forge\]] <sup>M</sup>
-- [Drawers Tooltip] <sup>U</sup>
-  - Storage Drawers
-- [EverlastingAbilities] <sup>U</sup>
-  - Cyclops Core
-- [Ex Compressum] <sup>P, U</sup>
-  - Ex Nihilo: Sequentia
-- [Ex Nihilo: Sequentia] <sup>P</sup>
-- [Extended Crafting] <sup>M, E</sup>
-  - Cucumber Library
-- [Extreme sound muffler (Forge)] <sup>U</sup>
-- [FancyMenu \[Forge\]] <sup>M</sup>
-  - Konkrete \[Forge\]
-- [Farming for Blockheads] <sup>C, U</sup>
-- [Fast Leaf Decay] <sup>U</sup>
-- [FerriteCore (Forge)] <sup>O</sup>
-- [FindMe] <sup>U</sup>
-- [Flywheel] <sup>L</sup>
-- ForgeEndertech - ???
-- [Forgiving Void] <sup>U</sup>
-- [FPS Reducer] <sup>O</sup>
-- <a id="ftb-mods"></a> [FTB Backups (Forge)]
-- [FTB Chunks (Forge)]
-  - Architectury API (Forge)
-  - FTB Library (Forge)
-  - FTB Teams (Forge)
+- [Cucumber Library] <sup>Lib</sup> - A library mod, used by [Extended Crafting] in this modpack.
+- [Curios API (Forge)] <sup>Lib</sup> - An accesory library mod, used by [Angel Ring] and [Ars Nouveau] in this modpack.
+- [Custom Starter Gear] <sup>Devs</sup> - Allow modpack devs to put their own custom starting gear.
+- [Cyclops Core] <sup>Lib</sup> - A library mod, used by [EverlastingAbilities] in this modpack.
+- [Default Options] <sup>Devs</sup> - Allow modpack devs to set default options.
+- [Default World Type \[Forge\]] <sup>Devs</sup> - Allow modpack devs to set default world type.
+- [Drawers Tooltip] <sup>Util</sup> <sub>requires [Storage Drawers]</sub> - Show what the storage drawer stores in the inventory.
+- [EverlastingAbilities] <sup>Util</sup> <sub>requires [Cyclops Core]</sub> - Allow players to have persistent abilities.
+- [Ex Compressum] <sup>Main, Util</sup> <sub>requires [Ex Nihilo: Sequentia]</sub> - Reduce early-game grinding in skyblock.
+- [Ex Nihilo: Sequentia] <sup>Main</sup> - Based on trees, creating resources out of nothing!
+- [Extended Crafting] <sup>End-game, Main</sup> <sub>requires [Cucumber Library]</sub> - This mod added just for the Ender Crafting and Singularities.
+- [Extreme sound muffler (Forge)] <sup>Util</sup> - Allow you to muffle sounds selectively.
+- [FancyMenu \[Forge\]] <sup>Devs</sup> <sub>requires [Konkrete \[Forge\]]</sub> - Allow modpack devs to change various menu UIs.
+- [Farming for Blockheads] <sup>Food, Util</sup> - Adds market block for skyblock agriculture, and various utility block.
+- [Fast Leaf Decay] <sup>Util</sup> - Remove leaves on the air instantly.
+- [FerriteCore (Forge)] <sup>Opt</sup> - A memory usage optimization mod that can work on both client and server side.
+- [FindMe] <sup>Util</sup> - Find item on nearby storage containers.
+- [Flywheel] <sup>Lib</sup> - Better performance for rendering, used by [Create] in this modpack.
+- [Forgiving Void] <sup>Util</sup> - Falling into void will teleport you to sky and make you alive when you're taking damages if you're full health.
+- [FPS Reducer] <sup>Opt</sup> - Reduce FPS if you're doing nothing.
+- <a id="ftb-mods"></a> [FTB Backups (Forge)] <sup>Admin</sup> - Create backups periodically.
+- [FTB Chunks (Forge)] <sup>Util</sup> <sub>requires [Architectury API (Forge)], [FTB Library (Forge)] and [FTB Teams (Forge)]</sub> - Allow you to claim chunk.
 - [FTB Library (Forge)]
   - Architectury API (Forge)
 - [FTB Quests (Forge)]
@@ -163,8 +155,10 @@ The mod list is structured and near-sorted alphabetically with following markers
 [Controlling]: https://www.curseforge.com/minecraft/mc-mods/controlling
 [Cooking for Blockheads]: https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads
 [Create]: https://www.curseforge.com/minecraft/mc-mods/create
+[Cucumber Library]: https://www.curseforge.com/minecraft/mc-mods/cucumber 
 [Curios API (Forge)]: https://www.curseforge.com/minecraft/mc-mods/curios
 [Custom Starter Gear]: https://www.curseforge.com/minecraft/mc-mods/custom-starter-gear
+[Cyclops Core]: https://www.curseforge.com/minecraft/mc-mods/cyclops-core
 [Default Options]: https://www.curseforge.com/minecraft/mc-mods/default-options
 [Default World Type \[Forge\]]: https://www.curseforge.com/minecraft/mc-mods/defaultworldtype
 [Drawers Tooltip]: https://www.curseforge.com/minecraft/mc-mods/drawers-tooltip
