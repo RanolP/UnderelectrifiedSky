@@ -1,3 +1,4 @@
 autoJump:false
 gamma:1.0
 renderClouds:false
+soundCategory_music:0.0
