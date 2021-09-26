@@ -1,10 +1,10 @@
 # Default Options
 
-We provide default options.
+We provide our customized default options.
 
 ## Reason
 
-The default options give us bad experience.
+True default options give us bad experience.
 
 ## The Tweaks
 
