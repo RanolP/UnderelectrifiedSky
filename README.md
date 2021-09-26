@@ -35,6 +35,7 @@ The mod list is sorted alphabetically with following markers.
 - [Construction Wand] <sup>Util</sup> - Add construction wands that utilize to expand platform.
 - [Controlling] <sup>Util</sup> - Make keybind editing better.
 - [Cooking for Blockheads] <sup>Food, Util</sup> - Add various blocks for kitchen allowing you to complete complex cooking recipes easily.
+- [Crafting Tweaks] <sup>Util</sup> - Add utility buttons on crafting.
 - [Create] <sup>Main</sup> <sub>requires [Flywheel]</sub> - Aesthetic technology based on the rotational force.
 - [Cucumber Library] <sup>Lib</sup> - A library mod, used by [Extended Crafting] in this modpack.
 - [Curios API (Forge)] <sup>Lib</sup> - An accesory library mod, used by [Angel Ring] and [Ars Nouveau] in this modpack.
@@ -49,8 +50,8 @@ The mod list is sorted alphabetically with following markers.
 - [Extended Crafting] <sup>End-game, Main</sup> <sub>requires [Cucumber Library]</sub> - This mod added just for the Ender Crafting and Singularities.
 - [Extreme sound muffler (Forge)] <sup>Util</sup> - Allow you to muffle sounds selectively.
 - [Farming for Blockheads] <sup>Food, Util</sup> - Adds market block for skyblock agriculture, and various utility block.
-- [FerriteCore (Forge)] <sup>Opt</sup> - A memory usage optimization mod that can work on both client and server side.
 - [Fast Leaf Decay] <sup>Util</sup> - Remove leaves on the air instantly.
+- [FerriteCore (Forge)] <sup>Opt</sup> - A memory usage optimization mod that can work on both client and server side.
 - [FindMe] <sup>Util</sup> - Find item on nearby storage containers.
 - [Flywheel] <sup>Lib</sup> - Better performance for rendering, used by [Create] in this modpack.
 - [Forgiving Void] <sup>Util</sup> - Falling into void will teleport you to sky and make you alive when you're taking damages if you're full health.
@@ -94,6 +95,7 @@ The mod list is sorted alphabetically with following markers.
 - [Shutup Experimental Settings!] <sup>Util</sup> - Disable the custom world warning message.
 - [Simple Storage Network] <sup>Main, Util</sup> - Use cables to link storages.
 - [Skyblock Builder] <sup>TODO</sup> <sub>requires [LibX]</sub>
+- [Smooth Boot (Forge)] <sup>Opt</sup> - Optimize Minecraft loading performance.
 - [Spice of Life: Carrot Edition] <sup>Food</sup> - Give more rewards as you eat various foods.
 - [Sophisticated Backpacks] <sup>Util</sup> - Add backpacks to store more items.
 - [Storage Drawers] <sup>Util</sup> - Add a drawer that can hold little kind of items much.
@@ -103,6 +105,7 @@ The mod list is sorted alphabetically with following markers.
 - [TOP Addons] <sup>Util</sup> <sub>requires [The One Probe]</sub> - The One Probe Addons supporting various mods like Storage Drawers.
 - [Trample Stopper] <sup>Util</sup> - Stop farmland from getting trampled.
 - [TrashSlot] <sup>Util</sup> - Add a trash slot to remove your trash.
+- [TwerkItMeal - Twerk To Grow All The Things] <sup>Util</sup> - Make tree growing easier.
 - [Upgraded Netherite] <sup>Util</sup> - Add various kinds of upgraded netherite.
 - [Wither Skeleton Tweaks] <sup>Util</sup> <sub>requires [Placebo]</sub> - Reduce griding when collecting wither skeleton skulls.
 
@@ -124,6 +127,7 @@ The mod list is sorted alphabetically with following markers.
 [Construction Wand]: https://www.curseforge.com/minecraft/mc-mods/construction-wand
 [Controlling]: https://www.curseforge.com/minecraft/mc-mods/controlling
 [Cooking for Blockheads]: https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads
+[Crafting Tweaks]: https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks
 [Create]: https://www.curseforge.com/minecraft/mc-mods/create
 [Cucumber Library]: https://www.curseforge.com/minecraft/mc-mods/cucumber 
 [Curios API (Forge)]: https://www.curseforge.com/minecraft/mc-mods/curios
@@ -137,8 +141,8 @@ The mod list is sorted alphabetically with following markers.
 [Extended Crafting]: https://www.curseforge.com/minecraft/mc-mods/extended-crafting
 [Extreme sound muffler (Forge)]: https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler
 [Farming for Blockheads]: https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads
-[FerriteCore (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ferritecore
 [Fast Leaf Decay]: https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay
+[FerriteCore (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ferritecore
 [FindMe]: https://www.curseforge.com/minecraft/mc-mods/findme
 [Flywheel]: https://www.curseforge.com/minecraft/mc-mods/flywheel
 [Forgiving Void]: https://www.curseforge.com/minecraft/mc-mods/forgiving-void
@@ -163,7 +167,6 @@ The mod list is sorted alphabetically with following markers.
 [JAOPCA]: https://www.curseforge.com/minecraft/mc-mods/jaopca
 [JourneyMap]: https://www.curseforge.com/minecraft/mc-mods/journeymap
 [Just Enough Items (JEI)]: https://www.curseforge.com/minecraft/mc-mods/jei
-[Konkrete \[Forge\]]: https://www.curseforge.com/minecraft/mc-mods/konkrete
 [KubeJS (Forge)]: https://www.curseforge.com/minecraft/mc-mods/kubejs-forge
 [KubeJS Create]: https://www.curseforge.com/minecraft/mc-mods/kubejs-create
 [KubeJS UI (Forge)]: https://www.curseforge.com/minecraft/mc-mods/kubejs-ui-forge
@@ -185,6 +188,7 @@ The mod list is sorted alphabetically with following markers.
 [Shutup Experimental Settings!]: https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings
 [Simple Storage Network]: https://www.curseforge.com/minecraft/mc-mods/simple-storage-network
 [Skyblock Builder]: https://www.curseforge.com/minecraft/mc-mods/skyblock-builder
+[Smooth Boot (Forge)]: https://www.curseforge.com/minecraft/mc-mods/smooth-boot-forge
 [Spice of Life: Carrot Edition]: https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition
 [Sophisticated Backpacks]: https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks
 [Storage Drawers]: https://www.curseforge.com/minecraft/mc-mods/storage-drawers
@@ -194,6 +198,7 @@ The mod list is sorted alphabetically with following markers.
 [TOP Addons]: https://www.curseforge.com/minecraft/mc-mods/top-addons
 [Trample Stopper]: https://www.curseforge.com/minecraft/mc-mods/trample-stopper
 [TrashSlot]: https://www.curseforge.com/minecraft/mc-mods/trashslot
+[TwerkItMeal - Twerk To Grow All The Things]: https://www.curseforge.com/minecraft/mc-mods/twerkitmeal
 [Upgraded Netherite]: https://www.curseforge.com/minecraft/mc-mods/upgraded-netherite
 [Uppers]: https://www.curseforge.com/minecraft/mc-mods/uppers
 [Wither Skeleton Tweaks]: https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks
