@@ -67,15 +67,13 @@ The mod list is sorted alphabetically with following markers.
 - [Global XP] <sup>Util</sup> - Add a block to store XPs, good for enchanting.
 - [Hats] <sup>Just-Fun</sup> <sub>requires [iChunUtil]</sub> - Add funny hats.
 - [iChunUtil] <sup>Lib</sup> - A library mod used by iChun's mod like [Hats] in this modpack.
-- [Inventory Tweaks Renewed]
-- [Iron Chests]
-- [Iron Furnaces \[FORGE\]]
-- [Item Filters (Forge)]
-  - Architectury API (Forge)
-- [JAOPCA]
-  - WrapUp
-- [Just Enough Items (JEI)]
-- [JourneyMap]
+- [Inventory Tweaks Renewed] <sup>Util</sup> - Add some tweaks for utilizing inventory.
+- [Iron Chests] <sup>Util</sup> - Add metal chests with varying sizes.
+- [Iron Furnaces \[FORGE\]] <sup>Util</sup> - Add metal furnaces with varying features.
+- [Item Filters (Forge)] <sup>Lib</sup> <sub>requires [Architectury API (Forge)]</sub> - A item filter library mod, used by [FTB Quests (Forge)] in this modpack.
+- [JAOPCA] <sup>Util</sup> - Add compatibility between ore dictionary. TODO: Why we require this?
+- [Just Enough Items (JEI)] <sup>Util</sup> - Recipe viewer mod.
+- [JourneyMap] <sup>Util</sup> - A map mod.
 - [Konkrete \[Forge\]]
 - [KubeJS Create]
   - Create
@@ -90,7 +88,6 @@ The mod list is sorted alphabetically with following markers.
 - Lollipop - ???
 - [Lost Trinkets]
   - Lollipop
-- Mantle - ???
 - [Morpheus]
 - [Mouse Tweaks]
 - [Neat]
