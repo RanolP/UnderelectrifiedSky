@@ -1,6 +1,6 @@
 # Underelectrified Sky
 
-A skyblock modpack with less electricity.
+A skyblock modpack without electricity.
 
 ## Mod List
 
