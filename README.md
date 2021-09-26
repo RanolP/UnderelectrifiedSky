@@ -48,7 +48,6 @@ The mod list is sorted alphabetically with following markers.
 - [Ex Nihilo: Sequentia] <sup>Main</sup> - Based on trees, creating resources out of nothing!
 - [Extended Crafting] <sup>End-game, Main</sup> <sub>requires [Cucumber Library]</sub> - This mod added just for the Ender Crafting and Singularities.
 - [Extreme sound muffler (Forge)] <sup>Util</sup> - Allow you to muffle sounds selectively.
-- [FancyMenu \[Forge\]] <sup>Devs</sup> <sub>requires [Konkrete \[Forge\]]</sub> - Allow modpack devs to change various menu UIs.
 - [Farming for Blockheads] <sup>Food, Util</sup> - Adds market block for skyblock agriculture, and various utility block.
 - [FerriteCore (Forge)] <sup>Opt</sup> - A memory usage optimization mod that can work on both client and server side.
 - [Fast Leaf Decay] <sup>Util</sup> - Remove leaves on the air instantly.
@@ -74,11 +73,12 @@ The mod list is sorted alphabetically with following markers.
 - [JAOPCA] <sup>Util</sup> - Add compatibility between ore dictionary. TODO: Why we require this?
 - [JourneyMap] <sup>Util</sup> - A map mod.
 - [Just Enough Items (JEI)] <sup>Util</sup> - Recipe viewer mod.
-- [Konkrete \[Forge\]] <sup>Lib</sup> - A library mod, used by [FancyMenu \[Forge\]] in this modpack.
 - [KubeJS (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)] and [Rhino]</sub> - Allow modpack devs to add its own contents.
 - [KubeJS Create] <sup>Devs</sup> <sub>requires [Create] and [KubeJS (Forge)]</sub> - Allow modpack devs to add its Create recipe.
+- [KubeJS UI (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)]</sub> - Allow modpack devs to add its own UI.
 - [LibX] <sup>Lib</sup> - A library mod, used by [Skyblock Builder] in this modpack.
 - [Light Overlay (Rift/Forge/Fabric)] <sup>Util</sup> <sub>requires [Architectury API (Forge)], [Cloth Config API (Forge)]</sub> - Show light level overlay to know where the mobs can spawn.
+- [Meep Meep! (Road Runner)] <sup>Opt</sup> - Optimization mod.
 - [Morpheus] <sup>Util</sup> - A sleep vote system.
 - [Mouse Tweaks] <sup>Util</sup> - Better item movement mechanics on inventory.
 - [Neat] <sup>Util</sup> - Add a neat health bar.
@@ -130,14 +130,12 @@ The mod list is sorted alphabetically with following markers.
 [Custom Starter Gear]: https://www.curseforge.com/minecraft/mc-mods/custom-starter-gear
 [Cyclops Core]: https://www.curseforge.com/minecraft/mc-mods/cyclops-core
 [Default Options]: https://www.curseforge.com/minecraft/mc-mods/default-options
-[Default World Type \[Forge\]]: https://www.curseforge.com/minecraft/mc-mods/defaultworldtype
 [Drawers Tooltip]: https://www.curseforge.com/minecraft/mc-mods/drawers-tooltip
 [EverlastingAbilities]: https://www.curseforge.com/minecraft/mc-mods/everlastingabilities
 [Ex Compressum]: https://www.curseforge.com/minecraft/mc-mods/ex-compressum
 [Ex Nihilo: Sequentia]: https://www.curseforge.com/minecraft/mc-mods/ex-nihilo-sequentia
 [Extended Crafting]: https://www.curseforge.com/minecraft/mc-mods/extended-crafting
 [Extreme sound muffler (Forge)]: https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler
-[FancyMenu \[Forge\]]: https://www.curseforge.com/minecraft/mc-mods/fancymenu
 [Farming for Blockheads]: https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads
 [FerriteCore (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ferritecore
 [Fast Leaf Decay]: https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay
@@ -156,7 +154,6 @@ The mod list is sorted alphabetically with following markers.
 [FTB Ultimine (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge
 [GeckoLib]: https://www.curseforge.com/minecraft/mc-mods/geckolib
 [Global XP]: https://www.curseforge.com/minecraft/mc-mods/global-xp
-[Golden Hopper]: https://www.curseforge.com/minecraft/mc-mods/golden-hopper
 [Hats]: https://www.curseforge.com/minecraft/mc-mods/hats
 [iChunUtil]: https://www.curseforge.com/minecraft/mc-mods/ichunutil
 [Inventory Tweaks Renewed]: https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks-renewed
@@ -169,9 +166,10 @@ The mod list is sorted alphabetically with following markers.
 [Konkrete \[Forge\]]: https://www.curseforge.com/minecraft/mc-mods/konkrete
 [KubeJS (Forge)]: https://www.curseforge.com/minecraft/mc-mods/kubejs-forge
 [KubeJS Create]: https://www.curseforge.com/minecraft/mc-mods/kubejs-create
+[KubeJS UI (Forge)]: https://www.curseforge.com/minecraft/mc-mods/kubejs-ui-forge
 [LibX]: https://www.curseforge.com/minecraft/mc-mods/libx
 [Light Overlay (Rift/Forge/Fabric)]: https://www.curseforge.com/minecraft/mc-mods/light-overlay
-[Lost Trinkets]: https://www.curseforge.com/minecraft/mc-mods/lost-trinkets
+[Meep Meep! (Road Runner)]: https://github.com/MaxNeedsSnacks/roadrunner
 [Morpheus]: https://www.curseforge.com/minecraft/mc-mods/morpheus
 [Mouse Tweaks]: https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks
 [Neat]: https://www.curseforge.com/minecraft/mc-mods/neat
