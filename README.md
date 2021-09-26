@@ -42,7 +42,6 @@ The mod list is sorted alphabetically with following markers.
 - [Custom Starter Gear] <sup>Devs</sup> - Allow modpack devs to put their own custom starting gear.
 - [Cyclops Core] <sup>Lib</sup> - A library mod, used by [EverlastingAbilities] in this modpack.
 - [Default Options] <sup>Devs</sup> - Allow modpack devs to set default options.
-- [Default World Type \[Forge\]] <sup>Devs</sup> - Allow modpack devs to set default world type.
 - [Drawers Tooltip] <sup>Util</sup> <sub>requires [Storage Drawers]</sub> - Show what the storage drawer stores in the inventory.
 - [EverlastingAbilities] <sup>Util</sup> <sub>requires [Cyclops Core]</sub> - Allow players to have persistent abilities.
 - [Ex Compressum] <sup>Main, Util</sup> <sub>requires [Ex Nihilo: Sequentia]</sub> - Reduce early-game grinding in skyblock.
