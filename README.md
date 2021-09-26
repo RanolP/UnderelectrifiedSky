@@ -43,7 +43,7 @@ The mod list is sorted alphabetically with following markers.
 - [Default Options] <sup>Devs</sup> - Allow modpack devs to set default options.
 - [Default World Type \[Forge\]] <sup>Devs</sup> - Allow modpack devs to set default world type.
 - [Drawers Tooltip] <sup>Util</sup> <sub>requires [Storage Drawers]</sub> - Show what the storage drawer stores in the inventory.
-- [EverlastingAbilities] <sup>Util, TODO</sup> <sub>requires [Cyclops Core]</sub> - Allow players to have persistent abilities.
+- [EverlastingAbilities] <sup>Util</sup> <sub>requires [Cyclops Core]</sub> - Allow players to have persistent abilities.
 - [Ex Compressum] <sup>Main, Util</sup> <sub>requires [Ex Nihilo: Sequentia]</sub> - Reduce early-game grinding in skyblock.
 - [Ex Nihilo: Sequentia] <sup>Main</sup> - Based on trees, creating resources out of nothing!
 - [Extended Crafting] <sup>End-game, Main</sup> <sub>requires [Cucumber Library]</sub> - This mod added just for the Ender Crafting and Singularities.
@@ -79,17 +79,14 @@ The mod list is sorted alphabetically with following markers.
 - [KubeJS (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)] and [Rhino]</sub> - Allow modpack devs to add its own contents.
 - [LibX] <sup>Lib</sup> - A library mod, used by [Skyblock Builder] in this modpack.
 - [Light Overlay (Rift/Forge/Fabric)] <sup>Util</sup> <sub>requires [Architectury API (Fabric)], [Cloth Config API (Fabric)]</sub> - Show light level overlay to know where the mobs can spawn.
-- Lollipop - ???
-- [Lost Trinkets] TODO
-  - Lollipop
 - [Morpheus] <sup>Util</sup> - A sleep vote system.
-- [Mouse Tweaks]
-- [Neat]
-- [Pam's HarvestCraft 2 - Crops]
-- [Pam's HarvestCraft 2 - Food Core]
-- [Pam's HarvestCraft 2 - Food Extended]
-- [Pam's HarvestCraft 2 - Trees]
-- [Patchouli]
+- [Mouse Tweaks] <sup>Util</sup> - Better item movement mechanics on inventory.
+- [Neat] <sup>Util</sup> - Add a neat health bar.
+- [Pam's HarvestCraft 2 - Crops] <sup>Food</sup> - Add various crops in the game.
+- [Pam's HarvestCraft 2 - Food Core] <sup>Food</sup> - Add various food recipes in the game.
+- [Pam's HarvestCraft 2 - Food Extended] <sup>Food</sup> - Add various food recipes in the game.
+- [Pam's HarvestCraft 2 - Trees] <sup>Food</sup> - Add various trees in the game.
+- [Patchouli] <sup>Lib</sup> - A documentation book library mod, used by [Ars Nouveau] in this modpack.
 - Placebo - ???
 - [ProjectE]
 - [Rhino]
