@@ -17,9 +17,16 @@ for files_to_link in `find ./src -mindepth 2 -maxdepth 2`; do
     echo -e "\033[43m\033[30m </> \033[0m Symlinking \033[32m$files_to_link\033[0m..."
     target=$pathw\\`echo $files_to_link | cut -b 7- | sed 's/\\//\\\\/g'`
     source=`wslpath -m $files_to_link | sed 's/\\//\\\\/g'`
+    if [ -f "$files_to_link" ]; then
+        rm_command='del'
+        link_command='mklink'
+    else
+        rm_command='rmdir /S /Q'
+        link_command='mklink /D'
+    fi
     cd /mnt/c/
-    exec_windows rmdir /S /Q \"$target\"
-    exec_windows mklink /D \"$target\" \"$source\"
+    exec_windows $rm_command \"$target\"
+    exec_windows $link_command \"$target\" \"$source\"
 done
 
 cd $working_directory
