@@ -50,8 +50,8 @@ The mod list is sorted alphabetically with following markers.
 - [Extreme sound muffler (Forge)] <sup>Util</sup> - Allow you to muffle sounds selectively.
 - [FancyMenu \[Forge\]] <sup>Devs</sup> <sub>requires [Konkrete \[Forge\]]</sub> - Allow modpack devs to change various menu UIs.
 - [Farming for Blockheads] <sup>Food, Util</sup> - Adds market block for skyblock agriculture, and various utility block.
-- [Fast Leaf Decay] <sup>Util</sup> - Remove leaves on the air instantly.
 - [FerriteCore (Forge)] <sup>Opt</sup> - A memory usage optimization mod that can work on both client and server side.
+- [Fast Leaf Decay] <sup>Util</sup> - Remove leaves on the air instantly.
 - [FindMe] <sup>Util</sup> - Find item on nearby storage containers.
 - [Flywheel] <sup>Lib</sup> - Better performance for rendering, used by [Create] in this modpack.
 - [Forgiving Void] <sup>Util</sup> - Falling into void will teleport you to sky and make you alive when you're taking damages if you're full health.
@@ -72,13 +72,13 @@ The mod list is sorted alphabetically with following markers.
 - [Iron Furnaces \[FORGE\]] <sup>Util</sup> - Add metal furnaces with varying features.
 - [Item Filters (Forge)] <sup>Lib</sup> <sub>requires [Architectury API (Forge)]</sub> - A item filter library mod, used by [FTB Quests (Forge)] in this modpack.
 - [JAOPCA] <sup>Util</sup> - Add compatibility between ore dictionary. TODO: Why we require this?
-- [Just Enough Items (JEI)] <sup>Util</sup> - Recipe viewer mod.
 - [JourneyMap] <sup>Util</sup> - A map mod.
+- [Just Enough Items (JEI)] <sup>Util</sup> - Recipe viewer mod.
 - [Konkrete \[Forge\]] <sup>Lib</sup> - A library mod, used by [FancyMenu \[Forge\]] in this modpack.
-- [KubeJS Create] <sup>Devs</sup> <sub>requires [Create] and [KubeJS (Forge)]</sub> - Allow modpack devs to add its Create recipe.
 - [KubeJS (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)] and [Rhino]</sub> - Allow modpack devs to add its own contents.
+- [KubeJS Create] <sup>Devs</sup> <sub>requires [Create] and [KubeJS (Forge)]</sub> - Allow modpack devs to add its Create recipe.
 - [LibX] <sup>Lib</sup> - A library mod, used by [Skyblock Builder] in this modpack.
-- [Light Overlay (Rift/Forge/Fabric)] <sup>Util</sup> <sub>requires [Architectury API (Fabric)], [Cloth Config API (Fabric)]</sub> - Show light level overlay to know where the mobs can spawn.
+- [Light Overlay (Rift/Forge/Fabric)] <sup>Util</sup> <sub>requires [Architectury API (Forge)], [Cloth Config API (Forge)]</sub> - Show light level overlay to know where the mobs can spawn.
 - [Morpheus] <sup>Util</sup> - A sleep vote system.
 - [Mouse Tweaks] <sup>Util</sup> - Better item movement mechanics on inventory.
 - [Neat] <sup>Util</sup> - Add a neat health bar.
@@ -87,30 +87,24 @@ The mod list is sorted alphabetically with following markers.
 - [Pam's HarvestCraft 2 - Food Extended] <sup>Food</sup> - Add various food recipes in the game.
 - [Pam's HarvestCraft 2 - Trees] <sup>Food</sup> - Add various trees in the game.
 - [Patchouli] <sup>Lib</sup> - A documentation book library mod, used by [Ars Nouveau] in this modpack.
-- Placebo - ???
-- [ProjectE]
-- [Rhino]
-  - Architectury API (Forge)
-- [ScrewTheNether]
-- [Shutup Experimental Settings!]
-- [Simple Storage Network]
-- [Skyblock Builder]
-  - LibX
-- [Spice of Life: Carrot Edition]
-- [Sophisticated Backpacks]
-- [Storage Drawers]
-- SuperMartijn642's Core Lib - ???
-- [The One Probe]
-- [Tiny Coal]
-- [Tool Belt]
-- [TOP Addons]
-  - The One Probe
-- [Trample Stopper]
-- [TrashSlot]
-- [Upgraded Netherite]
-- [Uppers]
-- [Wither Skeleton Tweaks]
-  - Placebo
+- [Placebo] <sup>Lib</sup> - A library mod, used by [Wither Skeleton Tweaks].
+- [ProjectE] <sup>End-game, Main</sup> - An end-game OP mod.
+- [Rhino] <sup>Lib</sup> <sub>requires [Architectury API (Forge)]</sub> - A library mod, used by [KubeJS (Forge)].
+- [ScrewTheNether] <sup>Just-Fun</sup> - Make the Nether void.
+- [Shutup Experimental Settings!] <sup>Util</sup> - Disable the custom world warning message.
+- [Simple Storage Network] <sup>Main, Util</sup> - Use cables to link storages.
+- [Skyblock Builder] <sup>TODO</sup> <sub>requires [LibX]</sub>
+- [Spice of Life: Carrot Edition] <sup>Food</sup> - Give more rewards as you eat various foods.
+- [Sophisticated Backpacks] <sup>Util</sup> - Add backpacks to store more items.
+- [Storage Drawers] <sup>Util</sup> - Add a drawer that can hold little kind of items much.
+- [The One Probe] <sup>Util</sup> - Show information of what you see.
+- [Tiny Coal] <sup>Util</sup> - Add a tiny coal and charcoal to make fuels efficient.
+- [Tool Belt] <sup>Util</sup> - Add a tool belt allowing you to change items quickly.
+- [TOP Addons] <sup>Util</sup> <sub>requires [The One Probe]</sub> - The One Probe Addons supporting various mods like Storage Drawers.
+- [Trample Stopper] <sup>Util</sup> - Stop farmland from getting trampled.
+- [TrashSlot] <sup>Util</sup> - Add a trash slot to remove your trash.
+- [Upgraded Netherite] <sup>Util</sup> - Add various kinds of upgraded netherite.
+- [Wither Skeleton Tweaks] <sup>Util</sup> <sub>requires [Placebo]</sub> - Reduce griding when collecting wither skeleton skulls.
 
 [Akashic Tome]: https://www.curseforge.com/minecraft/mc-mods/akashic-tome
 [Angel Ring]: https://www.curseforge.com/minecraft/mc-mods/angel-ring
@@ -145,8 +139,8 @@ The mod list is sorted alphabetically with following markers.
 [Extreme sound muffler (Forge)]: https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler
 [FancyMenu \[Forge\]]: https://www.curseforge.com/minecraft/mc-mods/fancymenu
 [Farming for Blockheads]: https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads
-[Fast Leaf Decay]: https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay
 [FerriteCore (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ferritecore
+[Fast Leaf Decay]: https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay
 [FindMe]: https://www.curseforge.com/minecraft/mc-mods/findme
 [Flywheel]: https://www.curseforge.com/minecraft/mc-mods/flywheel
 [Forgiving Void]: https://www.curseforge.com/minecraft/mc-mods/forgiving-void
@@ -170,11 +164,11 @@ The mod list is sorted alphabetically with following markers.
 [Iron Furnaces \[FORGE\]]: https://www.curseforge.com/minecraft/mc-mods/iron-furnaces
 [Item Filters (Forge)]: https://www.curseforge.com/minecraft/mc-mods/item-filters-forge
 [JAOPCA]: https://www.curseforge.com/minecraft/mc-mods/jaopca
-[Just Enough Items (JEI)]: https://www.curseforge.com/minecraft/mc-mods/jei
 [JourneyMap]: https://www.curseforge.com/minecraft/mc-mods/journeymap
+[Just Enough Items (JEI)]: https://www.curseforge.com/minecraft/mc-mods/jei
 [Konkrete \[Forge\]]: https://www.curseforge.com/minecraft/mc-mods/konkrete
-[KubeJS Create]: https://www.curseforge.com/minecraft/mc-mods/kubejs-create
 [KubeJS (Forge)]: https://www.curseforge.com/minecraft/mc-mods/kubejs-forge
+[KubeJS Create]: https://www.curseforge.com/minecraft/mc-mods/kubejs-create
 [LibX]: https://www.curseforge.com/minecraft/mc-mods/libx
 [Light Overlay (Rift/Forge/Fabric)]: https://www.curseforge.com/minecraft/mc-mods/light-overlay
 [Lost Trinkets]: https://www.curseforge.com/minecraft/mc-mods/lost-trinkets
@@ -186,6 +180,7 @@ The mod list is sorted alphabetically with following markers.
 [Pam's HarvestCraft 2 - Food Extended]: https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-extended
 [Pam's HarvestCraft 2 - Trees]: https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-trees
 [Patchouli]: https://www.curseforge.com/minecraft/mc-mods/patchouli
+[Placebo]: https://www.curseforge.com/minecraft/mc-mods/placebo
 [ProjectE]: https://www.curseforge.com/minecraft/mc-mods/projecte
 [Rhino]: https://www.curseforge.com/minecraft/mc-mods/rhino
 [ScrewTheNether]: https://www.curseforge.com/minecraft/mc-mods/screwthenether
