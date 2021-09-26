@@ -17,6 +17,7 @@ The mod list is sorted alphabetically with following markers.
 | Main     | It is main mod of this modpack              |
 | Opt      | It is optimization mod                      |
 | Util     | It is just an utility mod                   |
+| *        | It is tweaked, see docs for changes         |
 
 - [Akashic Tome] <sup>Util</sup> <sub>requires [AutoRegLib]</sub> - Add a book called Akashic Tome that can mimics another mods' guide book.
 - [Angel Ring] <sup>End-game, Util</sup> <sub>requires [Curios API (Forge)]</sub> - Add a item called Angel Ring which allow you to fly like the creative mode.
@@ -39,11 +40,11 @@ The mod list is sorted alphabetically with following markers.
 - [Create] <sup>Main</sup> <sub>requires [Flywheel]</sub> - Aesthetic technology based on the rotational force.
 - [Cucumber Library] <sup>Lib</sup> - A library mod, used by [Extended Crafting] in this modpack.
 - [Curios API (Forge)] <sup>Lib</sup> - An accesory library mod, used by [Angel Ring] and [Ars Nouveau] in this modpack.
-- [Custom Starter Gear] <sup>Devs</sup> - Allow modpack devs to put their own custom starting gear.
+- [Custom Starter Gear] <sup>Devs*</sup> - Allow modpack devs to put their own custom starting gear.
 - [Cyclops Core] <sup>Lib</sup> - A library mod, used by [EverlastingAbilities] in this modpack.
-- [Default Options] <sup>Devs</sup> - Allow modpack devs to set default options.
+- [Default Options] <sup>Devs*</sup> - Allow modpack devs to set default options.
 - [Drawers Tooltip] <sup>Util</sup> <sub>requires [Storage Drawers]</sub> - Show what the storage drawer stores in the inventory.
-- [EverlastingAbilities] <sup>Util</sup> <sub>requires [Cyclops Core]</sub> - Allow players to have persistent abilities.
+- [EverlastingAbilities] <sup>Util*</sup> <sub>requires [Cyclops Core]</sub> - Allow players to have persistent abilities.
 - [Ex Compressum] <sup>Main, Util</sup> <sub>requires [Ex Nihilo: Sequentia]</sub> - Reduce early-game grinding in skyblock.
 - [Ex Nihilo: Sequentia] <sup>Main</sup> - Based on trees, creating resources out of nothing!
 - [Extended Crafting] <sup>End-game, Main</sup> <sub>requires [Cucumber Library]</sub> - This mod added just for the Ender Crafting and Singularities.

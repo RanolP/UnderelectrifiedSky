@@ -1,10 +1,6 @@
 # Default Options
 
-We provide our customized default options.
-
-## Reason
-
-True default options give us bad experience.
+We configured this mod because true default options give us bad experience.
 
 ## The Tweaks
 
