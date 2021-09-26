@@ -12,18 +12,19 @@ The mod list is sorted alphabetically with following markers.
 | Devs     | It is modpack developing mod                |
 | End-game | It is end-game mod                          |
 | Food     | It is a mod related to foods                |
+| Just-Fun | It is a mod added just for funs             |
 | Lib      | It is a library mod, you may want to ignore |
 | Main     | It is main mod of this modpack              |
 | Opt      | It is optimization mod                      |
 | Util     | It is just an utility mod                   |
 
 - [Akashic Tome] <sup>Util</sup> <sub>requires [AutoRegLib]</sub> - Add a book called Akashic Tome that can mimics another mods' guide book.
-- [Angel Ring] <sup>End-game & Util</sup> <sub>requires [Curios API (Forge)]</sub> - Add a item called Angel Ring which allow you to fly like the creative mode.
+- [Angel Ring] <sup>End-game, Util</sup> <sub>requires [Curios API (Forge)]</sub> - Add a item called Angel Ring which allow you to fly like the creative mode.
 - [AppleSkin] <sup>Util</sup> - Show not only the saturation and the exhaustion but also the hungers, saturations and the healths to be restored by eating the food in hand.
 - [Architectury API (Forge)] <sup>Lib</sup> - An intermediary api aimed to ease developing multiplatform mods, mostly used by [FTB mods] in this modpack.
 - [Ars Nouveau] <sup>Main</sup> <sub>requires [Curios API (Forge)], [GeckoLib] and [Patchouli]</sub> - A magic mod allows you to craft your own spell.
 - [AutoRegLib] <sup>Lib</sup> - A library mod for Vazkii's mod, like [Akashic Tome] in this modpack.
-- [BetterEnd (Forge)] - Make the end fancier than vanilla Minecraft.
+- [BetterEnd (Forge)] <sup>Just-Fun</sup> - Make the end fancier than vanilla Minecraft.
 - [Bookshelf] <sup>Lib</sup> - A library mod, used by [Botany Pots] and [Botany Pots Tiers] in this modpack.
 - [Botany Pots] <sup>Util</sup> <sub>requires [Bookshelf]</sub> - Add a botany pot which grows all kind of crops.
 - [Botany Pots Tiers] <sup>Util</sup> <sub>requires [Botany Pots] and [Bookshelf]</sub> - Add elite, ultra, creative botany pot which is 2x, 6x, 10x accelerated botany pot respectively.
@@ -57,28 +58,15 @@ The mod list is sorted alphabetically with following markers.
 - [FPS Reducer] <sup>Opt</sup> - Reduce FPS if you're doing nothing.
 - <a id="ftb-mods"></a> [FTB Backups (Forge)] <sup>Admin</sup> - Create backups periodically.
 - [FTB Chunks (Forge)] <sup>Util</sup> <sub>requires [Architectury API (Forge)], [FTB Library (Forge)] and [FTB Teams (Forge)]</sub> - Allow you to claim chunk.
-- [FTB Library (Forge)]
-  - Architectury API (Forge)
-- [FTB Quests (Forge)]
-  - Architectury API (Forge)
-  - FTB Library (Forge)
-  - FTB Teams (Forge)
-  - Item Filters (Forge)
-- [FTB Ranks (Forge)]
-  - Architectury API (Forge)
-  - FTB Library (Forge)
-- [FTB Team Islands (Forge)]
-- [FTB Teams (Forge)]
-  - Architectury API (Forge)
-- [FTB Ultimine (Forge)]
-  - Architectury API (Forge)
-  - FTB Library (Forge)
-- [GeckoLib]
-- [Global XP]
-- [Golden Hopper]
-- [Hats]
-  - iChunUtil
-- [iChunUtil]
+- [FTB Library (Forge)] <sup>Lib</sup> <sub>requires [Architectury API (Forge)]</sub> - A library mod usually used by [FTB mods].
+- [FTB Quests (Forge)] <sup>Devs, Main</sup> <sub>requires [Architectury API (Forge)], [FTB Library (Forge)], [FTB Teams (Forge)] and [Item Filters (Forge)]</sub> - Add quests to your modpack to keep your goal.
+- [FTB Team Islands (Forge)] <sup>TODO</sup>
+- [FTB Teams (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)]</sub> - Utilize team progression like [FTB Chunks (Forge)] and [FTB Quests (Forge)].
+- [FTB Ultimine (Forge)] <sup>Util</sup> <sub>requires [Architectury API (Forge)] and [FTB Library (Forge)]</sub> - Make harvesting multiple blocks at once easy.
+- [GeckoLib] <sup>Lib</sup> - An animation library, used by [Ars Nouveau] in this modpack.
+- [Global XP] <sup>Util</sup> - Add a block to store XPs, good for enchanting.
+- [Hats] <sup>Just-Fun</sup> <sub>requires [iChunUtil]</sub> - Add funny hats.
+- [iChunUtil] <sup>Lib</sup> - A library mod used by iChun's mod like [Hats] in this modpack.
 - [Inventory Tweaks Renewed]
 - [Iron Chests]
 - [Iron Furnaces \[FORGE\]]
