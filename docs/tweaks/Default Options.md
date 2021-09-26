@@ -1,6 +1,15 @@
 # Default Options
 
-We configured it to provide a better experience.
-We've turned off the auto jump, cloud, and music.
-Moreover, set the brightness level to 100%.
-Finally, unset most of keys to avoid conflicts.
+We provide default options.
+
+## Reason
+
+The default options give us bad experience.
+
+## The Tweaks
+
+- Turn off auto jump
+- Hide clouds
+- Set music volume to 0
+- Set brightness level to 100%
+- Unset most of keys to avoid conflicts
