@@ -8,7 +8,7 @@
         "name": "The Island",
         "desc": "The default island",
         "structure": "island.nbt",
-        "image": "underelectrifiedsky:textures/todo.png",
+        "image": "underelectrifiedsky:textures/islands/main/island.png",
         "yOffset": 0
       }
     ]

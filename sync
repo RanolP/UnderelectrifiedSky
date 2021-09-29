@@ -12,7 +12,7 @@ pathw=`wslpath -m "$*" | sed 's/\\//\\\\/g'`
 echo -e "\033[42m\033[30m >>> \033[0m Target directory is \033[32m$pathw\033[0m."
 echo
 
-copy=kubejs/*
+symlink=NEVER
 
 for files_to_link in `find ./src -mindepth 2 -maxdepth 2`; do
     cd $working_directory
@@ -20,21 +20,21 @@ for files_to_link in `find ./src -mindepth 2 -maxdepth 2`; do
     source=`wslpath -m $files_to_link | sed 's/\\//\\\\/g'`
     if [ -f "$files_to_link" ]; then
         rm_command='del'
-        if [[ "$files_to_link" =~ $copy ]]; then
-            echo -e "\033[43m\033[30m </> \033[0m Copying    \033[32m$files_to_link\033[0m..."
-            link_command="copy \"$source\" \"$target\""
-        else
+        if [[ "$files_to_link" =~ $symlink ]]; then
             echo -e "\033[43m\033[30m </> \033[0m Symlinking \033[32m$files_to_link\033[0m..."
             link_command="mklink \"$target\" \"$source\""
+        else
+            echo -e "\033[43m\033[30m </> \033[0m Copying    \033[32m$files_to_link\033[0m..."
+            link_command="copy \"$source\" \"$target\""
         fi
     else
         rm_command='rmdir /S /Q'
-        if [[ "$files_to_link" =~ $copy ]]; then
-            echo -e "\033[43m\033[30m </> \033[0m Copying    \033[32m$files_to_link\033[0m..."
-            link_command="robocopy \"$source\" \"$target\" /E"
-        else
+        if [[ "$files_to_link" =~ $symlink ]]; then
             echo -e "\033[43m\033[30m </> \033[0m Symlinking \033[32m$files_to_link\033[0m..."
             link_command="mklink /D \"$target\" \"$source\""
+        else
+            echo -e "\033[43m\033[30m </> \033[0m Copying    \033[32m$files_to_link\033[0m..."
+            link_command="robocopy \"$source\" \"$target\" /E"
         fi
     fi
     cd /mnt/c/
