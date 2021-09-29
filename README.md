@@ -60,7 +60,7 @@ The mod list is sorted alphabetically with following markers.
 - [FTB Chunks (Forge)] <sup>Util</sup> <sub>requires [Architectury API (Forge)], [FTB Library (Forge)] and [FTB Teams (Forge)]</sub> - Allow you to claim chunk.
 - [FTB Library (Forge)] <sup>Lib</sup> <sub>requires [Architectury API (Forge)]</sub> - A library mod usually used by [FTB mods].
 - [FTB Quests (Forge)] <sup>Devs, Main</sup> <sub>requires [Architectury API (Forge)], [FTB Library (Forge)], [FTB Teams (Forge)] and [Item Filters (Forge)]</sub> - Add quests to your modpack to keep your goal.
-- [FTB Team Islands (Forge)] <sup>TODO</sup>
+- [FTB Team Islands (Forge)] <sup>Devs</sup> - Allow modpack devs to create team island with FTB mods compatibility.
 - [FTB Teams (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)]</sub> - Utilize team progression like [FTB Chunks (Forge)] and [FTB Quests (Forge)].
 - [FTB Ultimine (Forge)] <sup>Util</sup> <sub>requires [Architectury API (Forge)] and [FTB Library (Forge)]</sub> - Make harvesting multiple blocks at once easy.
 - [GeckoLib] <sup>Lib</sup> - An animation library, used by [Ars Nouveau] in this modpack.
@@ -77,7 +77,6 @@ The mod list is sorted alphabetically with following markers.
 - [KubeJS (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)] and [Rhino]</sub> - Allow modpack devs to add its own contents.
 - [KubeJS Create] <sup>Devs</sup> <sub>requires [Create] and [KubeJS (Forge)]</sub> - Allow modpack devs to add its Create recipe.
 - [KubeJS UI (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)]</sub> - Allow modpack devs to add its own UI.
-- [LibX] <sup>Lib</sup> - A library mod, used by [Skyblock Builder] in this modpack.
 - [Light Overlay (Rift/Forge/Fabric)] <sup>Util</sup> <sub>requires [Architectury API (Forge)], [Cloth Config API (Forge)]</sub> - Show light level overlay to know where the mobs can spawn.
 - [Meep Meep! (Road Runner)] <sup>Opt</sup> - Optimization mod.
 - [Morpheus] <sup>Util</sup> - A sleep vote system.
@@ -94,7 +93,6 @@ The mod list is sorted alphabetically with following markers.
 - [ScrewTheNether] <sup>Just-Fun</sup> - Make the Nether void.
 - [Shutup Experimental Settings!] <sup>Util</sup> - Disable the custom world warning message.
 - [Simple Storage Network] <sup>Main, Util</sup> - Use cables to link storages.
-- [Skyblock Builder] <sup>TODO</sup> <sub>requires [LibX]</sub>
 - [Smooth Boot (Forge)] <sup>Opt</sup> - Optimize Minecraft loading performance.
 - [Spice of Life: Carrot Edition] <sup>Food</sup> - Give more rewards as you eat various foods.
 - [Sophisticated Backpacks] <sup>Util</sup> - Add backpacks to store more items.
@@ -170,7 +168,6 @@ The mod list is sorted alphabetically with following markers.
 [KubeJS (Forge)]: https://www.curseforge.com/minecraft/mc-mods/kubejs-forge
 [KubeJS Create]: https://www.curseforge.com/minecraft/mc-mods/kubejs-create
 [KubeJS UI (Forge)]: https://www.curseforge.com/minecraft/mc-mods/kubejs-ui-forge
-[LibX]: https://www.curseforge.com/minecraft/mc-mods/libx
 [Light Overlay (Rift/Forge/Fabric)]: https://www.curseforge.com/minecraft/mc-mods/light-overlay
 [Meep Meep! (Road Runner)]: https://github.com/MaxNeedsSnacks/roadrunner
 [Morpheus]: https://www.curseforge.com/minecraft/mc-mods/morpheus
@@ -187,7 +184,6 @@ The mod list is sorted alphabetically with following markers.
 [ScrewTheNether]: https://www.curseforge.com/minecraft/mc-mods/screwthenether
 [Shutup Experimental Settings!]: https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings
 [Simple Storage Network]: https://www.curseforge.com/minecraft/mc-mods/simple-storage-network
-[Skyblock Builder]: https://www.curseforge.com/minecraft/mc-mods/skyblock-builder
 [Smooth Boot (Forge)]: https://www.curseforge.com/minecraft/mc-mods/smooth-boot-forge
 [Spice of Life: Carrot Edition]: https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition
 [Sophisticated Backpacks]: https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Main Islands",
+    "author": "Underelectrified Sky Team",
+    "desc": "The islands built by the Modpack Authors",
+    "islands": [
+      {
+        "name": "The Island",
+        "desc": "The default island",
+        "structure": "island.nbt",
+        "image": "underelectrifiedsky:textures/todo.png",
+        "yOffset": 0
+      }
+    ]
+  }
+]
