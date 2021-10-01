@@ -1,7 +1,0 @@
-{
-  "inventory": {
-    "0:4": "{id:\"everlastingabilities:ability_bottle\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[]}}",
-    "0:8": "{id:\"akashictome:tome\",Count:1b,tag:{\"akashictome:is_morphing\":1b,\"akashictome:data\":{storagenetwork:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"storagenetwork:network_book\"}},extendedcrafting:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"extendedcrafting:guide\"}},ars_nouveau:{id:\"ars_nouveau:worn_notebook\",Count:1b},theoneprobe:{id:\"theoneprobe:probenote\",Count:1b},ftbquests:{id:\"ftbquests:book\",Count:1b},solcarrot:{id:\"solcarrot:food_book\",Count:1b,tag:{\"akashictome:displayName\":{text:\"Food Book\"},\"akashictome:is_morphing\":1b,display:{Name:'{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Food Book\"}]}'}}}}}}"
-  },
-  "wipeBlacklist": []
-}

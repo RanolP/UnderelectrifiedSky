@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "29F6CD7A60EFCCE0", title: "Machinery" }
+		{ id: "3B13D14BB2122E5F", title: "Magic" }
+		{ id: "27D646602D4E5A60", title: "Cooking" }
+		{ id: "75130812B4EA4158", title: "Utilities" }
+		{ id: "6DFE562A826FDC8C", title: "The End of Game" }
+	]
+}

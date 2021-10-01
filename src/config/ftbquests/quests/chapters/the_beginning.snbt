@@ -1,0 +1,587 @@
+{
+	id: "4617AFB21A9E2C46"
+	group: ""
+	order_index: 0
+	filename: "the_beginning"
+	title: "The Beginning"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Hello, Skyblock!"
+			icon: "minecraft:grass_block"
+			x: -11.0d
+			y: -1.5d
+			description: ["Welcome! Here's a present for you."]
+			id: "4AAC3563DA962BDC"
+			tasks: [{
+				id: "77DB9F3D821C809A"
+				type: "checkmark"
+				title: "Okay, thanks."
+			}]
+			rewards: [
+				{
+					id: "4B0204D31FA95F28"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:efficiency"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4C19630098FD2F62"
+					type: "item"
+					item: "pamhc2foodcore:caramelappleitem"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Wood Chopper"
+			icon: "minecraft:oak_sapling"
+			x: -8.5d
+			y: -1.5d
+			description: [
+				"By sneaking or running, you can accelerate plant growing."
+				"Also, by pressing tilde(`, aka ~) for mining same type of block at once."
+			]
+			dependencies: ["4AAC3563DA962BDC"]
+			id: "17F95235DA4B9203"
+			tasks: [{
+				id: "4AE8FF77FD89D7EC"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "6267348D8B31D73C"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:crook_bone"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:efficiency"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4239491AFA4EA525"
+					type: "item"
+					item: "pamhc2foodcore:applejuiceitem"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Wiggle wiggle"
+			icon: "exnihilosequentia:silkworm"
+			x: -7.5d
+			y: -3.0d
+			description: ["You can get silkworms by breaking the leaves. You can use not only the bone crook from reward but also the wood crook."]
+			dependencies: ["17F95235DA4B9203"]
+			id: "4A99B923A9A8E0E3"
+			tasks: [{
+				id: "459F8760E6EF5B8A"
+				type: "item"
+				item: "exnihilosequentia:silkworm"
+			}]
+			rewards: [{
+				id: "4859FA32B1F6CAC9"
+				type: "item"
+				item: "exnihilosequentia:cooked_silkworm"
+				count: 4
+			}]
+		}
+		{
+			title: "Barreling the World"
+			icon: "exnihilosequentia:barrel_wood"
+			x: -7.5d
+			y: 0.5d
+			description: ["By using barrel, you can craft useful resources like dirt, clay, or more."]
+			dependencies: ["17F95235DA4B9203"]
+			id: "1A6279C17E3002F1"
+			tasks: [{
+				id: "45D4F259F88E77CB"
+				type: "item"
+				title: "Any Barrel"
+				icon: "exnihilosequentia:barrel_wood"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:barrels"
+					}
+				}
+			}]
+			rewards: [{
+				id: "081A6BB2DD97D22F"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 16
+			}]
+		}
+		{
+			title: "HAMMAH!"
+			icon: {
+				id: "exnihilosequentia:hammer_wood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: -1.0d
+			description: ["It's a tool for crushing blocks. Well, probably there's nothing to crush. We'll give you a little."]
+			dependencies: ["17F95235DA4B9203"]
+			id: "1AA0EEF118E65915"
+			tasks: [{
+				id: "78F24D86365C105A"
+				type: "item"
+				title: "Any Hammer from Ex Nihilo: Sequentia"
+				icon: {
+					id: "exnihilosequentia:hammer_wood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:hammer"
+					}
+				}
+			}]
+			rewards: [{
+				id: "689E363329E1FE40"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16
+			}]
+		}
+		{
+			title: "A sawdust?"
+			icon: "excompressum:wood_chippings"
+			x: -5.0d
+			y: 1.0d
+			description: ["You've found that crushing logs with hammer would create the wood chippings which can create dirts!"]
+			dependencies: [
+				"1AA0EEF118E65915"
+				"1A6279C17E3002F1"
+			]
+			id: "34707888F09566B5"
+			tasks: [{
+				id: "2D23E5336D34B4B4"
+				type: "item"
+				item: "excompressum:wood_chippings"
+			}]
+			rewards: [{
+				id: "12DE38263267425A"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 16
+			}]
+		}
+		{
+			title: "Material from Nothing"
+			icon: "exnihilosequentia:sieve"
+			x: -3.5d
+			y: -2.5d
+			description: ["You can get materials by sieving dirt, gravel or something like. See JEI for more information."]
+			dependencies: [
+				"17F95235DA4B9203"
+				"7031112AD97012EA"
+			]
+			id: "7A4BE7EABC041099"
+			tasks: [
+				{
+					id: "79512B08832E6A28"
+					type: "item"
+					title: "Any Sieve"
+					icon: "exnihilosequentia:sieve"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "exnihilosequentia:sieves"
+						}
+					}
+				}
+				{
+					id: "08DF550D5AE1317A"
+					type: "item"
+					item: "exnihilosequentia:mesh_string"
+				}
+			]
+			rewards: [{
+				id: "080F3DB4439436CA"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 32
+			}]
+		}
+		{
+			title: "String from Worms"
+			x: -5.5d
+			y: -3.5d
+			description: ["The worms on leaves, they are eating leaves to create the strings. You can take them by using crooks on fully infested leaves."]
+			dependencies: ["4A99B923A9A8E0E3"]
+			id: "7031112AD97012EA"
+			tasks: [{
+				id: "47DD625DF36B7AB1"
+				type: "item"
+				item: "minecraft:string"
+				count: 9L
+			}]
+			rewards: [{
+				id: "3A5C01C696891A78"
+				type: "item"
+				item: "pamhc2foodcore:marshmellowsitem"
+				count: 4
+			}]
+		}
+		{
+			title: "Tiny Stones"
+			icon: "exnihilosequentia:pebble_stone"
+			x: -2.5d
+			y: -1.0d
+			description: ["Earn stone pebbles by sieving dirts."]
+			dependencies: ["7A4BE7EABC041099"]
+			id: "1F1D61972B9E6FC6"
+			tasks: [{
+				id: "319C2D336E92B875"
+				type: "item"
+				item: "exnihilosequentia:pebble_stone"
+			}]
+			rewards: [
+				{
+					id: "31996BE29521EBB4"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 16
+				}
+				{
+					id: "167C66AF308FE332"
+					type: "item"
+					item: "pamhc2foodextended:seedsoupitem"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Well, Compressed?"
+			icon: "excompressum:oak_heavy_sieve"
+			x: -2.5d
+			y: -4.0d
+			description: ["Well, you can use compressed gravel, sand, or something on heavy sieve for a better life."]
+			dependencies: ["7A4BE7EABC041099"]
+			id: "366E8AE088B3F4C1"
+			tasks: [{
+				id: "5C263661770B4315"
+				type: "item"
+				title: "Any Heavy Sieve"
+				icon: "excompressum:oak_heavy_sieve"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "excompressum:heavy_sieve"
+					}
+				}
+			}]
+			rewards: [{
+				id: "76FE88554A939294"
+				type: "item"
+				item: "excompressum:compressed_gravel"
+				count: 9
+			}]
+		}
+		{
+			title: "For the Metals"
+			icon: "exnihilosequentia:mesh_flint"
+			x: -1.5d
+			y: -2.5d
+			description: ["You'll need flint mesh for creating the metal resources."]
+			dependencies: ["7A4BE7EABC041099"]
+			id: "4B0FBC751EE33979"
+			tasks: [{
+				id: "7BB095CC68C71D69"
+				type: "item"
+				item: "exnihilosequentia:mesh_flint"
+			}]
+			rewards: [{
+				id: "32810C908FCFA29A"
+				type: "item"
+				item: "excompressum:compressed_gravel"
+				count: 9
+			}]
+		}
+		{
+			title: "Fresh Water"
+			x: -9.5d
+			y: 0.5d
+			description: ["You can melt leaves, sapling or something to get waters."]
+			dependencies: ["17F95235DA4B9203"]
+			id: "4613C465972D4F6D"
+			tasks: [{
+				id: "6852C3924E354874"
+				type: "item"
+				title: "Any Crucible"
+				icon: "exnihilosequentia:crucible_wood"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:crucibles"
+					}
+				}
+			}]
+			rewards: [{
+				id: "16C537E6ED9B9492"
+				type: "item"
+				item: "minecraft:bucket"
+				count: 2
+			}]
+		}
+		{
+			title: "Iron-ic"
+			x: 0.5d
+			y: -2.5d
+			description: ["Finally, you got an iron ore from the tree!"]
+			dependencies: ["4B0FBC751EE33979"]
+			id: "2B49D46228101F57"
+			tasks: [{
+				id: "6A4004F9EE54EA49"
+				type: "item"
+				item: "exnihilosequentia:chunk_iron"
+			}]
+			rewards: [{
+				id: "4D901D6AFDFE2EF7"
+				type: "item"
+				item: "exnihilosequentia:chunk_iron"
+				count: 15
+			}]
+		}
+		{
+			title: "Good Night"
+			icon: "minecraft:red_bed"
+			x: -4.5d
+			y: -5.0d
+			description: ["Phantom is worse. You need to sleep."]
+			dependencies: ["7031112AD97012EA"]
+			id: "47BDF2FEFA37CA69"
+			tasks: [{
+				id: "05F17DAF7FE70CF4"
+				type: "item"
+				title: "Any Bed"
+				icon: "minecraft:red_bed"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3AE018C4DE12CF40"
+				type: "item"
+				item: "pamhc2foodcore:friedeggitem"
+				count: 4
+			}]
+		}
+		{
+			title: "Clay, more!"
+			x: -3.5d
+			y: 0.5d
+			description: ["Clay is useful resource that can be used to crafting porcelain clays."]
+			dependencies: ["1AA0EEF118E65915"]
+			id: "72D27867BF08031F"
+			tasks: [{
+				id: "616A69671C26DF43"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+			rewards: [{
+				id: "67C8E16C4569B862"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 16
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			description: ["Porcelain Clay is a bone meal flavored clay."]
+			dependencies: ["72D27867BF08031F"]
+			id: "20864DDF20106A65"
+			tasks: [{
+				id: "444218EF50CF40E2"
+				type: "item"
+				item: "exnihilosequentia:porcelain_clay"
+			}]
+			rewards: [{
+				id: "61F2EE8A5994282F"
+				type: "item"
+				item: "pamhc2foodextended:bananajellyitem"
+				count: 4
+			}]
+		}
+		{
+			title: "Powerful Melting"
+			x: -0.5d
+			y: 0.5d
+			description: ["Fired Crucible can melt stones with heat provided on the bottom on it. See JEI for finding heat sources."]
+			dependencies: ["20864DDF20106A65"]
+			id: "6DFE9362A87EDE36"
+			tasks: [{
+				id: "173DFF7557DD3FFD"
+				type: "item"
+				item: "exnihilosequentia:crucible_fired"
+			}]
+			rewards: [
+				{
+					id: "33A1BA374B70E4BD"
+					type: "item"
+					item: "minecraft:netherrack"
+				}
+				{
+					id: "6A24C09DDC93531B"
+					type: "item"
+					item: "minecraft:fire_charge"
+				}
+				{
+					id: "625F65DD956E823E"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Lava Dream"
+			x: 1.0d
+			y: 0.5d
+			description: ["Finally you got a lava from trees!"]
+			dependencies: ["6DFE9362A87EDE36"]
+			id: "411782A0B13AC191"
+			tasks: [{
+				id: "2B8A9227F2353BAF"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			rewards: [
+				{
+					id: "6E56DFBD12A0B17E"
+					type: "item"
+					item: "minecraft:glass"
+					count: 16
+				}
+				{
+					id: "44EF2E246555C592"
+					type: "item"
+					item: "pamhc2foodextended:starfruitjellyitem"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "The First Cobble Gen"
+			x: 2.5d
+			y: 0.5d
+			description: ["It's time to say goodbye for stone pebbles!"]
+			dependencies: ["411782A0B13AC191"]
+			id: "408A66599D50CF53"
+			tasks: [{
+				id: "5E06B21A8DFBC714"
+				type: "item"
+				item: "cobblefordays:tier_1"
+			}]
+			rewards: [{
+				id: "2BFA80B895247BC1"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			title: "A Tiny Grower"
+			x: -2.0d
+			y: 2.0d
+			description: ["Botany Pot is a tool growing plants easily."]
+			dependencies: ["72D27867BF08031F"]
+			id: "28938CAFD8A9414D"
+			tasks: [{
+				id: "0850CF02B1DE256D"
+				type: "item"
+				item: "botanypots:botany_pot"
+			}]
+			rewards: [{
+				id: "4A6149D3ADE6E589"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			description: ["You can automate it!"]
+			dependencies: ["28938CAFD8A9414D"]
+			id: "03AC9F0E7A04929F"
+			tasks: [{
+				id: "721C650FB747A17A"
+				type: "item"
+				item: "botanypots:hopper_botany_pot"
+			}]
+			rewards: [{
+				id: "590CE04CACAF67AB"
+				type: "item"
+				item: "farmingforblockheads:fertilized_farmland_healthy"
+				count: 4
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: ["Make iron mesh, We'll give you gravels."]
+			dependencies: ["2B49D46228101F57"]
+			id: "033E4775324F3512"
+			tasks: [{
+				id: "1ECB42D318CFAA23"
+				type: "item"
+				item: "exnihilosequentia:mesh_iron"
+			}]
+			rewards: [{
+				id: "3E89D1C9FC4D7046"
+				type: "item"
+				item: "excompressum:compressed_gravel"
+				count: 64
+			}]
+		}
+	]
+}

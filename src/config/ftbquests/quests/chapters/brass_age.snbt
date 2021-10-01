@@ -1,0 +1,11 @@
+{
+	id: "0483B03903212113"
+	group: "29F6CD7A60EFCCE0"
+	order_index: 1
+	filename: "brass_age"
+	title: "Brass Age"
+	icon: "create:brass_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

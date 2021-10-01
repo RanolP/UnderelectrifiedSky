@@ -1,0 +1,11 @@
+{
+	id: "66CD0F052CFAA598"
+	group: "6DFE562A826FDC8C"
+	order_index: 1
+	filename: "infinity_age"
+	title: "Infinity Age"
+	icon: "extendedcrafting:ultimate_singularity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

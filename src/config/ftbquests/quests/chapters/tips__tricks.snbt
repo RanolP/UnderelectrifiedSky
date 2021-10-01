@@ -1,0 +1,45 @@
+{
+	id: "55591634B523F11D"
+	group: "75130812B4EA4158"
+	order_index: 2
+	filename: "tips__tricks"
+	title: "Tips \\& Tricks"
+	icon: "minecraft:enchanted_golden_apple"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Smaller Coal"
+		x: -5.5d
+		y: -2.5d
+		description: ["Tiny fuels for efficiency."]
+		id: "12C7DB56A3ED12A1"
+		tasks: [
+			{
+				id: "44542599CDD8A0B3"
+				type: "item"
+				item: "tinycoal:tinycoal"
+				count: 8L
+			}
+			{
+				id: "120E80E3B3C5E954"
+				type: "item"
+				item: "tinycoal:tinycharcoal"
+				count: 8L
+			}
+		]
+		rewards: [
+			{
+				id: "0A0463F9E4AE5AB9"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}
+			{
+				id: "7632B3CE676A81C8"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 8
+			}
+		]
+	}]
+}

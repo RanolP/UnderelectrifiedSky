@@ -12,7 +12,7 @@ pathw=`wslpath -m "$*" | sed 's/\\//\\\\/g'`
 echo -e "\033[42m\033[30m >>> \033[0m Target directory is \033[32m$pathw\033[0m."
 echo
 
-symlink=NEVER
+symlink=config/ftbquests
 
 for files_to_link in `find ./src -mindepth 2 -maxdepth 2`; do
     cd $working_directory

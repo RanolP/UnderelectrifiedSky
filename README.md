@@ -40,7 +40,6 @@ The mod list is sorted alphabetically with following markers.
 - [Create] <sup>Main</sup> <sub>requires [Flywheel]</sub> - Aesthetic technology based on the rotational force.
 - [Cucumber Library] <sup>Lib</sup> - A library mod, used by [Extended Crafting] in this modpack.
 - [Curios API (Forge)] <sup>Lib</sup> - An accesory library mod, used by [Angel Ring] and [Ars Nouveau] in this modpack.
-- [Custom Starter Gear] <sup>Devs*</sup> - Allow modpack devs to put their own custom starting gear.
 - [Cyclops Core] <sup>Lib</sup> - A library mod, used by [EverlastingAbilities] in this modpack.
 - [Default Options] <sup>Devs*</sup> - Allow modpack devs to set default options.
 - [Drawers Tooltip] <sup>Util</sup> <sub>requires [Storage Drawers]</sub> - Show what the storage drawer stores in the inventory.
@@ -129,7 +128,6 @@ The mod list is sorted alphabetically with following markers.
 [Create]: https://www.curseforge.com/minecraft/mc-mods/create
 [Cucumber Library]: https://www.curseforge.com/minecraft/mc-mods/cucumber 
 [Curios API (Forge)]: https://www.curseforge.com/minecraft/mc-mods/curios
-[Custom Starter Gear]: https://www.curseforge.com/minecraft/mc-mods/custom-starter-gear
 [Cyclops Core]: https://www.curseforge.com/minecraft/mc-mods/cyclops-core
 [Default Options]: https://www.curseforge.com/minecraft/mc-mods/default-options
 [Drawers Tooltip]: https://www.curseforge.com/minecraft/mc-mods/drawers-tooltip
