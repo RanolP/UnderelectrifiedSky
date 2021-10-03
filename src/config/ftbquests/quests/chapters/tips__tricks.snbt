@@ -7,39 +7,100 @@
 	icon: "minecraft:enchanted_golden_apple"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Smaller Coal"
-		x: -5.5d
-		y: -2.5d
-		description: ["Tiny fuels for efficiency."]
-		id: "12C7DB56A3ED12A1"
-		tasks: [
-			{
-				id: "44542599CDD8A0B3"
+	quests: [
+		{
+			title: "Smaller Coal"
+			x: -5.5d
+			y: -2.5d
+			description: ["Tiny fuels for efficiency."]
+			id: "12C7DB56A3ED12A1"
+			tasks: [{
+				id: "4864AC248B5ABE78"
 				type: "item"
-				item: "tinycoal:tinycoal"
+				title: "Any Tiny Fuel"
+				icon: "tinycoal:tinycoal"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tinycoal:tinycoal"
+								Count: 1b
+							}
+							{
+								id: "tinycoal:tinycharcoal"
+								Count: 1b
+							}
+						]
+					}
+				}
 				count: 8L
-			}
-			{
-				id: "120E80E3B3C5E954"
-				type: "item"
-				item: "tinycoal:tinycharcoal"
-				count: 8L
-			}
-		]
-		rewards: [
-			{
-				id: "0A0463F9E4AE5AB9"
-				type: "item"
-				item: "minecraft:coal"
-				count: 8
-			}
-			{
-				id: "7632B3CE676A81C8"
-				type: "item"
-				item: "minecraft:charcoal"
-				count: 8
-			}
-		]
-	}]
+			}]
+			rewards: [
+				{
+					id: "0A0463F9E4AE5AB9"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+				{
+					id: "7632B3CE676A81C8"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Bottom is also a Top"
+			x: -5.5d
+			y: -1.0d
+			description: ["Well, you may alive after leaping into the void."]
+			id: "4426A0C3540B5E5C"
+			tasks: [{
+				id: "553C87C7CA75304C"
+				type: "location"
+				title: "Leap into the Void"
+				icon: "minecraft:bedrock"
+				dimension: "minecraft:overworld"
+				ignore_dimension: true
+				position: [I;
+					0
+					0
+					0
+				]
+				size: [I;
+					2147483647
+					10
+					2147483647
+				]
+			}]
+			rewards: [{
+				id: "002CC47A17199FBE"
+				type: "random"
+				icon: "ftbquests:missing_item"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Nether in a Void"
+			x: -5.5d
+			y: 0.5d
+			description: ["You finally went the Nether and it's empty... what?!"]
+			id: "0ADAE93C5777A30B"
+			tasks: [{
+				id: "2D465C605C3CF520"
+				type: "dimension"
+				title: "Visit Nether"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "770B8993F60BEEA1"
+				type: "random"
+				icon: "ftbquests:missing_item"
+				table_id: 6359834731965744429L
+			}]
+		}
+	]
 }

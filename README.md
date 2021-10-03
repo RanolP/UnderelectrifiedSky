@@ -89,7 +89,6 @@ The mod list is sorted alphabetically with following markers.
 - [Placebo] <sup>Lib</sup> - A library mod, used by [Wither Skeleton Tweaks].
 - [ProjectE] <sup>End-game, Main</sup> - An end-game OP mod.
 - [Rhino] <sup>Lib</sup> <sub>requires [Architectury API (Forge)]</sub> - A library mod, used by [KubeJS (Forge)].
-- [ScrewTheNether] <sup>Just-Fun</sup> - Make the Nether void.
 - [Shutup Experimental Settings!] <sup>Util</sup> - Disable the custom world warning message.
 - [Simple Storage Network] <sup>Main, Util</sup> - Use cables to link storages.
 - [Smooth Boot (Forge)] <sup>Opt</sup> - Optimize Minecraft loading performance.
@@ -99,7 +98,6 @@ The mod list is sorted alphabetically with following markers.
 - [The One Probe] <sup>Util</sup> - Show information of what you see.
 - [Tiny Coal] <sup>Util</sup> - Add a tiny coal and charcoal to make fuels efficient.
 - [Tool Belt] <sup>Util</sup> - Add a tool belt allowing you to change items quickly.
-- [TOP Addons] <sup>Util</sup> <sub>requires [The One Probe]</sub> - The One Probe Addons supporting various mods like Storage Drawers.
 - [Trample Stopper] <sup>Util</sup> - Stop farmland from getting trampled.
 - [TrashSlot] <sup>Util</sup> - Add a trash slot to remove your trash.
 - [TwerkItMeal - Twerk To Grow All The Things] <sup>Util</sup> - Make tree growing easier.
@@ -179,7 +177,6 @@ The mod list is sorted alphabetically with following markers.
 [Placebo]: https://www.curseforge.com/minecraft/mc-mods/placebo
 [ProjectE]: https://www.curseforge.com/minecraft/mc-mods/projecte
 [Rhino]: https://www.curseforge.com/minecraft/mc-mods/rhino
-[ScrewTheNether]: https://www.curseforge.com/minecraft/mc-mods/screwthenether
 [Shutup Experimental Settings!]: https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings
 [Simple Storage Network]: https://www.curseforge.com/minecraft/mc-mods/simple-storage-network
 [Smooth Boot (Forge)]: https://www.curseforge.com/minecraft/mc-mods/smooth-boot-forge
@@ -189,7 +186,6 @@ The mod list is sorted alphabetically with following markers.
 [The One Probe]: https://www.curseforge.com/minecraft/mc-mods/the-one-probe
 [Tiny Coal]: https://www.curseforge.com/minecraft/mc-mods/tiny-coal
 [Tool Belt]: https://www.curseforge.com/minecraft/mc-mods/tool-belt
-[TOP Addons]: https://www.curseforge.com/minecraft/mc-mods/top-addons
 [Trample Stopper]: https://www.curseforge.com/minecraft/mc-mods/trample-stopper
 [TrashSlot]: https://www.curseforge.com/minecraft/mc-mods/trashslot
 [TwerkItMeal - Twerk To Grow All The Things]: https://www.curseforge.com/minecraft/mc-mods/twerkitmeal

@@ -7,5 +7,180 @@
 	icon: "create:andesite_alloy"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Hello, Create!"
+			icon: "create:andesite_alloy"
+			x: -7.0d
+			y: 0.0d
+			description: ["The basic items for making Create stuffs."]
+			dependencies: ["7A4BE7EABC041099"]
+			id: "28558DE71BFE0C45"
+			tasks: [
+				{
+					id: "7904EE8C269FA2F0"
+					type: "item"
+					item: "create:andesite_alloy"
+				}
+				{
+					id: "6023EDFF6FAED0AA"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "4087518445509487"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "5BF70CFCCEF621A6"
+					type: "item"
+					item: "create:shaft"
+				}
+				{
+					id: "463CDD0EFB9B0079"
+					type: "item"
+					item: "create:andesite_casing"
+				}
+			]
+			rewards: [{
+				id: "6A442EBBEB86DC5B"
+				type: "random"
+				icon: "ftbquests:missing_item"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Water Flows"
+			x: -4.5d
+			y: -5.0d
+			dependencies: ["28558DE71BFE0C45"]
+			id: "046A36ACC7648780"
+			tasks: [{
+				id: "565058444DD5E2F8"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [
+				{
+					id: "7717D6BC13D37205"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 16
+				}
+				{
+					id: "7FA83F0F9C210AD3"
+					type: "random"
+					icon: "ftbquests:missing_item"
+					table_id: 6359834731965744429L
+				}
+			]
+		}
+		{
+			title: "Wind Blows"
+			x: -4.5d
+			y: -6.0d
+			dependencies: ["28558DE71BFE0C45"]
+			id: "121790BE50D4C639"
+			tasks: [
+				{
+					id: "01430DA1925767E5"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "0825D9CFEFF92298"
+					type: "item"
+					title: "Any Windmill Sail Block"
+					icon: "create:white_sail"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:white_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:orange_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:magenta_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:light_blue_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:yellow_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:lime_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:pink_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:gray_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:light_gray_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:cyan_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:purple_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:blue_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:brown_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:green_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:red_wool"
+									Count: 1b
+								}
+								{
+									id: "minecraft:black_wool"
+									Count: 1b
+								}
+								{
+									id: "create:sail_frame"
+									Count: 1b
+								}
+								{
+									id: "create:white_sail"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3A38A62CEEF2AAAC"
+				type: "random"
+				icon: "ftbquests:missing_item"
+				table_id: 6359834731965744429L
+			}]
+		}
+	]
 }

@@ -1,0 +1,19 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "rolls": [
+    {
+      "chance": 0.016,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.032,
+      "mesh": "diamond"
+    }
+  ],
+  "input": {
+    "item": "minecraft:gravel"
+  },
+  "result": {
+    "item": "ars_nouveau:mana_gem"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:the_nether",
+  "generator": {
+    "type": "kubejs:flat",
+    "seed": 0,
+    "settings": {
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:air"
+        }
+      ],
+      "features": false,
+      "biome": "minecraft:nether_wastes",
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

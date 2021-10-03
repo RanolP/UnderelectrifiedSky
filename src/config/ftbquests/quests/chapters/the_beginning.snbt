@@ -275,9 +275,42 @@
 			dependencies: ["7A4BE7EABC041099"]
 			id: "1F1D61972B9E6FC6"
 			tasks: [{
-				id: "319C2D336E92B875"
+				id: "770F3838F161E593"
 				type: "item"
-				item: "exnihilosequentia:pebble_stone"
+				title: "Any Pebble"
+				icon: "exnihilosequentia:pebble_stone"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "exnihilosequentia:pebble_stone"
+								Count: 1b
+							}
+							{
+								id: "exnihilosequentia:pebble_granite"
+								Count: 1b
+							}
+							{
+								id: "exnihilosequentia:pebble_diorite"
+								Count: 1b
+							}
+							{
+								id: "exnihilosequentia:pebble_andesite"
+								Count: 1b
+							}
+							{
+								id: "exnihilosequentia:pebble_basalt"
+								Count: 1b
+							}
+							{
+								id: "exnihilosequentia:pebble_blackstone"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 			rewards: [
 				{

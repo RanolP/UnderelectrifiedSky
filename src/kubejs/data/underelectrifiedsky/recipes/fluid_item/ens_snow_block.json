@@ -1,0 +1,12 @@
+{
+  "type": "exnihilosequentia:fluid_item",
+  "fluid": {
+    "fluid": "exnihilosequentia:witchwater"
+  },
+  "input": {
+    "item": "minecraft:blaze_powder"
+  },
+  "result": {
+    "item": "minecraft:snow_block"
+  }
+}
