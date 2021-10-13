@@ -11,6 +11,7 @@
 		{
 			x: -6.0d
 			y: 0.0d
+			description: ["200 ticks/item"]
 			id: "65274EE1649C0A7C"
 			tasks: [{
 				id: "387A999F6BB5B56E"
@@ -58,6 +59,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
+			description: ["160 ticks/item"]
 			dependencies: ["65274EE1649C0A7C"]
 			id: "12BEDC20819AF36A"
 			tasks: [{
@@ -74,6 +76,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
+			description: ["120 ticks/item"]
 			dependencies: ["12BEDC20819AF36A"]
 			id: "54CE22D4B63D00DB"
 			tasks: [{
@@ -90,6 +93,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			description: ["80 ticks/item"]
 			dependencies: ["54CE22D4B63D00DB"]
 			id: "426B60148352C7DA"
 			tasks: [{
@@ -106,6 +110,7 @@
 		{
 			x: 1.5d
 			y: -0.5d
+			description: ["40 ticks/item"]
 			dependencies: ["426B60148352C7DA"]
 			id: "6174DF0FBF7A77A7"
 			tasks: [{
@@ -122,6 +127,7 @@
 		{
 			x: 1.5d
 			y: 0.5d
+			description: ["40 ticks/item"]
 			dependencies: ["426B60148352C7DA"]
 			id: "78CEA1DFF4508BBC"
 			tasks: [{
@@ -138,6 +144,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
+			description: ["20 ticks/item"]
 			dependencies: [
 				"6174DF0FBF7A77A7"
 				"78CEA1DFF4508BBC"
@@ -158,6 +165,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
+			description: ["5 ticks/item"]
 			dependencies: ["5DA89F89B03E93D2"]
 			id: "58C7142238BFD2F5"
 			tasks: [{
@@ -174,6 +182,7 @@
 		{
 			x: 4.5d
 			y: 2.5d
+			description: ["It's just for Rainbow Furnace"]
 			dependencies: [
 				"12BEDC20819AF36A"
 				"54CE22D4B63D00DB"
@@ -197,7 +206,7 @@
 		{
 			x: 6.0d
 			y: 2.5d
-			description: ["It's smelting a stack at once."]
+			description: ["20 ticks/stack of items"]
 			dependencies: ["3A7C015AB599CCAD"]
 			id: "419C543083727CAD"
 			tasks: [{

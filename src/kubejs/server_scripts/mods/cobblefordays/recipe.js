@@ -76,14 +76,14 @@ onEvent('recipes', (event) => {
   );
 
   event.shaped(Item.of('cobblefordays:tier_5'), ['BHB', 'WCL', 'BHB'], {
-    B: 'create:diamond_block',
+    B: 'minecraft:diamond_block',
     H: 'create:polished_rose_quartz',
     C: 'create:mechanical_arm',
     W: 'minecraft:blue_ice',
     L: 'create:blaze_cake',
   });
 
-  event.shapeless(Item.of('cobblefordays:tier_5'), [
+  event.shapeless('2x cobblefordays:tier_5', [
     'cobblefordays:tier_5',
     'minecraft:diamond_block',
   ]);
