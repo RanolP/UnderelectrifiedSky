@@ -129,7 +129,6 @@
 				id: "45D4F259F88E77CB"
 				type: "item"
 				title: "Any Barrel"
-				icon: "exnihilosequentia:barrel_wood"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -163,13 +162,6 @@
 				id: "78F24D86365C105A"
 				type: "item"
 				title: "Any Hammer from Ex Nihilo: Sequentia"
-				icon: {
-					id: "exnihilosequentia:hammer_wood"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -224,7 +216,6 @@
 					id: "79512B08832E6A28"
 					type: "item"
 					title: "Any Sieve"
-					icon: "exnihilosequentia:sieve"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -278,7 +269,6 @@
 				id: "770F3838F161E593"
 				type: "item"
 				title: "Any Pebble"
-				icon: "exnihilosequentia:pebble_stone"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -339,7 +329,6 @@
 				id: "5C263661770B4315"
 				type: "item"
 				title: "Any Heavy Sieve"
-				icon: "excompressum:oak_heavy_sieve"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -377,6 +366,7 @@
 		}
 		{
 			title: "Fresh Water"
+			icon: "exnihilosequentia:crucible_wood"
 			x: -9.5d
 			y: 0.5d
 			description: ["You can melt leaves, sapling or something to get waters."]
@@ -386,7 +376,6 @@
 				id: "6852C3924E354874"
 				type: "item"
 				title: "Any Crucible"
-				icon: "exnihilosequentia:crucible_wood"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -404,7 +393,7 @@
 		}
 		{
 			title: "Iron-ic"
-			x: 0.5d
+			x: 0.0d
 			y: -2.5d
 			description: ["Finally, you got an iron ore from the tree!"]
 			dependencies: ["4B0FBC751EE33979"]
@@ -433,7 +422,6 @@
 				id: "05F17DAF7FE70CF4"
 				type: "item"
 				title: "Any Bed"
-				icon: "minecraft:red_bed"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -599,7 +587,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 1.5d
 			y: -2.5d
 			description: ["Make iron mesh, We'll give you gravels."]
 			dependencies: ["2B49D46228101F57"]
@@ -614,6 +602,57 @@
 				type: "item"
 				item: "excompressum:compressed_gravel"
 				count: 64
+			}]
+		}
+		{
+			title: "Diamonds!"
+			x: 3.0d
+			y: -2.5d
+			description: ["Good luck. you should collect 6 diamonds."]
+			dependencies: ["033E4775324F3512"]
+			id: "13C68C65E1C07213"
+			tasks: [{
+				id: "084708AA4B213F5B"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "26C3F2223E74DFA8"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			description: ["Oh shiny."]
+			dependencies: ["13C68C65E1C07213"]
+			id: "276B825DDC2FFD81"
+			tasks: [{
+				id: "28030CD18179D842"
+				type: "item"
+				item: "exnihilosequentia:mesh_diamond"
+			}]
+			rewards: [{
+				id: "4F1D7CFB23F05AEB"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["276B825DDC2FFD81"]
+			id: "6602EB96C6747C6F"
+			tasks: [{
+				id: "490516734DFE4AF5"
+				type: "item"
+				item: "exnihilosequentia:mesh_emerald"
+			}]
+			rewards: [{
+				id: "44736E8C4AC8959D"
+				type: "random"
+				table_id: 6359834731965744429L
 			}]
 		}
 	]

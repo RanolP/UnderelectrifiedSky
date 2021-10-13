@@ -7,5 +7,248 @@
 	icon: "minecraft:chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Being Connected"
+			icon: "storagenetwork:master"
+			x: -9.0d
+			y: -4.5d
+			description: ["By using Simple Storage Network. You can easily find and organize your items."]
+			dependencies: ["62C14BFDFF55772E"]
+			id: "733F93BCB93E601C"
+			tasks: [
+				{
+					id: "75F066198DDFB977"
+					type: "item"
+					item: "storagenetwork:kabel"
+				}
+				{
+					id: "558B73A822A61924"
+					type: "item"
+					item: "storagenetwork:master"
+				}
+			]
+			rewards: [
+				{
+					id: "2DCEC36F5C89AF33"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+				{
+					id: "4B8BE8929B30DCE7"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+			]
+		}
+		{
+			title: "I See Items"
+			x: -9.0d
+			y: -2.5d
+			description: ["Use Storage Inventory for seeing the items in the network."]
+			dependencies: ["733F93BCB93E601C"]
+			id: "7DAA27971000764B"
+			tasks: [{
+				id: "6F60E1CA70814D63"
+				type: "item"
+				item: "storagenetwork:inventory"
+			}]
+			rewards: [{
+				id: "7CEDC5444F27921C"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Crafting with Connection"
+			x: -9.0d
+			y: -0.5d
+			description: ["Use Storage Request Table for crafting items with the power of item network!"]
+			dependencies: ["7DAA27971000764B"]
+			id: "03944564188FFCDE"
+			tasks: [{
+				id: "1A4DEDFA3AD26990"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+			rewards: [{
+				id: "5E1125FE7B46068C"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Iron Chest"
+			icon: "ironchest:iron_chest"
+			x: -5.0d
+			y: -4.5d
+			min_required_dependencies: 1
+			id: "5D58F5EAB61F7E69"
+			tasks: [{
+				id: "38C7BC20E4BE0FE6"
+				type: "item"
+				title: "Iron Chest or Upgrade"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:wood_to_iron_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:copper_to_iron_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:iron_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "585D6B732B3D1104"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Gold Chest"
+			icon: "ironchest:gold_chest"
+			x: -5.0d
+			y: -2.5d
+			dependencies: ["5D58F5EAB61F7E69"]
+			id: "0D5C0257B98F6EB1"
+			tasks: [{
+				id: "2DCBC0A18E3B9953"
+				type: "item"
+				title: "Gold Chest or Upgrade"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:iron_to_gold_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:gold_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CC248D4BE281E98"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Diamond Chest"
+			icon: "ironchest:diamond_chest"
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["0D5C0257B98F6EB1"]
+			id: "28C2095C4A055C17"
+			tasks: [{
+				id: "172070046756D66A"
+				type: "item"
+				title: "Diamond Chest or Upgrade"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:gold_to_diamond_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:diamond_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C0FC86BE3B1E833"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			icon: "ironchest:crystal_chest"
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["28C2095C4A055C17"]
+			id: "2171DE40B1BF192B"
+			tasks: [{
+				id: "1320C73E239B145D"
+				type: "item"
+				title: "Crystal Chest or Upgrade"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:diamond_to_crystal_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:crystal_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F7F072A2615B884"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Obsidian Chest"
+			icon: "ironchest:obsidian_chest"
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["28C2095C4A055C17"]
+			id: "7F61DDCFC524D749"
+			tasks: [{
+				id: "351206169790FA3E"
+				type: "item"
+				title: "Obsidian Chest or Upgrade"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:diamond_to_obsidian_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:obsidian_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "05FCD6296046F513"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+	]
 }

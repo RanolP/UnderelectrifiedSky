@@ -1,0 +1,34 @@
+{
+	id: "7F19E5BA13E01D13"
+	group: "27D646602D4E5A60"
+	order_index: 0
+	filename: "kitchen"
+	title: "Kitchen"
+	icon: "pamhc2foodcore:cuttingboarditem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -5.0d
+		y: -3.0d
+		description: ["Market provides a great seed seller."]
+		id: "15EB82516C369D94"
+		tasks: [{
+			id: "4D73CF34AA74D706"
+			type: "item"
+			item: "farmingforblockheads:market"
+		}]
+		rewards: [
+			{
+				id: "1D63B5342E96C8CD"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 16
+			}
+			{
+				id: "614423BB4BCF29CF"
+				type: "random"
+				table_id: 6359834731965744429L
+			}
+		]
+	}]
+}

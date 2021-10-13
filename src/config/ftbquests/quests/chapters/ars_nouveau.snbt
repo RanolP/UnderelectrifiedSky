@@ -7,5 +7,21 @@
 	icon: "ars_nouveau:mana_gem"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		title: "A Novice Magician"
+		x: -4.5d
+		y: -1.0d
+		description: ["If you wish to be a magician. You'll need this."]
+		id: "5CA8720FEB70E2F1"
+		tasks: [{
+			id: "328ADA9397A336C3"
+			type: "item"
+			item: "ars_nouveau:novice_spell_book"
+		}]
+		rewards: [{
+			id: "65B7FD56FF7573FB"
+			type: "random"
+			table_id: 6359834731965744429L
+		}]
+	}]
 }

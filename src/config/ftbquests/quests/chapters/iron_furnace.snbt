@@ -17,6 +17,11 @@
 				type: "item"
 				item: "minecraft:furnace"
 			}]
+			rewards: [{
+				id: "5260B04B2CE1D4EF"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
 		}
 		{
 			x: -4.5d
@@ -27,6 +32,11 @@
 				id: "40943425D26A6DDC"
 				type: "item"
 				item: "minecraft:smoker"
+			}]
+			rewards: [{
+				id: "121195D1A36A2417"
+				type: "random"
+				table_id: 6359834731965744429L
 			}]
 		}
 		{
@@ -39,6 +49,11 @@
 				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
+			rewards: [{
+				id: "2C6E878536CC0EDE"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
 		}
 		{
 			x: -3.0d
@@ -49,6 +64,11 @@
 				id: "219617E5B8E233D0"
 				type: "item"
 				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [{
+				id: "2C5CACD1AA57293B"
+				type: "random"
+				table_id: 6359834731965744429L
 			}]
 		}
 		{
@@ -61,6 +81,11 @@
 				type: "item"
 				item: "ironfurnaces:gold_furnace"
 			}]
+			rewards: [{
+				id: "56FC24E3B724D0BE"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
 		}
 		{
 			x: 0.0d
@@ -71,6 +96,11 @@
 				id: "522A6F45C614EB91"
 				type: "item"
 				item: "ironfurnaces:diamond_furnace"
+			}]
+			rewards: [{
+				id: "35F9F3DFC75FFF71"
+				type: "random"
+				table_id: 6359834731965744429L
 			}]
 		}
 		{
@@ -83,6 +113,11 @@
 				type: "item"
 				item: "ironfurnaces:crystal_furnace"
 			}]
+			rewards: [{
+				id: "47BB8619613BC5BD"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
 		}
 		{
 			x: 1.5d
@@ -93,6 +128,11 @@
 				id: "00A06B7F178131D6"
 				type: "item"
 				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [{
+				id: "1AA9999593441063"
+				type: "random"
+				table_id: 6359834731965744429L
 			}]
 		}
 		{
@@ -109,6 +149,11 @@
 				type: "item"
 				item: "ironfurnaces:obsidian_furnace"
 			}]
+			rewards: [{
+				id: "5FF1C8CCCE444DC6"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
 		}
 		{
 			x: 4.5d
@@ -119,6 +164,11 @@
 				id: "0D25DA6450EC9DBE"
 				type: "item"
 				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [{
+				id: "44D7F94C05997FA8"
+				type: "random"
+				table_id: 6359834731965744429L
 			}]
 		}
 		{
@@ -138,16 +188,27 @@
 				item: "ironfurnaces:rainbow_plating"
 				count: 8L
 			}]
+			rewards: [{
+				id: "1675D5E45F3201B0"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
 		}
 		{
 			x: 6.0d
 			y: 2.5d
+			description: ["It's smelting a stack at once."]
 			dependencies: ["3A7C015AB599CCAD"]
 			id: "419C543083727CAD"
 			tasks: [{
 				id: "61BB22A8D90E6E2B"
 				type: "item"
 				item: "ironfurnaces:million_furnace"
+			}]
+			rewards: [{
+				id: "4B408D275B068B7B"
+				type: "random"
+				table_id: 6359834731965744429L
 			}]
 		}
 		{
@@ -160,6 +221,11 @@
 				type: "item"
 				item: "ironfurnaces:augment_blasting"
 			}]
+			rewards: [{
+				id: "182E94C30A09B618"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
 		}
 		{
 			x: -3.0d
@@ -171,25 +237,40 @@
 				type: "item"
 				item: "ironfurnaces:augment_smoking"
 			}]
+			rewards: [{
+				id: "2A7E757C32C585B0"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
 		}
 		{
 			x: -4.5d
-			y: 3.5d
+			y: 3.0d
 			id: "41F301B33EA3BDF8"
 			tasks: [{
 				id: "42154EBFC53F81E6"
 				type: "item"
 				item: "ironfurnaces:augment_speed"
 			}]
+			rewards: [{
+				id: "3F03561CB53F9ED3"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
 		}
 		{
 			x: -3.0d
-			y: 3.5d
+			y: 3.0d
 			id: "6B1BB880FD5E43EB"
 			tasks: [{
 				id: "786B10DC24A2A953"
 				type: "item"
 				item: "ironfurnaces:augment_fuel"
+			}]
+			rewards: [{
+				id: "6EC49089AB4F44E3"
+				type: "random"
+				table_id: 6359834731965744429L
 			}]
 		}
 	]

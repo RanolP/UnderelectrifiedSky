@@ -6,9 +6,36 @@
 	loot_size: 1
 	hide_tooltip: true
 	rewards: [
-		{ item: "minecraft:andesite", count: 16 }
-		{ item: "minecraft:dirt", count: 16 }
-		{ item: "create:andesite_casing", count: 4 }
-		{ item: "create:andesite_alloy", count: 8 }
+		{ item: "minecraft:andesite", count: 16, weight: 5 }
+		{ item: "minecraft:dirt", count: 16, weight: 5 }
+		{ item: "create:andesite_casing", count: 4, weight: 5 }
+		{ item: "create:andesite_alloy", count: 8, weight: 5 }
+		{ item: "minecraft:iron_ingot", count: 16, weight: 5 }
+		{ item: "ironchest:diamond_chest" }
+		{ item: "ironfurnaces:diamond_furnace" }
+		{ item: "storagedrawers:compacting_drawers_3" }
+		{ item: "storagedrawers:oak_full_drawers_1", count: 4, weight: 5 }
+		{ item: "storagedrawers:emerald_storage_upgrade" }
+		{ item: "minecraft:oak_log", count: 32, weight: 5 }
+		{
+			item: {
+				id: "ironchest:dirt_chest"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [{
+							Slot: 0b
+							id: "minecraft:dirt"
+							Count: 64b
+						}]
+						id: "ironchest:dirt_chest"
+					}
+					display: {
+						Lore: ["\"(+NBT)\""]
+					}
+				}
+			}
+			weight: 2
+		}
 	]
 }

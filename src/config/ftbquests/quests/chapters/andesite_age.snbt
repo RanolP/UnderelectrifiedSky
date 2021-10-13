@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Hello, Create!"
+			title: "Create Create"
 			icon: "create:andesite_alloy"
 			x: -7.0d
 			y: 0.0d
@@ -43,17 +43,49 @@
 					item: "create:andesite_casing"
 				}
 			]
-			rewards: [{
-				id: "6A442EBBEB86DC5B"
-				type: "random"
-				icon: "ftbquests:missing_item"
-				table_id: 6359834731965744429L
-			}]
+			rewards: [
+				{
+					id: "5E874700136B31D0"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 64
+				}
+				{
+					id: "607D84C0690FA6A5"
+					type: "item"
+					item: "create:cogwheel"
+					count: 64
+				}
+				{
+					id: "2600F97FBF0BD427"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 64
+				}
+				{
+					id: "0576E0513CF8A30D"
+					type: "item"
+					item: "create:shaft"
+					count: 64
+				}
+				{
+					id: "7AC86B978BBE6179"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 64
+				}
+				{
+					id: "36469A810B24A4BD"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+			]
 		}
 		{
 			title: "Water Flows"
 			x: -4.5d
-			y: -5.0d
+			y: -3.5d
+			description: ["max 320su with careful design with soul sand, 20 RPM"]
 			dependencies: ["28558DE71BFE0C45"]
 			id: "046A36ACC7648780"
 			tasks: [{
@@ -78,8 +110,10 @@
 		}
 		{
 			title: "Wind Blows"
+			icon: "create:windmill_bearing"
 			x: -4.5d
-			y: -6.0d
+			y: -4.5d
+			description: ["max 8192su with 128+ sails, 16 RPM"]
 			dependencies: ["28558DE71BFE0C45"]
 			id: "121790BE50D4C639"
 			tasks: [
@@ -92,7 +126,6 @@
 					id: "0825D9CFEFF92298"
 					type: "item"
 					title: "Any Windmill Sail Block"
-					icon: "create:white_sail"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -175,10 +208,234 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "7EF1EF2F52C6367A"
+					type: "item"
+					item: "create:white_sail"
+					count: 16
+				}
+				{
+					id: "1DCB5F0B1E636BE7"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+			]
+		}
+		{
+			title: "Not Microsoft's Mixer"
+			icon: "create:mechanical_mixer"
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["62C14BFDFF55772E"]
+			id: "596FB485E15C97B5"
+			tasks: [
+				{
+					id: "667C1B34960E0A60"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "44D6ABB118ECB2BD"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [
+				{
+					id: "5F6BA2EF1FA93418"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+				{
+					id: "5203D1B628B3DE6D"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+			]
+		}
+		{
+			title: "Grinding Over"
+			x: -5.5d
+			y: 2.0d
+			description: ["Millstone is the first crushing machine. Allow near-1.4x ore processing with combination of Encased Fan."]
+			dependencies: ["28558DE71BFE0C45"]
+			id: "6DAA317DF3E3E2CD"
+			tasks: [{
+				id: "24CD4FBE0468FD28"
+				type: "item"
+				item: "create:millstone"
+			}]
 			rewards: [{
-				id: "3A38A62CEEF2AAAC"
+				id: "738A805727B707C0"
 				type: "random"
-				icon: "ftbquests:missing_item"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Oh Sheet"
+			icon: "create:mechanical_press"
+			x: -4.5d
+			y: 0.0d
+			description: ["Mechanical Press is a essential machinery in Create. This machine can create plates from ingots."]
+			dependencies: ["28558DE71BFE0C45"]
+			id: "62C14BFDFF55772E"
+			tasks: [
+				{
+					id: "46794198469108CB"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "02E2F137CDE3AE96"
+					type: "item"
+					item: "create:depot"
+				}
+			]
+			rewards: [
+				{
+					id: "3AA2330DC82A6EF2"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+				{
+					id: "485C508B94DCE739"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+			]
+		}
+		{
+			title: "Generated Wind"
+			x: -2.5d
+			y: 1.0d
+			description: ["Oh I cannot go back nooooo"]
+			dependencies: ["62C14BFDFF55772E"]
+			id: "2B058DB3D3D366D5"
+			tasks: [{
+				id: "4C6BC48F28964D1D"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "24B07E64B8CF5016"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "I saw a Saw"
+			x: -2.5d
+			y: 0.0d
+			description: ["Cutter for general material cutting."]
+			dependencies: ["62C14BFDFF55772E"]
+			id: "5CFBB0DAD017E962"
+			tasks: [{
+				id: "4ED8BCE5F5E95C4B"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "7F0122DAD42B0AE5"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "The Best Transporter"
+			x: -7.0d
+			y: -3.5d
+			description: ["You can get kelp by placing sieve in a water and sieving sands in the sieve."]
+			id: "3706DC0266202CAF"
+			tasks: [{
+				id: "29335485FA566E08"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "06FAE8D9CE509297"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Sheet Collector"
+			x: -4.5d
+			y: -1.5d
+			description: ["You will very likely to achieve this."]
+			dependencies: ["62C14BFDFF55772E"]
+			id: "62D7FFC759E0CE8D"
+			tasks: [
+				{
+					id: "79F200C6421C5439"
+					type: "item"
+					item: "create:copper_sheet"
+				}
+				{
+					id: "6B6977A834EFA656"
+					type: "item"
+					item: "create:brass_sheet"
+				}
+				{
+					id: "193DF474C56D9707"
+					type: "item"
+					item: "create:iron_sheet"
+				}
+				{
+					id: "37F78CDFDD0F6F2D"
+					type: "item"
+					item: "create:golden_sheet"
+				}
+			]
+			rewards: [
+				{
+					id: "0883C7C50D913111"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+				{
+					id: "40E86A9B71F0BCA0"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+			]
+		}
+		{
+			title: "Blaze Captured"
+			x: -2.5d
+			y: -2.0d
+			description: ["Blaze burner is a heat source for some operation. You should feed Blaze."]
+			dependencies: ["62C14BFDFF55772E"]
+			id: "4C70909C9BDBF839"
+			tasks: [{
+				id: "7C515E87D81CC33C"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "7D16AED699534E5B"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Em-brass-ing"
+			x: -0.5d
+			y: -1.0d
+			description: ["It's time to overcome next one."]
+			dependencies: [
+				"4C70909C9BDBF839"
+				"596FB485E15C97B5"
+			]
+			id: "0F2B4EF903C8AC5F"
+			tasks: [{
+				id: "1443BFB35F9500D8"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [{
+				id: "31DA9F88D487CA99"
+				type: "random"
 				table_id: 6359834731965744429L
 			}]
 		}

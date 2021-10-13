@@ -1,0 +1,10 @@
+{
+	id: "73794FF801854063"
+	group: "29F6CD7A60EFCCE0"
+	order_index: 2
+	filename: "fluid_mechanics"
+	title: "Fluid Mechanics"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

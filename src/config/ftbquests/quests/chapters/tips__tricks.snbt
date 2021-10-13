@@ -18,7 +18,6 @@
 				id: "4864AC248B5ABE78"
 				type: "item"
 				title: "Any Tiny Fuel"
-				icon: "tinycoal:tinycoal"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -85,8 +84,8 @@
 		}
 		{
 			title: "Nether in a Void"
-			x: -5.5d
-			y: 0.5d
+			x: -4.0d
+			y: -1.0d
 			description: ["You finally went the Nether and it's empty... what?!"]
 			id: "0ADAE93C5777A30B"
 			tasks: [{
@@ -99,6 +98,103 @@
 				id: "770B8993F60BEEA1"
 				type: "random"
 				icon: "ftbquests:missing_item"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "World Calling"
+			icon: "exnihilosequentia:doll_crafting"
+			x: -5.5d
+			y: 0.5d
+			description: ["By adding a doll on a valid fluid. These exotic mobs can be spawned."]
+			id: "721BC2483484648B"
+			tasks: [{
+				id: "076D7F65E81A533D"
+				type: "item"
+				title: "Any Mob Doll"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "exnihilosequentia:doll_blaze"
+								Count: 1b
+							}
+							{
+								id: "exnihilosequentia:doll_enderman"
+								Count: 1b
+							}
+							{
+								id: "exnihilosequentia:doll_shulker"
+								Count: 1b
+							}
+							{
+								id: "exnihilosequentia:doll_guardian"
+								Count: 1b
+							}
+							{
+								id: "exnihilosequentia:doll_bee"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7AB1041A037CC787"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Animal Friends"
+			icon: "excompressum:cow_bait"
+			x: -4.0d
+			y: 0.5d
+			description: ["You can spawn an animal by placing bait on a place with its familliar blocks."]
+			id: "5A52302790D53E1F"
+			tasks: [{
+				id: "70C420B656A98133"
+				type: "item"
+				title: "Any Bait"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "excompressum:baits"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "07BFFE9C1027B672"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 16
+				}
+				{
+					id: "35F54862A98798E1"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+			]
+		}
+		{
+			title: "Akashic Tome"
+			icon: "akashictome:tome"
+			x: -4.0d
+			y: -2.5d
+			description: ["You can craft Akashic Tome containing all guide books by using only one stick."]
+			id: "5477BE73625DC691"
+			tasks: [{
+				id: "3E3CC61E44E4AA93"
+				type: "checkmark"
+				title: "Sure"
+			}]
+			rewards: [{
+				id: "7D2A505A06B31384"
+				type: "random"
 				table_id: 6359834731965744429L
 			}]
 		}

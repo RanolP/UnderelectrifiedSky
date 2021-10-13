@@ -25,7 +25,6 @@ The mod list is sorted alphabetically with following markers.
 - [Architectury API (Forge)] <sup>Lib</sup> - An intermediary api aimed to ease developing multiplatform mods, mostly used by [FTB mods] in this modpack.
 - [Ars Nouveau] <sup>Main</sup> <sub>requires [Curios API (Forge)], [GeckoLib] and [Patchouli]</sub> - A magic mod allows you to craft your own spell.
 - [AutoRegLib] <sup>Lib</sup> - A library mod for Vazkii's mod, like [Akashic Tome] in this modpack.
-- [BetterEnd (Forge)] <sup>Just-Fun</sup> - Make the end fancier than vanilla Minecraft.
 - [Bookshelf] <sup>Lib</sup> - A library mod, used by [Botany Pots] and [Botany Pots Tiers] in this modpack.
 - [Botany Pots] <sup>Util</sup> <sub>requires [Bookshelf]</sub> - Add a botany pot which grows all kind of crops.
 - [Botany Pots Tiers] <sup>Util</sup> <sub>requires [Botany Pots] and [Bookshelf]</sub> - Add elite, ultra, creative botany pot which is 2x, 6x, 10x accelerated botany pot respectively.

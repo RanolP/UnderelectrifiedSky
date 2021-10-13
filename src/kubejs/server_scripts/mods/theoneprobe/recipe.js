@@ -7,5 +7,6 @@ onEvent('recipes', (event) => {
     'theoneprobe:iron_helmet_probe',
   ].forEach((item) => {
     event.remove({ output: item });
+    event.remove({ input: item });
   });
 });
