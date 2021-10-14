@@ -6,7 +6,6 @@ onEvent('recipes', (event) => {
     'theoneprobe:gold_helmet_probe',
     'theoneprobe:iron_helmet_probe',
   ].forEach((item) => {
-    event.remove({ output: item });
-    event.remove({ input: item });
+    event.remove({ id: item });
   });
 });

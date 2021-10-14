@@ -11,7 +11,6 @@ onEvent('recipes', (event) => {
     'excompressum:auto_compressor',
     'excompressum:rationing_auto_compressor',
   ].forEach((item) => {
-    event.remove({ output: item });
-    event.remove({ input: item });
+    event.remove({ id: item });
   });
 });

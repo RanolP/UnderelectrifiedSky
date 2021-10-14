@@ -5,7 +5,6 @@ onEvent('recipes', (event) => {
     'ironchest:silver_to_gold_chest_upgrade',
     'ironchest:silver_chest',
   ].forEach((item) => {
-    event.remove({ output: item });
-    event.remove({ input: item });
+    event.remove({ id: item });
   });
 });

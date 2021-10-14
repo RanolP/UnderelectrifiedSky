@@ -10,7 +10,7 @@
 	quests: [
 		{
 			title: "Smaller Coal"
-			x: -5.5d
+			x: -7.0d
 			y: -2.5d
 			description: ["Tiny fuels for efficiency."]
 			id: "12C7DB56A3ED12A1"
@@ -53,8 +53,8 @@
 		}
 		{
 			title: "Bottom is also a Top"
-			x: -5.5d
-			y: -1.0d
+			x: -1.0d
+			y: -4.0d
 			description: ["Well, you may alive after leaping into the void."]
 			id: "4426A0C3540B5E5C"
 			tasks: [{
@@ -84,8 +84,8 @@
 		}
 		{
 			title: "Nether in a Void"
-			x: -4.0d
-			y: -1.0d
+			x: -2.5d
+			y: -4.0d
 			description: ["You finally went the Nether and it's empty... what?!"]
 			id: "0ADAE93C5777A30B"
 			tasks: [{
@@ -105,7 +105,7 @@
 			title: "World Calling"
 			icon: "exnihilosequentia:doll_crafting"
 			x: -5.5d
-			y: 0.5d
+			y: -2.5d
 			description: ["By adding a doll on a valid fluid. These exotic mobs can be spawned."]
 			id: "721BC2483484648B"
 			tasks: [{
@@ -151,7 +151,7 @@
 			title: "Animal Friends"
 			icon: "excompressum:cow_bait"
 			x: -4.0d
-			y: 0.5d
+			y: -2.5d
 			description: ["You can spawn an animal by placing bait on a place with its familliar blocks."]
 			id: "5A52302790D53E1F"
 			tasks: [{
@@ -183,8 +183,8 @@
 		{
 			title: "Akashic Tome"
 			icon: "akashictome:tome"
-			x: -4.0d
-			y: -2.5d
+			x: -7.0d
+			y: -4.0d
 			description: ["You can craft Akashic Tome containing all guide books by using only one stick."]
 			id: "5477BE73625DC691"
 			tasks: [{
@@ -194,6 +194,42 @@
 			}]
 			rewards: [{
 				id: "7D2A505A06B31384"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Carry on!"
+			icon: "create:brass_hand"
+			x: -5.5d
+			y: -4.0d
+			description: ["You can carry tile entities by using Carry On!"]
+			id: "5DDB6F4D33FBBA68"
+			tasks: [{
+				id: "3349B4A65A2CB8AC"
+				type: "checkmark"
+				title: "Okay"
+			}]
+			rewards: [{
+				id: "3F704D4ED138B62D"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Item Found"
+			icon: "create:goggles"
+			x: -4.0d
+			y: -4.0d
+			description: ["You can use FindMe for finding an item on your storage."]
+			id: "338CD2968EF2A602"
+			tasks: [{
+				id: "6E12F7BDDAF9DBCD"
+				type: "checkmark"
+				title: "Thanks"
+			}]
+			rewards: [{
+				id: "3C1D1462E334EC1E"
 				type: "random"
 				table_id: 6359834731965744429L
 			}]

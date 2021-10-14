@@ -1,3 +1,10 @@
 [ore]
+enablePlatinum = false
+enableUranium = false
 enableSilver = false
+enableNickel = false
+enableAluminum = false
+enableLead = false
+enableTin = false
+
 enableOreOverride = true

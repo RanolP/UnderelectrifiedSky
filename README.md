@@ -69,7 +69,6 @@ The mod list is sorted alphabetically with following markers.
 - [Iron Chests] <sup>Util</sup> - Add metal chests with varying sizes.
 - [Iron Furnaces \[FORGE\]] <sup>Util</sup> - Add metal furnaces with varying features.
 - [Item Filters (Forge)] <sup>Lib</sup> <sub>requires [Architectury API (Forge)]</sub> - A item filter library mod, used by [FTB Quests (Forge)] in this modpack.
-- [JAOPCA] <sup>Util</sup> - Add compatibility between ore dictionary. TODO: Why we require this?
 - [JourneyMap] <sup>Util</sup> - A map mod.
 - [Just Enough Items (JEI)] <sup>Util</sup> - Recipe viewer mod.
 - [KubeJS (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)] and [Rhino]</sub> - Allow modpack devs to add its own contents.
