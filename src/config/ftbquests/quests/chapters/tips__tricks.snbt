@@ -260,5 +260,22 @@
 				}
 			]
 		}
+		{
+			title: "Saved Experiences"
+			x: -1.0d
+			y: -2.5d
+			description: ["You can store XPs in this block for efficient use of XP."]
+			id: "47DBA995982209E9"
+			tasks: [{
+				id: "5BEE0104F6EF4EAA"
+				type: "item"
+				item: "globalxp:xp_block"
+			}]
+			rewards: [{
+				id: "02BB4804E5132832"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
 	]
 }

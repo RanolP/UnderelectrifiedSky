@@ -137,5 +137,20 @@
 				table_id: 6359834731965744429L
 			}]
 		}
+		{
+			x: -4.0d
+			y: 0.0d
+			id: "42BCC525F8ED397D"
+			tasks: [{
+				id: "6B8728FF48AA6277"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [{
+				id: "38219EA194CFE4D2"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
 	]
 }

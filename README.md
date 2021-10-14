@@ -39,10 +39,8 @@ The mod list is sorted alphabetically with following markers.
 - [Create] <sup>Main</sup> <sub>requires [Flywheel]</sub> - Aesthetic technology based on the rotational force.
 - [Cucumber Library] <sup>Lib</sup> - A library mod, used by [Extended Crafting] in this modpack.
 - [Curios API (Forge)] <sup>Lib</sup> - An accesory library mod, used by [Angel Ring] and [Ars Nouveau] in this modpack.
-- [Cyclops Core] <sup>Lib</sup> - A library mod, used by [EverlastingAbilities] in this modpack.
 - [Default Options] <sup>Devs*</sup> - Allow modpack devs to set default options.
 - [Drawers Tooltip] <sup>Util</sup> <sub>requires [Storage Drawers]</sub> - Show what the storage drawer stores in the inventory.
-- [EverlastingAbilities] <sup>Util*</sup> <sub>requires [Cyclops Core]</sub> - Allow players to have persistent abilities.
 - [Ex Compressum] <sup>Main, Util</sup> <sub>requires [Ex Nihilo: Sequentia]</sub> - Reduce early-game grinding in skyblock.
 - [Ex Nihilo: Sequentia] <sup>Main</sup> - Based on trees, creating resources out of nothing!
 - [Extended Crafting] <sup>End-game, Main</sup> <sub>requires [Cucumber Library]</sub> - This mod added just for the Ender Crafting and Singularities.
@@ -75,7 +73,7 @@ The mod list is sorted alphabetically with following markers.
 - [KubeJS Create] <sup>Devs</sup> <sub>requires [Create] and [KubeJS (Forge)]</sub> - Allow modpack devs to add its Create recipe.
 - [KubeJS UI (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)]</sub> - Allow modpack devs to add its own UI.
 - [Light Overlay (Rift/Forge/Fabric)] <sup>Util</sup> <sub>requires [Architectury API (Forge)], [Cloth Config API (Forge)]</sub> - Show light level overlay to know where the mobs can spawn.
-- [Meep Meep! (Road Runner)] <sup>Opt</sup> - Optimization mod.
+- [RoadRunner] <sup>Opt</sup> - Unofficial fork of the popular performance-enhancing Fabric mod Lithium.
 - [Morpheus] <sup>Util</sup> - A sleep vote system.
 - [Mouse Tweaks] <sup>Util</sup> - Better item movement mechanics on inventory.
 - [Neat] <sup>Util</sup> - Add a neat health bar.
@@ -106,10 +104,8 @@ The mod list is sorted alphabetically with following markers.
 [Angel Ring]: https://www.curseforge.com/minecraft/mc-mods/angel-ring
 [AppleSkin]: https://www.curseforge.com/minecraft/mc-mods/appleskin
 [Architectury API (Forge)]: https://www.curseforge.com/minecraft/mc-mods/architectury-forge
-[Armor Toughness Bar]: https://www.curseforge.com/minecraft/mc-mods/armor-toughness-bar
 [Ars Nouveau]: https://www.curseforge.com/minecraft/mc-mods/ars-nouveau
 [AutoRegLib]: https://www.curseforge.com/minecraft/mc-mods/autoreglib
-[BetterEnd (Forge)]: https://www.curseforge.com/minecraft/mc-mods/betterend-forge-port
 [Bookshelf]: https://www.curseforge.com/minecraft/mc-mods/bookshelf
 [Botany Pots]: https://www.curseforge.com/minecraft/mc-mods/botany-pots
 [Botany Pots Tiers]: https://www.curseforge.com/minecraft/mc-mods/botany-pots-tiers
@@ -124,10 +120,8 @@ The mod list is sorted alphabetically with following markers.
 [Create]: https://www.curseforge.com/minecraft/mc-mods/create
 [Cucumber Library]: https://www.curseforge.com/minecraft/mc-mods/cucumber 
 [Curios API (Forge)]: https://www.curseforge.com/minecraft/mc-mods/curios
-[Cyclops Core]: https://www.curseforge.com/minecraft/mc-mods/cyclops-core
 [Default Options]: https://www.curseforge.com/minecraft/mc-mods/default-options
 [Drawers Tooltip]: https://www.curseforge.com/minecraft/mc-mods/drawers-tooltip
-[EverlastingAbilities]: https://www.curseforge.com/minecraft/mc-mods/everlastingabilities
 [Ex Compressum]: https://www.curseforge.com/minecraft/mc-mods/ex-compressum
 [Ex Nihilo: Sequentia]: https://www.curseforge.com/minecraft/mc-mods/ex-nihilo-sequentia
 [Extended Crafting]: https://www.curseforge.com/minecraft/mc-mods/extended-crafting
@@ -144,7 +138,6 @@ The mod list is sorted alphabetically with following markers.
 [FTB Chunks (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge
 [FTB Library (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge
 [FTB Quests (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge
-[FTB Ranks (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ftb-ranks-forge
 [FTB Team Islands (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ftb-team-islands-forge
 [FTB Teams (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge
 [FTB Ultimine (Forge)]: https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge
@@ -156,14 +149,13 @@ The mod list is sorted alphabetically with following markers.
 [Iron Chests]: https://www.curseforge.com/minecraft/mc-mods/iron-chests
 [Iron Furnaces \[FORGE\]]: https://www.curseforge.com/minecraft/mc-mods/iron-furnaces
 [Item Filters (Forge)]: https://www.curseforge.com/minecraft/mc-mods/item-filters-forge
-[JAOPCA]: https://www.curseforge.com/minecraft/mc-mods/jaopca
 [JourneyMap]: https://www.curseforge.com/minecraft/mc-mods/journeymap
 [Just Enough Items (JEI)]: https://www.curseforge.com/minecraft/mc-mods/jei
 [KubeJS (Forge)]: https://www.curseforge.com/minecraft/mc-mods/kubejs-forge
 [KubeJS Create]: https://www.curseforge.com/minecraft/mc-mods/kubejs-create
 [KubeJS UI (Forge)]: https://www.curseforge.com/minecraft/mc-mods/kubejs-ui-forge
 [Light Overlay (Rift/Forge/Fabric)]: https://www.curseforge.com/minecraft/mc-mods/light-overlay
-[Meep Meep! (Road Runner)]: https://github.com/MaxNeedsSnacks/roadrunner
+[RoadRunner]: https://www.curseforge.com/minecraft/mc-mods/roadrunner
 [Morpheus]: https://www.curseforge.com/minecraft/mc-mods/morpheus
 [Mouse Tweaks]: https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks
 [Neat]: https://www.curseforge.com/minecraft/mc-mods/neat
@@ -188,5 +180,4 @@ The mod list is sorted alphabetically with following markers.
 [TrashSlot]: https://www.curseforge.com/minecraft/mc-mods/trashslot
 [TwerkItMeal - Twerk To Grow All The Things]: https://www.curseforge.com/minecraft/mc-mods/twerkitmeal
 [Upgraded Netherite]: https://www.curseforge.com/minecraft/mc-mods/upgraded-netherite
-[Uppers]: https://www.curseforge.com/minecraft/mc-mods/uppers
 [Wither Skeleton Tweaks]: https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks

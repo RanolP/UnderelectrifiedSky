@@ -225,7 +225,7 @@
 		{
 			title: "Not Microsoft's Mixer"
 			icon: "create:mechanical_mixer"
-			x: -2.5d
+			x: -0.5d
 			y: -1.0d
 			dependencies: ["62C14BFDFF55772E"]
 			id: "596FB485E15C97B5"
@@ -256,8 +256,8 @@
 		}
 		{
 			title: "Grinding Over"
-			x: -5.5d
-			y: 2.0d
+			x: -4.5d
+			y: 1.5d
 			description: ["Millstone is the first crushing machine. Allow near-1.4x ore processing with combination of Encased Fan."]
 			dependencies: ["28558DE71BFE0C45"]
 			id: "6DAA317DF3E3E2CD"
@@ -280,18 +280,11 @@
 			description: ["Mechanical Press is a essential machinery in Create. This machine can create plates from ingots."]
 			dependencies: ["28558DE71BFE0C45"]
 			id: "62C14BFDFF55772E"
-			tasks: [
-				{
-					id: "46794198469108CB"
-					type: "item"
-					item: "create:mechanical_press"
-				}
-				{
-					id: "02E2F137CDE3AE96"
-					type: "item"
-					item: "create:depot"
-				}
-			]
+			tasks: [{
+				id: "46794198469108CB"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
 			rewards: [
 				{
 					id: "3AA2330DC82A6EF2"
@@ -307,7 +300,7 @@
 		}
 		{
 			title: "Generated Wind"
-			x: -2.5d
+			x: -0.5d
 			y: 1.0d
 			description: ["Oh I cannot go back nooooo"]
 			dependencies: ["62C14BFDFF55772E"]
@@ -325,7 +318,7 @@
 		}
 		{
 			title: "I saw a Saw"
-			x: -2.5d
+			x: -0.5d
 			y: 0.0d
 			description: ["Cutter for general material cutting."]
 			dependencies: ["62C14BFDFF55772E"]
@@ -402,7 +395,7 @@
 		}
 		{
 			title: "Blaze Captured"
-			x: -2.5d
+			x: -0.5d
 			y: -2.0d
 			description: ["Blaze burner is a heat source for some operation. You should feed Blaze."]
 			dependencies: ["62C14BFDFF55772E"]
@@ -420,7 +413,7 @@
 		}
 		{
 			title: "Em-brass-ing"
-			x: -0.5d
+			x: 1.5d
 			y: -1.0d
 			description: ["It's time to overcome next one."]
 			dependencies: [
@@ -435,6 +428,177 @@
 			}]
 			rewards: [{
 				id: "31DA9F88D487CA99"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Check it out"
+			x: -7.0d
+			y: 3.0d
+			description: ["Check the total stress or gear speed."]
+			id: "402536A7E6EC58E4"
+			tasks: [{
+				id: "45F24B9D93D845C1"
+				type: "item"
+				title: "Any meter"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "create:speedometer"
+								Count: 1b
+							}
+							{
+								id: "create:stressometer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D91E382BF2B5E5E"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Configurate It"
+			x: -7.0d
+			y: 1.5d
+			id: "66436889A2070F0D"
+			tasks: [{
+				id: "0883546AE00C953D"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [{
+				id: "16818C35ED31BB81"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "I See This"
+			x: -3.0d
+			y: -1.5d
+			description: ["See the stress."]
+			dependencies: ["62C14BFDFF55772E"]
+			id: "13E9823AF80BE603"
+			tasks: [{
+				id: "2871DC6E9F3E6F8A"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "590058279E06A35A"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Harvest the Souls"
+			x: -0.5d
+			y: 2.0d
+			description: ["Try combining with moving contraptions for harvesting bigger farm."]
+			dependencies: ["62C14BFDFF55772E"]
+			id: "728518943EDACF98"
+			tasks: [{
+				id: "460DE688270654FF"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "4C79EA33769D525C"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Hoe It"
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["62C14BFDFF55772E"]
+			id: "0A1DB47AC4A2E93E"
+			tasks: [{
+				id: "115632B7D00AF066"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+			rewards: [{
+				id: "4A666D3459C22827"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Reversed Rotation"
+			x: -7.0d
+			y: 5.0d
+			description: ["Reverse rotation when redstone powered."]
+			id: "0880E78C98DD886C"
+			tasks: [{
+				id: "47B6E9CB4CAE1C41"
+				type: "item"
+				item: "create:gearshift"
+			}]
+			rewards: [{
+				id: "0CE7EF0F4775F7BB"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Four Rotations"
+			icon: "create:gearbox"
+			x: -5.5d
+			y: 5.0d
+			description: ["Compact rotation direction changer."]
+			id: "5BB50DF8AF365B3E"
+			tasks: [{
+				id: "5385BC0A8E5EBB97"
+				type: "item"
+				title: "Any Gearbox"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "create:gearbox"
+								Count: 1b
+							}
+							{
+								id: "create:vertical_gearbox"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "59A5A48D4B821CDE"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Shoot'em up!"
+			x: -4.5d
+			y: 3.0d
+			description: ["You can shoot items or entities?"]
+			dependencies: ["28558DE71BFE0C45"]
+			id: "208F11612B0D3B97"
+			tasks: [{
+				id: "17BE4625F7F54411"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+			rewards: [{
+				id: "09E649AE37CD2C2D"
 				type: "random"
 				table_id: 6359834731965744429L
 			}]

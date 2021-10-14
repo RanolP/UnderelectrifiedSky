@@ -47,5 +47,3 @@ cd $working_directory
 echo
 
 echo -e "\033[42m\033[30m ^O^ \033[0m Done!"
-
-#exec_windows "mklink /D \"`wslpath -m \"$pathw\\config\\defaultoptions\" | sed 's/\\//\\\\/g'`\" `wslpath -m ./src/config/defaultoptions | sed 's/\\//\\\\/g'`"
