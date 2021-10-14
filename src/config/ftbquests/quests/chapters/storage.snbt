@@ -11,7 +11,7 @@
 		{
 			title: "Being Connected"
 			icon: "storagenetwork:master"
-			x: -9.0d
+			x: -8.0d
 			y: -4.5d
 			description: ["By using Simple Storage Network. You can easily find and organize your items."]
 			dependencies: ["62C14BFDFF55772E"]
@@ -43,7 +43,7 @@
 		}
 		{
 			title: "I See Items"
-			x: -9.0d
+			x: -8.0d
 			y: -2.5d
 			description: ["Use Storage Inventory for seeing the items in the network."]
 			dependencies: ["733F93BCB93E601C"]
@@ -61,7 +61,7 @@
 		}
 		{
 			title: "Crafting with Connection"
-			x: -9.0d
+			x: -8.0d
 			y: -0.5d
 			description: ["Use Storage Request Table for crafting items with the power of item network!"]
 			dependencies: ["7DAA27971000764B"]
@@ -184,6 +184,7 @@
 			}]
 		}
 		{
+			title: "Crystal Chest"
 			icon: "ironchest:crystal_chest"
 			x: -6.0d
 			y: 1.5d
@@ -246,6 +247,140 @@
 			}]
 			rewards: [{
 				id: "05FCD6296046F513"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Item Drawn"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: -1.0d
+			y: -4.5d
+			description: ["Good for storing limited type but high quantity items."]
+			id: "00029CA301F03F7B"
+			tasks: [{
+				id: "28FBFA55614C2DA3"
+				type: "item"
+				title: "Any Drawer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "504D580A6ADFF9DF"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+				{
+					id: "045D39A41E714440"
+					type: "item"
+					item: "storagedrawers:quantify_key"
+				}
+				{
+					id: "4BA6367BA14ADE20"
+					type: "item"
+					item: "storagedrawers:shroud_key"
+				}
+			]
+		}
+		{
+			title: "You've Compressed"
+			x: -1.0d
+			y: -2.5d
+			description: ["Compacting drawer automatically compresses the items."]
+			id: "757C18940878E455"
+			tasks: [{
+				id: "36B0EE11F97078D6"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			rewards: [{
+				id: "537F7AF54F9F7CD1"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Head of Drawer"
+			x: -1.0d
+			y: -0.5d
+			description: ["Make one block can I/O connected whole drawers."]
+			id: "3F1CEEB7AF6F7AAC"
+			tasks: [{
+				id: "44A5892D89A6A347"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "4D462DBBB450CE93"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Storage Expanded!"
+			icon: "storagedrawers:emerald_storage_upgrade"
+			x: -2.0d
+			y: 1.5d
+			description: ["You can expand storage size with these upgrades."]
+			id: "0682B5E6154C5C69"
+			tasks: [{
+				id: "70DA31E98387855F"
+				type: "item"
+				title: "Any Storage Upgrade"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:obsidian_storage_upgrade"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:iron_storage_upgrade"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:gold_storage_upgrade"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:diamond_storage_upgrade"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:emerald_storage_upgrade"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6518D326267015CE"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Erase Memory"
+			x: 0.0d
+			y: 1.5d
+			description: ["You can remove exceed items with this upgrade."]
+			id: "5B80F149A12E3D9B"
+			tasks: [{
+				id: "4032EB0515D7D2FE"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+			rewards: [{
+				id: "4FE621E3A267CCF1"
 				type: "random"
 				table_id: 6359834731965744429L
 			}]

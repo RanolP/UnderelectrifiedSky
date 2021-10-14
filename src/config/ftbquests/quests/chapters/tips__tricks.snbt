@@ -86,7 +86,7 @@
 			title: "Nether in a Void"
 			x: -2.5d
 			y: -4.0d
-			description: ["You finally went the Nether and it's empty... what?!"]
+			description: ["You finally went the Nether and it's empty... what?! Anyway, mobs can be spawned."]
 			id: "0ADAE93C5777A30B"
 			tasks: [{
 				id: "2D465C605C3CF520"
@@ -106,7 +106,7 @@
 			icon: "exnihilosequentia:doll_crafting"
 			x: -5.5d
 			y: -2.5d
-			description: ["By adding a doll on a valid fluid. These exotic mobs can be spawned."]
+			description: ["By adding a doll on a barrel filled with valid fluid. These exotic mobs can be spawned."]
 			id: "721BC2483484648B"
 			tasks: [{
 				id: "076D7F65E81A533D"
@@ -152,7 +152,7 @@
 			icon: "excompressum:cow_bait"
 			x: -4.0d
 			y: -2.5d
-			description: ["You can spawn an animal by placing bait on a place with its familliar blocks."]
+			description: ["You can spawn an animal by placing it where filled with its familliar blocks."]
 			id: "5A52302790D53E1F"
 			tasks: [{
 				id: "70C420B656A98133"
@@ -233,6 +233,32 @@
 				type: "random"
 				table_id: 6359834731965744429L
 			}]
+		}
+		{
+			title: "Swapping Tools"
+			icon: "toolbelt:belt"
+			x: -2.5d
+			y: -2.5d
+			description: ["Item swapping easily done! Can upgrade up to 7 times, by combining with Belt Pouch in Anvil."]
+			id: "0920BBF54E3BC60C"
+			tasks: [{
+				id: "02029BD0DF5A0074"
+				type: "item"
+				item: "toolbelt:belt"
+			}]
+			rewards: [
+				{
+					id: "1AECB0584DD7FBF0"
+					type: "item"
+					item: "toolbelt:pouch"
+					count: 2
+				}
+				{
+					id: "5A3C80D7B737D7EB"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+			]
 		}
 	]
 }

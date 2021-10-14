@@ -1,0 +1,6 @@
+[general]
+whitelist = [
+    "storagedrawers:drawer_key",
+    "storagedrawers:quantify_key",
+    "storagedrawers:shroud_key",
+]

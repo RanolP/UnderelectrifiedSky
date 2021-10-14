@@ -1,10 +1,141 @@
 {
 	id: "73794FF801854063"
 	group: "29F6CD7A60EFCCE0"
-	order_index: 2
+	order_index: 3
 	filename: "fluid_mechanics"
 	title: "Fluid Mechanics"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -4.0d
+			y: -3.0d
+			description: ["Fill an item with fluids."]
+			id: "67BB4B1E7C7D0379"
+			tasks: [{
+				id: "114B42D91AF267F6"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "0B27101FF5266196"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			description: ["Drain fluids from items."]
+			id: "024B76DCD2E11B93"
+			tasks: [{
+				id: "041FF99928B1B4D7"
+				type: "item"
+				item: "create:item_drain"
+			}]
+			rewards: [{
+				id: "3C44D4B134CA3352"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			description: ["Fluid transporting pipe."]
+			id: "00C49CD21014B415"
+			tasks: [{
+				id: "21B38A50DED4A88D"
+				type: "item"
+				item: "create:fluid_pipe"
+			}]
+			rewards: [{
+				id: "7CCEB6C9F6F90384"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["Fluid extractor."]
+			dependencies: ["00C49CD21014B415"]
+			id: "66BA43EB704AAA9F"
+			tasks: [{
+				id: "1437E5BEC5E11637"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+			rewards: [{
+				id: "38D2362E460733B6"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: ["Filterable fluid pipe."]
+			dependencies: ["00C49CD21014B415"]
+			id: "253E4101C81B38E2"
+			tasks: [{
+				id: "2EF3BA1E1E4BE76C"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+			rewards: [{
+				id: "2F79DCDC6B23863C"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			icon: "create:fluid_valve"
+			x: 0.0d
+			y: -4.5d
+			description: ["Control flow of liquid."]
+			dependencies: ["00C49CD21014B415"]
+			id: "72FAA47A3BF78301"
+			tasks: [
+				{
+					id: "61D308886FA39516"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+				{
+					id: "2219E63580D5D8CE"
+					type: "item"
+					title: "Any Valve Handle"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create:valve_handles"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3C0A0505D5769B58"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			description: ["Pull liquids from world and vice-versa."]
+			id: "7FADF245DD9879E3"
+			tasks: [{
+				id: "3A41C839F1B0A2B2"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+			rewards: [{
+				id: "63B494402916C6B6"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+	]
 }
