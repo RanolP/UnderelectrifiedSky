@@ -5,10 +5,10 @@ rm -rf dist/
 mkdir dist/
 mkdir dist/files/
 mkdir dist/files/overrides
-tr -d '\n ' < manifest.json > dist/files/manifest.json
+cat manifest.json | sed -r ':a;N;$!ba;s/\n +//g' > dist/files/manifest.json
 cp modlist.html dist/files/
 cp -r src/* dist/files/overrides/
 
-zip "dist/Underelectrified Sky.zip" -r dist/files>/dev/null
+zip "dist/Underelectrified Sky.zip" -r dist/files > /dev/null
 
 echo -e "\033[42m\033[30m ^O^ \033[0m Built: dist/Underelectrified Sky.zip"

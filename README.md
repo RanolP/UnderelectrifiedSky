@@ -39,7 +39,6 @@ The mod list is sorted alphabetically with following markers.
 - [Create] <sup>Main</sup> <sub>requires [Flywheel]</sub> - Aesthetic technology based on the rotational force.
 - [Cucumber Library] <sup>Lib</sup> - A library mod, used by [Extended Crafting] in this modpack.
 - [Curios API (Forge)] <sup>Lib</sup> - An accesory library mod, used by [Angel Ring] and [Ars Nouveau] in this modpack.
-- [Default Options] <sup>Devs*</sup> - Allow modpack devs to set default options.
 - [Drawers Tooltip] <sup>Util</sup> <sub>requires [Storage Drawers]</sub> - Show what the storage drawer stores in the inventory.
 - [Ex Compressum] <sup>Main, Util</sup> <sub>requires [Ex Nihilo: Sequentia]</sub> - Reduce early-game grinding in skyblock.
 - [Ex Nihilo: Sequentia] <sup>Main</sup> - Based on trees, creating resources out of nothing!
@@ -120,7 +119,6 @@ The mod list is sorted alphabetically with following markers.
 [Create]: https://www.curseforge.com/minecraft/mc-mods/create
 [Cucumber Library]: https://www.curseforge.com/minecraft/mc-mods/cucumber 
 [Curios API (Forge)]: https://www.curseforge.com/minecraft/mc-mods/curios
-[Default Options]: https://www.curseforge.com/minecraft/mc-mods/default-options
 [Drawers Tooltip]: https://www.curseforge.com/minecraft/mc-mods/drawers-tooltip
 [Ex Compressum]: https://www.curseforge.com/minecraft/mc-mods/ex-compressum
 [Ex Nihilo: Sequentia]: https://www.curseforge.com/minecraft/mc-mods/ex-nihilo-sequentia
