@@ -1,6 +1,6 @@
 # Default Options
 
-We configured this mod because true default options give us bad experience.
+We configured for providing convenience default options.
 
 ## The Tweaks
 

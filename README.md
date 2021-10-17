@@ -20,18 +20,18 @@ The mod list is sorted alphabetically with following markers.
 | *        | It's tweaked, see docs for changes    |
 
 - [Akashic Tome] <sup>Util*</sup> <sub>requires [AutoRegLib]</sub> by [Vazkii] - Add a book called Akashic Tome that can mimics another mods' guide book.
-- [Angel Ring] <sup>End-game, Util</sup> <sub>requires [Curios API (Forge)]</sub> by [DenisMasterHerobrine] - Add a item called Angel Ring which allow you to fly like the creative mode.
+- [Angel Ring] <sup>End-game, Util*</sup> <sub>requires [Curios API (Forge)]</sub> by [DenisMasterHerobrine] - Add a item called Angel Ring which allow you to fly like the creative mode.
 - [AppleSkin] <sup>Util</sup> by [squeek502] - Show not only the saturation and the exhaustion but also the hungers, saturations and the healths to be restored by eating the food in hand.
 - [Architectury API (Forge)] <sup>Lib</sup> by [shedaniel] - An intermediary api aimed to ease developing multiplatform mods, mostly used by [FTB mods] in this modpack.
-- [Ars Nouveau] <sup>Main</sup> <sub>requires [Curios API (Forge)], [GeckoLib] and [Patchouli]</sub> by [baileyholl2] - A magic mod allows you to craft your own spell.
+- [Ars Nouveau] <sup>Main*</sup> <sub>requires [Curios API (Forge)], [GeckoLib] and [Patchouli]</sub> by [baileyholl2] - A magic mod allows you to craft your own spell.
 - [AutoRegLib] <sup>Lib</sup> by [Vazkii] - A library mod for Vazkii's mod, like [Akashic Tome] in this modpack.
 - [Bookshelf] <sup>Lib</sup> by [DarkhaxDev] - A library mod, used by [Botany Pots] and [Botany Pots Tiers] in this modpack.
 - [Botany Pots] <sup>Util</sup> <sub>requires [Bookshelf]</sub> by [DarkhaxDev] - Add a botany pot which grows all kind of crops.
-- [Botany Pots Tiers] <sup>Util</sup> <sub>requires [Botany Pots] and [Bookshelf]</sub> by [UItraMega] - Add elite, ultra, creative botany pot which is 2x, 6x, 10x accelerated botany pot respectively.
+- [Botany Pots Tiers] <sup>Util*</sup> <sub>requires [Botany Pots] and [Bookshelf]</sub> by [UItraMega] - Add elite, ultra, creative botany pot which is 2x, 6x, 10x accelerated botany pot respectively.
 - [Botany Trees] <sup>Util</sup> <sub>requires [Botany Pots]</sub> by [DarkhaxDev] - Allow botany pot to grow trees.
 - [Carry On] <sup>Util</sup> by [Tschipp] - Allow players to pick up and carry and place tile entity blocks.
 - [Cloth Config API (Forge)] <sup>Lib</sup> by [shedaniel] - A library for creating config screen, used by [Light Overlay (Rift/Forge/Fabric)] in this modpack.
-- [CobbleForDays] <sup>Util</sup> by [LexManos] - Add five-tiered cobblestone generator.
+- [CobbleForDays] <sup>Util*</sup> by [LexManos] - Add five-tiered cobblestone generator.
 - [Construction Wand] <sup>Util</sup> by [ThetaDev] - Add construction wands that utilize to expand platform.
 - [Controlling] <sup>Util</sup> by [Jaredlll08] - Make keybind editing better.
 - [Cooking for Blockheads] <sup>Food, Util</sup> by [BlayTheNinth] - Add various blocks for kitchen allowing you to complete complex cooking recipes easily.
@@ -40,16 +40,16 @@ The mod list is sorted alphabetically with following markers.
 - [Cucumber Library] <sup>Lib</sup> by [BlakeBr0] - A library mod, used by [Extended Crafting] in this modpack.
 - [Curios API (Forge)] <sup>Lib</sup> by [TheIllusiveC4] - An accesory library mod, used by [Angel Ring] and [Ars Nouveau] in this modpack.
 - [Drawers Tooltip] <sup>Util</sup> <sub>requires [Storage Drawers]</sub> by [Snownee_] - Show what the storage drawer stores in the inventory.
-- [Ex Compressum] <sup>Main, Util</sup> <sub>requires [Ex Nihilo: Sequentia]</sub> by [BlayTheNinth] - Reduce early-game grinding in skyblock.
-- [Ex Nihilo: Sequentia] <sup>Main</sup> by [NovaMachina] - Based on trees, creating resources out of nothing!
-- [Extended Crafting] <sup>End-game, Main</sup> <sub>requires [Cucumber Library]</sub> by [BlakeBr0] - This mod added just for the Ender Crafting and Singularities.
+- [Ex Compressum] <sup>Main, Util*</sup> <sub>requires [Ex Nihilo: Sequentia]</sub> by [BlayTheNinth] - Reduce early-game grinding in skyblock.
+- [Ex Nihilo: Sequentia] <sup>Main*</sup> by [NovaMachina] - Based on trees, creating resources out of nothing!
+- [Extended Crafting] <sup>End-game, Main*</sup> <sub>requires [Cucumber Library]</sub> by [BlakeBr0] - This mod added just for the Ender Crafting and Singularities.
 - [Extreme sound muffler (Forge)] <sup>Util</sup> by [LeoBeliik] - Allow you to muffle sounds selectively.
-- [Farming for Blockheads] <sup>Food, Util</sup> by [BlayTheNinth] - Adds market block for skyblock agriculture, and various utility block.
+- [Farming for Blockheads] <sup>Food, Util*</sup> by [BlayTheNinth] - Adds market block for skyblock agriculture, and various utility block.
 - [Fast Leaf Decay] <sup>Util</sup> by [olafskiii] - Remove leaves on the air instantly.
 - [FerriteCore (Forge)] <sup>Opt</sup> by [malte0811] - A memory usage optimization mod that can work on both client and server side.
 - [FindMe] <sup>Util</sup> by [Buuz135] - Find item on nearby storage containers.
 - [Flywheel] <sup>Lib</sup> by [jozufozu] - Better performance for rendering, used by [Create] in this modpack.
-- [Forgiving Void] <sup>Util</sup> by [BlayTheNinth] - Falling into void will teleport you to sky and make you alive when you're taking damages if you're full health.
+- [Forgiving Void] <sup>Util*</sup> by [BlayTheNinth] - Falling into void will teleport you to sky and make you alive when you're taking damages if you're full health.
 - [FPS Reducer] <sup>Opt</sup> by [bre2el] - Reduce FPS if you're doing nothing.
 - <a id="ftb-mods"></a> [FTB Backups (Forge)] <sup>Admin</sup> by [FTB] - Create backups periodically.
 - [FTB Chunks (Forge)] <sup>Util</sup> <sub>requires [Architectury API (Forge)], [FTB Library (Forge)] and [FTB Teams (Forge)]</sub> by [FTB] - Allow you to claim chunk.
@@ -65,9 +65,9 @@ The mod list is sorted alphabetically with following markers.
 - [Inventory Tweaks Renewed] <sup>Util</sup> by [David1544] - Add some tweaks for utilizing inventory.
 - [Iron Chests] <sup>Util</sup> by [ProgWML6] - Add metal chests with varying sizes.
 - [Iron Furnaces \[FORGE\]] <sup>Util</sup> by [XenoMustache] - Add metal furnaces with varying features.
-- [Item Filters (Forge)] <sup>Lib</sup> <sub>requires [Architectury API (Forge)]</sub> by [LatvianModder] - A item filter library mod, used by [FTB Quests (Forge)] in this modpack.
+- [Item Filters (Forge)] <sup>Lib*</sup> <sub>requires [Architectury API (Forge)]</sub> by [LatvianModder] - A item filter library mod, used by [FTB Quests (Forge)] in this modpack.
 - [JourneyMap] <sup>Util</sup> by [techbrew] - A map mod.
-- [Just Enough Items (JEI)] <sup>Util</sup> by [mezz] - Recipe viewer mod.
+- [Just Enough Items (JEI)] <sup>Util*</sup> by [mezz] - Recipe viewer mod.
 - [KubeJS (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)] and [Rhino]</sub> by [LatvianModder] - Allow modpack devs to add its own contents.
 - [KubeJS Create] <sup>Devs</sup> <sub>requires [Create] and [KubeJS (Forge)]</sub> by [LatvianModder] - Allow modpack devs to add its Create recipe.
 - [KubeJS UI (Forge)] <sup>Devs</sup> <sub>requires [Architectury API (Forge)]</sub> by [LatvianModder] - Allow modpack devs to add its own UI.
@@ -79,24 +79,24 @@ The mod list is sorted alphabetically with following markers.
 - [Pam's HarvestCraft 2 - Crops] <sup>Food</sup> by [pamharvestcraft] - Add various crops in the game.
 - [Pam's HarvestCraft 2 - Food Core] <sup>Food</sup> by [pamharvestcraft] - Add various food recipes in the game.
 - [Pam's HarvestCraft 2 - Food Extended] <sup>Food</sup> by [pamharvestcraft] - Add various food recipes in the game.
-- [Pam's HarvestCraft 2 - Trees] <sup>Food</sup> by [pamharvestcraft] - Add various trees in the game.
+- [Pam's HarvestCraft 2 - Trees] <sup>Food*</sup> by [pamharvestcraft] - Add various trees in the game.
 - [Patchouli] <sup>Lib</sup> by [Vazkii] - A documentation book library mod, used by a mod like [Ars Nouveau] and [Simple Storage Network] in this modpack.
 - [Placebo] <sup>Lib</sup> by [Shadows_of_Fire] - A library mod, used by [Wither Skeleton Tweaks].
-- [ProjectE] <sup>End-game, Main</sup> by [SinKillerJ] - An end-game OP mod.
+- [ProjectE] <sup>End-game, Main*</sup> by [SinKillerJ] - An end-game OP mod.
 - [Rhino] <sup>Lib</sup> <sub>requires [Architectury API (Forge)]</sub> by [LatvianModder] - A library mod, used by [KubeJS (Forge)].
 - [Shutup Experimental Settings!] <sup>Util</sup> by [Corgi_Taco] - Disable the custom world warning message.
-- [Simple Storage Network] <sup>Main, Util</sup> by [Lothrazar] - Use cables to link storages.
+- [Simple Storage Network] <sup>Main, Util*</sup> by [Lothrazar] - Use cables to link storages.
 - [Smooth Boot (Forge)] <sup>Opt</sup> by [UltimateBoomer] - Optimize Minecraft loading performance.
 - [Spice of Life: Carrot Edition] <sup>Food</sup> by [lordcazsius] - Give more rewards as you eat various foods.
 - [Sophisticated Backpacks] <sup>Util</sup> by [P3pp3rF1y] - Add backpacks to store more items.
-- [Storage Drawers] <sup>Util</sup> by [Texelsaur] - Add a drawer that can hold little kind of items much.
+- [Storage Drawers] <sup>Util*</sup> by [Texelsaur] - Add a drawer that can hold little kind of items much.
 - [The One Probe] <sup>Util</sup> by [McJty] - Show information of what you see.
 - [Tiny Coal] <sup>Util</sup> by [AzureDoomC] - Add a tiny coal and charcoal to make fuels efficient.
 - [Tool Belt] <sup>Util</sup> by [gigaherz] - Add a tool belt allowing you to change items quickly.
 - [Trample Stopper] <sup>Util</sup> by [UnRealDinnerbone] - Stop farmland from getting trampled.
 - [TrashSlot] <sup>Util</sup> by [BlayTheNinth] - Add a trash slot to remove your trash.
-- [TwerkItMeal - Twerk To Grow All The Things] <sup>Util</sup> by [TicTicBoooom] - Make tree growing easier.
-- [Upgraded Netherite] <sup>Util</sup> by [Rolfmao25] - Add various kinds of upgraded netherite.
+- [TwerkItMeal - Twerk To Grow All The Things] <sup>Util*</sup> by [TicTicBoooom] - Make tree growing easier.
+- [Upgraded Netherite] <sup>Util*</sup> by [Rolfmao25] - Add various kinds of upgraded netherite.
 - [Wither Skeleton Tweaks] <sup>Util</sup> <sub>requires [Placebo]</sub> by [Shadows_of_Fire] - Reduce griding when collecting wither skeleton skulls.
 
 [Akashic Tome]: https://www.curseforge.com/minecraft/mc-mods/akashic-tome

@@ -1,6 +1,6 @@
 # Ars Nouveau
 
-We configured this mod because the Worn Notebook is given by Custom Starter Gear.
+We configured this mod because the Worn Notebook is already included in Akashic Tome.
 
 ## The Tweaks
 
