@@ -1,21 +1,64 @@
 onEvent('recipes', (event) => {
-  event.shaped('minecraft:farmland', ['D'], {
-    D: 'minecraft:dirt',
+  event.custom({
+    type: 'bookshelf:crafting_shapeless_with_damage',
+    damageAmount: 1,
+    ignoreUnbreaking: false,
+    ingredients: [
+      {
+        item: 'minecraft:dirt',
+      },
+      {
+        type: 'bookshelf:any_hoe',
+      },
+    ],
+    result: {
+      item: 'minecraft:farmland',
+    },
   });
-  event.shaped('farmingforblockheads:fertilized_farmland_rich', ['D', 'F'], {
-    D: 'minecraft:dirt',
-    F: 'farmingforblockheads:green_fertilizer',
+  event.custom({
+    type: 'bookshelf:crafting_shapeless_with_damage',
+    damageAmount: 1,
+    ignoreUnbreaking: false,
+    ingredients: [
+      {
+        item: 'minecraft:dirt',
+      },
+      {
+        item: 'farmingforblockheads:green_fertilizer',
+      },
+      {
+        type: 'bookshelf:any_hoe',
+      },
+    ],
+    result: {
+      item: 'farmingforblockheads:fertilized_farmland_rich',
+    },
   });
-  event.shaped('farmingforblockheads:fertilized_farmland_healthy', ['D', 'F'], {
-    D: 'minecraft:dirt',
-    F: 'farmingforblockheads:red_fertilizer',
+  event.custom({
+    type: 'bookshelf:crafting_shapeless_with_damage',
+    damageAmount: 1,
+    ignoreUnbreaking: false,
+    ingredients: [
+      {
+        item: 'minecraft:dirt',
+      },
+      {
+        item: 'farmingforblockheads:red_fertilizer',
+      },
+      {
+        type: 'bookshelf:any_hoe',
+      },
+    ],
+    result: {
+      item: 'farmingforblockheads:fertilized_farmland_healthy',
+    },
   });
-  event.shaped('farmingforblockheads:fertilized_farmland_rich', ['D', 'F'], {
-    D: 'minecraft:farmland',
-    F: 'farmingforblockheads:green_fertilizer',
-  });
-  event.shaped('farmingforblockheads:fertilized_farmland_healthy', ['D', 'F'], {
-    D: 'minecraft:farmland',
-    F: 'farmingforblockheads:red_fertilizer',
-  });
+  event.shapeless('farmingforblockheads:fertilized_farmland_rich', [
+    'minecraft:farmland',
+    'farmingforblockheads:green_fertilizer',
+  ]);
+  event.shapeless('farmingforblockheads:fertilized_farmland_healthy', [
+    'minecraft:farmland',
+    'farmingforblockheads:red_fertilizer',
+  ]);
 });

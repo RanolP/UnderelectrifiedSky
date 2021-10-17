@@ -1,0 +1,212 @@
+{
+	id: "15E72DBC08F0C1ED"
+	group: "6DFE562A826FDC8C"
+	order_index: 0
+	filename: "exterrestrial_resources"
+	title: "Exterrestrial"
+	icon: "extendedcrafting:nether_star_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Very Basic Metal"
+			x: -13.5d
+			y: -14.5d
+			id: "71E514C2231F8435"
+			tasks: [{
+				id: "5978AEE6CE701C7D"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+			rewards: [{
+				id: "5DBFCB0462BDD3B7"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -14.0d
+			y: -16.5d
+			dependencies: ["71E514C2231F8435"]
+			id: "5A04B19010A72EB9"
+			tasks: [{
+				id: "0A756203B8F4BB80"
+				type: "item"
+				item: "upgradednetherite:gold_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "1C7D1E0F555DD046"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -13.0d
+			y: -16.5d
+			dependencies: ["71E514C2231F8435"]
+			id: "02A5EE6AE4C95E7F"
+			tasks: [{
+				id: "79122A59ABE96049"
+				type: "item"
+				item: "upgradednetherite:fire_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "6BEC46F1B02E9184"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -12.0d
+			y: -16.0d
+			dependencies: ["71E514C2231F8435"]
+			id: "3A0AD6EDBF8030C3"
+			tasks: [{
+				id: "7B49906EB6AED25C"
+				type: "item"
+				item: "upgradednetherite:ender_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "3E387CB105E389C5"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -11.5d
+			y: -15.0d
+			dependencies: ["71E514C2231F8435"]
+			id: "679EA5F160769E85"
+			tasks: [{
+				id: "34EC0939B6C630E2"
+				type: "item"
+				item: "upgradednetherite:water_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "1F8343EC0A86637D"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -11.5d
+			y: -14.0d
+			dependencies: ["71E514C2231F8435"]
+			id: "63CFCA0C75E3358F"
+			tasks: [{
+				id: "6EC15C00797116B4"
+				type: "item"
+				item: "upgradednetherite:wither_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "34CA5F03073DA3A4"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -12.0d
+			y: -13.0d
+			dependencies: ["71E514C2231F8435"]
+			id: "133BA32F897133D1"
+			tasks: [{
+				id: "00F6D590359D098D"
+				type: "item"
+				item: "upgradednetherite:poison_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "638F30CEE8B22707"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -13.0d
+			y: -12.5d
+			dependencies: ["71E514C2231F8435"]
+			id: "3F8FF7BCC9022174"
+			tasks: [{
+				id: "6EBB168A14948AF7"
+				type: "item"
+				item: "upgradednetherite:phantom_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "2ED2B55A089AC2FF"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -14.0d
+			y: -12.5d
+			dependencies: ["71E514C2231F8435"]
+			id: "6701FDB8FA71A8EA"
+			tasks: [{
+				id: "4CF7289B9FB1956C"
+				type: "item"
+				item: "upgradednetherite:feather_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "7C8EE70B918842F6"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -14.5d
+			dependencies: [
+				"5A04B19010A72EB9"
+				"02A5EE6AE4C95E7F"
+				"3A0AD6EDBF8030C3"
+				"679EA5F160769E85"
+				"63CFCA0C75E3358F"
+				"133BA32F897133D1"
+				"3F8FF7BCC9022174"
+				"6701FDB8FA71A8EA"
+			]
+			id: "473479E135061C49"
+			tasks: [{
+				id: "282F7F8E3221A37A"
+				type: "item"
+				item: "upgradednetherite:ultimate_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "20F4C35DEC1F5F3C"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -17.5d
+			id: "67D1E232618BEA48"
+			tasks: [{
+				id: "38D9BAD69C10FA63"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			rewards: [{
+				id: "00CB584B451343A5"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -16.5d
+			y: -14.5d
+			dependencies: ["71E514C2231F8435"]
+			id: "132C18EFC399A3EF"
+			tasks: [{
+				id: "7A5FA0BF7A6CD7C0"
+				type: "item"
+				item: "upgradednetherite:corrupt_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "2EE392378CBE8966"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+	]
+}

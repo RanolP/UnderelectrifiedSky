@@ -295,5 +295,125 @@
 				table_id: 6359834731965744429L
 			}]
 		}
+		{
+			title: "<U extends Platform>"
+			icon: {
+				id: "constructionwand:diamond_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: -2.5d
+			description: ["Good tool for extending your base."]
+			id: "3D4B407BA0DBF56C"
+			tasks: [{
+				id: "5CB999726B0C48AE"
+				type: "item"
+				title: "Any Wand from Construction Wand"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "constructionwand:stone_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:iron_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:diamond_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:infinity_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F2A04DA3DBC08E5"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Fractured Wither Skeleton Skull"
+			x: -7.0d
+			y: -1.0d
+			description: ["9 fragment = 1 skull"]
+			id: "5DADE0FCF903199D"
+			tasks: [{
+				id: "7BE8989E1A7C4CA9"
+				type: "item"
+				item: "wstweaks:fragment"
+			}]
+			rewards: [{
+				id: "0B66A47A0252C3EE"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Always Wither™"
+			x: -5.5d
+			y: -1.0d
+			description: ["Wither Skeleton who killed with this weapon, always drop Wither Skeleton Skull."]
+			id: "3DB76F31FDBC623A"
+			tasks: [{
+				id: "52BE8EA5C9CC0F96"
+				type: "item"
+				title: "Any Immolation Blade"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "wstweaks:lava_blade"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "wstweaks:blaze_blade"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B9F2C2784C56FB7"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
 	]
 }

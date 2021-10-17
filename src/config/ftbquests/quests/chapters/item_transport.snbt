@@ -13,6 +13,7 @@
 			x: -5.0d
 			y: -2.0d
 			description: ["You can get kelp by placing sieve in a water and sieving sands in the sieve."]
+			dependencies: ["7A4BE7EABC041099"]
 			id: "1E8AF501439E4829"
 			tasks: [{
 				id: "16AA8CDE9DE07E71"
@@ -49,6 +50,7 @@
 			x: -5.0d
 			y: 0.0d
 			description: ["Extract item from container."]
+			dependencies: ["7BB095CC68C71D69"]
 			id: "70F19D8FBDD2E6C3"
 			tasks: [{
 				id: "698FE4A512FBB9EC"
@@ -83,6 +85,7 @@
 			x: -3.5d
 			y: 0.0d
 			description: ["Filter, sort, distribute items."]
+			dependencies: ["7BB095CC68C71D69"]
 			id: "756333CB491C23C5"
 			tasks: [{
 				id: "30C2C455D1655BCD"
@@ -117,6 +120,7 @@
 			x: -2.0d
 			y: 0.0d
 			description: ["Hopper but can make items go upward with power of Encased Fan, and filter if it's smart chute."]
+			dependencies: ["62C14BFDFF55772E"]
 			id: "3C806E7303FB9C4B"
 			tasks: [{
 				id: "19AA15767CBD293D"
@@ -150,6 +154,7 @@
 			x: -5.0d
 			y: 1.5d
 			description: ["Provide more complex filtering operation."]
+			dependencies: ["7BB095CC68C71D69"]
 			id: "40E7413A0CFF43BB"
 			tasks: [{
 				id: "0CC68B8AE67F49DB"
@@ -172,6 +177,7 @@
 			title: "Attributes? Filtered?"
 			x: -3.5d
 			y: 1.5d
+			dependencies: ["0F2B4EF903C8AC5F"]
 			id: "3EC6253F4390B603"
 			tasks: [{
 				id: "7AFD5AABECD6E5BE"

@@ -88,5 +88,6 @@
 		{ item: "botanypotstiers:elite_botany_pot", count: 4 }
 		{ item: "projecte:interdiction_torch", count: 32, weight: 6 }
 		{ item: "storagenetwork:kabel", count: 32, weight: 3 }
+		{ item: "ars_nouveau:greater_experience_gem", count: 16 }
 	]
 }

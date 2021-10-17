@@ -336,7 +336,7 @@
 		}
 		{
 			title: "Sheet Collector"
-			x: -4.5d
+			x: -5.0d
 			y: -1.5d
 			description: ["You will very likely to achieve this."]
 			dependencies: ["62C14BFDFF55772E"]
@@ -420,6 +420,7 @@
 			x: -7.0d
 			y: 3.0d
 			description: ["Check the total stress or gear speed."]
+			dependencies: ["7BB095CC68C71D69"]
 			id: "402536A7E6EC58E4"
 			tasks: [{
 				id: "45F24B9D93D845C1"
@@ -450,8 +451,9 @@
 		}
 		{
 			title: "Configurate It"
-			x: -7.0d
-			y: 1.5d
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["62C14BFDFF55772E"]
 			id: "66436889A2070F0D"
 			tasks: [{
 				id: "0883546AE00C953D"
@@ -522,6 +524,7 @@
 			x: -7.0d
 			y: 5.0d
 			description: ["Reverse rotation when redstone powered."]
+			dependencies: ["033E4775324F3512"]
 			id: "0880E78C98DD886C"
 			tasks: [{
 				id: "47B6E9CB4CAE1C41"
@@ -540,6 +543,7 @@
 			x: -5.5d
 			y: 5.0d
 			description: ["Compact rotation direction changer."]
+			dependencies: ["7BB095CC68C71D69"]
 			id: "5BB50DF8AF365B3E"
 			tasks: [{
 				id: "5385BC0A8E5EBB97"
@@ -592,6 +596,7 @@
 			x: -7.0d
 			y: -2.0d
 			description: ["Rose Quartz is a resource primarily used to craft a Electron Tube."]
+			dependencies: ["033E4775324F3512"]
 			id: "2A017BC5B7FC1FC3"
 			tasks: [
 				{
@@ -643,6 +648,7 @@
 			x: -4.0d
 			y: 5.0d
 			description: ["Connected chain drives can provide rotation with same direction and 90-degree rotated direction."]
+			dependencies: ["7BB095CC68C71D69"]
 			id: "445ADABD991F558E"
 			tasks: [{
 				id: "076A8298A6A65CDF"
@@ -681,6 +687,7 @@
 			x: -4.0d
 			y: 6.5d
 			description: ["Connected to encased chain, when it's powered, it double the speed of others or halves speed of itself, depending on its location."]
+			dependencies: ["033E4775324F3512"]
 			id: "00C8580D1A49800F"
 			tasks: [{
 				id: "03280FE53D7A0A84"

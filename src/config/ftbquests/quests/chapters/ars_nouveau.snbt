@@ -97,8 +97,9 @@
 		{
 			title: "A Novice Magician"
 			x: 1.5d
-			y: -0.5d
-			description: ["If you wish to be a magician. You'll need this."]
+			y: -1.0d
+			description: ["If you wish to be a magician. You'll need this. Harm, Break, Projectile, Touch, and Self glyph are included by default."]
+			dependencies: ["7BB095CC68C71D69"]
 			id: "5CA8720FEB70E2F1"
 			tasks: [{
 				id: "328ADA9397A336C3"
@@ -121,7 +122,7 @@
 				}
 			}
 			x: 1.5d
-			y: 1.0d
+			y: -3.0d
 			description: ["Novice Armor Set"]
 			dependencies: ["076691DEA776E9D4"]
 			id: "439E9C09D633EB07"
@@ -187,7 +188,7 @@
 				}
 			}
 			x: 7.5d
-			y: 1.0d
+			y: -3.0d
 			description: ["Mage Armor Set"]
 			dependencies: ["439E9C09D633EB07"]
 			id: "6B908C81282AB304"
@@ -252,8 +253,8 @@
 					Damage: 0
 				}
 			}
-			x: 9.0d
-			y: 1.0d
+			x: 11.0d
+			y: -3.0d
 			description: ["Archmage Armor Set"]
 			dependencies: ["6B908C81282AB304"]
 			id: "4B1F7E3621D3AE4D"
@@ -312,7 +313,7 @@
 		{
 			title: "Be Expertised"
 			x: 7.5d
-			y: -0.5d
+			y: -1.0d
 			description: ["Unlock tier 2 glyphs."]
 			dependencies: ["5CA8720FEB70E2F1"]
 			id: "59CE07F467DE5C3B"
@@ -329,8 +330,8 @@
 		}
 		{
 			title: "Here be Sages"
-			x: 9.0d
-			y: -0.5d
+			x: 11.0d
+			y: -1.0d
 			description: ["Unlock tier 3 glyphs. Congratulation!"]
 			dependencies: ["59CE07F467DE5C3B"]
 			id: "5819DD84771A3CFE"
@@ -349,8 +350,9 @@
 			title: "The Source of Source"
 			icon: "ars_nouveau:mycelial_sourcelink"
 			x: -3.5d
-			y: 2.5d
+			y: 1.5d
 			description: ["Get Sources from world-interactions with Sourcelink. The Source would be used for some magical machines."]
+			dependencies: ["033E4775324F3512"]
 			id: "0368012E6FEF2DA8"
 			tasks: [{
 				id: "624DA6DED3E148D1"
@@ -394,7 +396,7 @@
 		{
 			title: "Mage's Friendly Plant"
 			x: -0.5d
-			y: 1.0d
+			y: -3.0d
 			description: ["Magebloom for fiber creation."]
 			dependencies: ["61E0C655AB30D9A6"]
 			id: "076691DEA776E9D4"
@@ -413,7 +415,7 @@
 			title: "A Magical Crafting"
 			icon: "ars_nouveau:enchanting_apparatus"
 			x: -2.5d
-			y: 1.0d
+			y: 0.0d
 			description: ["Using Enchanting Apparantus with Arcane Core and appropriate amount of Arcane Pedestals for magical crafting!"]
 			dependencies: ["0368012E6FEF2DA8"]
 			id: "61E0C655AB30D9A6"
@@ -443,7 +445,8 @@
 		{
 			title: "Source Repository"
 			x: -3.5d
-			y: 3.5d
+			y: 2.5d
+			dependencies: ["033E4775324F3512"]
 			id: "5D96A55AE15D6E6E"
 			tasks: [{
 				id: "7EB7477242F5813C"
@@ -478,6 +481,10 @@
 			x: 1.5d
 			y: 2.5d
 			description: ["Usually used for Tier 1 Glyph crafting."]
+			dependencies: [
+				"72D27867BF08031F"
+				"033E4775324F3512"
+			]
 			id: "649CA305659C8BF2"
 			tasks: [{
 				id: "58B4041A124F499B"
@@ -510,7 +517,7 @@
 		}
 		{
 			title: "Tier 3 Clay"
-			x: 9.0d
+			x: 11.0d
 			y: 2.5d
 			description: ["Usually used for Tier 3 Glyph crafting."]
 			dependencies: ["5BA32D113DDA6D8D"]
@@ -1102,6 +1109,158 @@
 			}]
 			rewards: [{
 				id: "614186E47A1C6B3E"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: [
+				"0056411A83D0D1BF"
+				"61E0C655AB30D9A6"
+			]
+			id: "078EDC39ACC3451C"
+			tasks: [{
+				id: "04455A23C2151EB0"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "20BED17E80BEBEAD"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: [
+				"0056411A83D0D1BF"
+				"61E0C655AB30D9A6"
+			]
+			id: "2D1CF461743B0CFA"
+			tasks: [{
+				id: "25B510B3E1C09F29"
+				type: "item"
+				item: "ars_nouveau:enchanters_mirror"
+			}]
+			rewards: [{
+				id: "7F00F18B44D03CFF"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["61E0C655AB30D9A6"]
+			id: "79D729BDA9A17FB7"
+			tasks: [{
+				id: "17FDFA9EC93E0181"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B1B4A5F27E6E6B2"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			dependencies: [
+				"0056411A83D0D1BF"
+				"61E0C655AB30D9A6"
+			]
+			id: "45907956280173A5"
+			tasks: [{
+				id: "2D95DC81F45EB246"
+				type: "item"
+				item: "ars_nouveau:wand"
+			}]
+			rewards: [{
+				id: "0423C79C9DDDF757"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: [
+				"0056411A83D0D1BF"
+				"61E0C655AB30D9A6"
+			]
+			id: "1DADCF5B00305B9D"
+			tasks: [{
+				id: "6CFC75282D74B7E5"
+				type: "item"
+				item: "ars_nouveau:spell_bow"
+			}]
+			rewards: [{
+				id: "18426C7911854D8C"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			id: "0056411A83D0D1BF"
+			tasks: [{
+				id: "48987A8BDAF3FAFA"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
+			}]
+			rewards: [{
+				id: "6FAD68146F3EE394"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Amulet Powers"
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["61E0C655AB30D9A6"]
+			id: "6ED222E84F374164"
+			tasks: [{
+				id: "54C99621B7C446CF"
+				type: "item"
+				title: "Any Amulet from Ars Nouveau"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ars_nouveau:amulet_of_mana_regen"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:amulet_of_mana_boost"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1A65FBC977359A4D"
 				type: "random"
 				table_id: 6359834731965744429L
 			}]

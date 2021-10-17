@@ -1,5 +1,5 @@
 [General]
 compactingRules = [
     "minecraft:clay, minecraft:clay_ball, 4",
-    "minecraft:clay, excompressum:compressed_sand, 9",
+    "minecraft:sand, excompressum:compressed_sand, 9",
 ]

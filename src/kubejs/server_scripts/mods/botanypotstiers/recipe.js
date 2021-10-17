@@ -18,6 +18,8 @@ onEvent('recipes', (event) => {
     'white',
     'yellow',
   ].forEach((color) => {
+    const normal =
+      'botanypots:' + [color, 'botany_pot'].filter(Boolean).join('_');
     const elite =
       'botanypotstiers:' +
       ['elite', color, 'botany_pot'].filter(Boolean).join('_');
@@ -61,6 +63,12 @@ onEvent('recipes', (event) => {
     });
 
     if (color) {
+      event.shaped(elite, ['TET', 'TPT', 'ITI'], {
+        P: normal,
+        I: 'minecraft:iron_block',
+        E: 'minecraft:ender_pearl',
+        T: terracotta,
+      });
       event.shaped(ultra, ['TNT', 'TPT', 'DTD'], {
         P: elite,
         D: 'minecraft:diamond_block',

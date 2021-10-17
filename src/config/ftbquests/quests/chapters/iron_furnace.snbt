@@ -12,6 +12,7 @@
 			x: -6.0d
 			y: 0.0d
 			description: ["200 ticks/item"]
+			dependencies: ["7A4BE7EABC041099"]
 			id: "65274EE1649C0A7C"
 			tasks: [{
 				id: "387A999F6BB5B56E"
@@ -262,6 +263,7 @@
 		{
 			x: -4.5d
 			y: 3.0d
+			dependencies: ["033E4775324F3512"]
 			id: "41F301B33EA3BDF8"
 			tasks: [{
 				id: "42154EBFC53F81E6"
@@ -277,6 +279,7 @@
 		{
 			x: -3.0d
 			y: 3.0d
+			dependencies: ["033E4775324F3512"]
 			id: "6B1BB880FD5E43EB"
 			tasks: [{
 				id: "786B10DC24A2A953"

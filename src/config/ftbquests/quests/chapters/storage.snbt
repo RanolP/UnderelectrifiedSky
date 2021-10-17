@@ -79,6 +79,7 @@
 			x: -5.0d
 			y: -4.5d
 			min_required_dependencies: 1
+			dependencies: ["7BB095CC68C71D69"]
 			id: "5D58F5EAB61F7E69"
 			tasks: [{
 				id: "38C7BC20E4BE0FE6"
@@ -289,6 +290,7 @@
 			x: -1.0d
 			y: -2.5d
 			description: ["Compacting drawer automatically compresses the items."]
+			dependencies: ["7BB095CC68C71D69"]
 			id: "757C18940878E455"
 			tasks: [{
 				id: "36B0EE11F97078D6"
@@ -306,6 +308,7 @@
 			x: -1.0d
 			y: -0.5d
 			description: ["Make one block can I/O connected whole drawers."]
+			dependencies: ["033E4775324F3512"]
 			id: "3F1CEEB7AF6F7AAC"
 			tasks: [{
 				id: "44A5892D89A6A347"
@@ -377,6 +380,90 @@
 			}]
 			rewards: [{
 				id: "4FE621E3A267CCF1"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			description: ["3*9 storage size, 1 upgrade slot. Note that upgrading colored backpacks seems not to be able in JEI, but it isn't."]
+			id: "3BCDA16F3A8D8E87"
+			tasks: [{
+				id: "03DF42DAA34DC547"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "12B83079AA62B704"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: ["6*9 storage size, 2 upgrade slot."]
+			dependencies: ["3BCDA16F3A8D8E87"]
+			id: "4BC5AEACC2F8717E"
+			tasks: [{
+				id: "5E46DE37A76FD5EE"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "7ABDF3FF67B8AC62"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			description: ["9*9 storage size, 3 upgrade slot."]
+			dependencies: ["4BC5AEACC2F8717E"]
+			id: "591E248946AA8957"
+			tasks: [{
+				id: "3FF40BD2F931C06A"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "75F49CCEC2742A2D"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["9*12 storage size, 5 upgrade slot."]
+			dependencies: ["591E248946AA8957"]
+			id: "69D1A62C95BD2D5C"
+			tasks: [{
+				id: "7013D6A03392F9EF"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "793D3EE5FE7A8C59"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			description: ["10*12 storage size, 7 upgrade slot."]
+			dependencies: ["69D1A62C95BD2D5C"]
+			id: "6F287D31C9EFE60D"
+			tasks: [{
+				id: "5B25803D2BC67FCE"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "53B93A1FA3ABEDF6"
 				type: "random"
 				table_id: 6359834731965744429L
 			}]

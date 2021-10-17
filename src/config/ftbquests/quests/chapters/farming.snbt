@@ -81,6 +81,7 @@
 			x: -6.0d
 			y: -3.5d
 			description: ["2x faster than normal Botany Pot."]
+			dependencies: ["28938CAFD8A9414D"]
 			id: "54D7E2BF9E81C1A4"
 			tasks: [{
 				id: "118B0C719570AC73"
@@ -106,6 +107,12 @@
 			x: -6.0d
 			y: -5.0d
 			description: ["2x faster than normal botany pot."]
+			hide_dependency_lines: true
+			dependencies: [
+				"03AC9F0E7A04929F"
+				"54D7E2BF9E81C1A4"
+			]
+			dependency_requirement: "one_completed"
 			id: "07D33AC45FF43C01"
 			tasks: [{
 				id: "1466BC87A010983C"
@@ -126,8 +133,10 @@
 			}]
 		}
 		{
+			title: "Ultra Power"
 			x: -4.5d
 			y: -3.5d
+			dependencies: ["54D7E2BF9E81C1A4"]
 			id: "517F40C07F149FA7"
 			tasks: [{
 				id: "0409681481468638"
@@ -140,6 +149,11 @@
 						value: "botanypotstiers:botany_pot/ultra"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7613A43FD78623DE"
+				type: "random"
+				table_id: 6359834731965744429L
 			}]
 		}
 	]
