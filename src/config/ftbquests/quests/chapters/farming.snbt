@@ -106,7 +106,7 @@
 			icon: "botanypotstiers:elite_hopper_botany_pot"
 			x: -6.0d
 			y: -5.0d
-			description: ["2x faster than normal botany pot."]
+			description: ["2x faster than normal Hopper Botany Pot."]
 			hide_dependency_lines: true
 			dependencies: [
 				"03AC9F0E7A04929F"
@@ -136,6 +136,7 @@
 			title: "Ultra Power"
 			x: -4.5d
 			y: -3.5d
+			description: ["6x faster than normal Botany Pot."]
 			dependencies: ["54D7E2BF9E81C1A4"]
 			id: "517F40C07F149FA7"
 			tasks: [{

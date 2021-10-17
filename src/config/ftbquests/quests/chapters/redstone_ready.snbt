@@ -1,0 +1,10 @@
+{
+	id: "391D7FC6B0848A30"
+	group: "29F6CD7A60EFCCE0"
+	order_index: 6
+	filename: "redstone_ready"
+	title: "Redstone Ready"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

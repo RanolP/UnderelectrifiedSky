@@ -3,7 +3,7 @@
 	group: "6DFE562A826FDC8C"
 	order_index: 0
 	filename: "exterrestrial_resources"
-	title: "Exterrestrial"
+	title: "Exterrestrial Items"
 	icon: "extendedcrafting:nether_star_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
