@@ -7,5 +7,43 @@
 	icon: "extendedcrafting:ultimate_singularity"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		title: "You're on Control"
+		x: -1.5d
+		y: -2.5d
+		description: ["Control the level of blaze burner and burn indefinitely."]
+		id: "59637DAAEDE0899B"
+		tasks: [{
+			id: "18D96393CD6A3870"
+			type: "item"
+			item: "create:creative_blaze_cake"
+		}]
+		rewards: [
+			{
+				id: "1F27FE002E6D72C8"
+				type: "random"
+				table_id: 6359834731965744429L
+			}
+			{
+				id: "07C4AD6C314B0515"
+				type: "random"
+				table_id: 6359834731965744429L
+			}
+			{
+				id: "677D9B9E5AD319B1"
+				type: "random"
+				table_id: 6359834731965744429L
+			}
+			{
+				id: "4A8D4E84C08B3A8B"
+				type: "random"
+				table_id: 6359834731965744429L
+			}
+			{
+				id: "6D37FAED2ABB8753"
+				type: "random"
+				table_id: 6359834731965744429L
+			}
+		]
+	}]
 }

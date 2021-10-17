@@ -335,23 +335,6 @@
 			}]
 		}
 		{
-			title: "The Best Transporter"
-			x: -7.0d
-			y: -3.5d
-			description: ["You can get kelp by placing sieve in a water and sieving sands in the sieve."]
-			id: "3706DC0266202CAF"
-			tasks: [{
-				id: "29335485FA566E08"
-				type: "item"
-				item: "create:belt_connector"
-			}]
-			rewards: [{
-				id: "06FAE8D9CE509297"
-				type: "random"
-				table_id: 6359834731965744429L
-			}]
-		}
-		{
 			title: "Sheet Collector"
 			x: -4.5d
 			y: -1.5d
@@ -433,7 +416,7 @@
 			}]
 		}
 		{
-			title: "Check it out"
+			title: "Meters Matters"
 			x: -7.0d
 			y: 3.0d
 			description: ["Check the total stress or gear speed."]
@@ -599,6 +582,131 @@
 			}]
 			rewards: [{
 				id: "09E649AE37CD2C2D"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Roses are Red"
+			icon: "create:polished_rose_quartz"
+			x: -7.0d
+			y: -2.0d
+			description: ["Rose Quartz is a resource primarily used to craft a Electron Tube."]
+			id: "2A017BC5B7FC1FC3"
+			tasks: [
+				{
+					id: "4C634225CEAAB2AC"
+					type: "item"
+					item: "create:rose_quartz"
+				}
+				{
+					id: "17ABA89F3FE052EA"
+					type: "item"
+					title: "Any Sand Paper"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "create:sand_paper"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "create:red_sand_paper"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "576C8B8441EB9396"
+					type: "item"
+					item: "create:polished_rose_quartz"
+				}
+			]
+			rewards: [{
+				id: "0B76E86B3D38FC30"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Not Only Belts"
+			x: -4.0d
+			y: 5.0d
+			description: ["Connected chain drives can provide rotation with same direction and 90-degree rotated direction."]
+			id: "445ADABD991F558E"
+			tasks: [{
+				id: "076A8298A6A65CDF"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+			rewards: [{
+				id: "544D0C4B2ED5EC34"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Blaze Liked This"
+			x: -0.5d
+			y: -3.5d
+			description: ["This can empower blazes to do their best, called Superheat."]
+			dependencies: [
+				"4C70909C9BDBF839"
+				"67BB4B1E7C7D0379"
+			]
+			id: "3F7899DCE8639535"
+			tasks: [{
+				id: "10EADDBC77436E25"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [{
+				id: "17ED77D5B7A4773C"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Double or Halve"
+			x: -4.0d
+			y: 6.5d
+			description: ["Connected to encased chain, when it's powered, it double the speed of others or halves speed of itself, depending on its location."]
+			id: "00C8580D1A49800F"
+			tasks: [{
+				id: "03280FE53D7A0A84"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
+			}]
+			rewards: [{
+				id: "783CA8C94AD7771B"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Spreading Winds"
+			x: 1.5d
+			y: 1.0d
+			description: ["Attach on a Encased Fan, it'll spread the wind to all the directions."]
+			dependencies: ["2B058DB3D3D366D5"]
+			id: "7A7E4D7882F1A8E0"
+			tasks: [{
+				id: "1E727E6151E875D5"
+				type: "item"
+				item: "create:nozzle"
+			}]
+			rewards: [{
+				id: "489D029230A48D20"
 				type: "random"
 				table_id: 6359834731965744429L
 			}]

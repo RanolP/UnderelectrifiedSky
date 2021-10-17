@@ -7,21 +7,1104 @@
 	icon: "ars_nouveau:mana_gem"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "A Novice Magician"
-		x: -4.5d
-		y: -1.0d
-		description: ["If you wish to be a magician. You'll need this."]
-		id: "5CA8720FEB70E2F1"
-		tasks: [{
-			id: "328ADA9397A336C3"
-			type: "item"
-			item: "ars_nouveau:novice_spell_book"
-		}]
-		rewards: [{
-			id: "65B7FD56FF7573FB"
-			type: "random"
-			table_id: 6359834731965744429L
-		}]
-	}]
+	images: [
+		{
+			x: 0.52d
+			y: 5.0d
+			width: 0.7d
+			height: 0.7d
+			rotation: 0.0d
+			image: "minecraft:textures/particle/flame.png"
+			hover: ["School of Elemental Fire"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			width: 0.7d
+			height: 0.7d
+			rotation: 0.0d
+			image: "minecraft:textures/particle/bubble.png"
+			hover: ["School of Elemental Water"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.52d
+			y: 7.04d
+			width: 0.7d
+			height: 0.7d
+			rotation: 0.0d
+			image: "ars_nouveau:textures/particle/particle_bubble1.png"
+			hover: ["School of Elemental Air"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.555d
+			y: 8.02d
+			width: 0.72d
+			height: 0.72d
+			rotation: 0.0d
+			image: "minecraft:textures/item/clay_ball.png"
+			hover: ["School of Elemental Earth"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.54d
+			y: 9.53d
+			width: 0.7d
+			height: 0.7d
+			rotation: 0.0d
+			image: "minecraft:textures/mob_effect/resistance.png"
+			hover: ["School of Abjuration"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 10.5d
+			width: 0.6d
+			height: 0.6d
+			rotation: 0.0d
+			image: "minecraft:textures/particle/generic_6.png"
+			hover: ["School of Conjuration"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.57d
+			y: 12.07d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "minecraft:textures/particle/critical_hit.png"
+			hover: ["School of Manipulation"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "A Novice Magician"
+			x: 1.5d
+			y: -0.5d
+			description: ["If you wish to be a magician. You'll need this."]
+			id: "5CA8720FEB70E2F1"
+			tasks: [{
+				id: "328ADA9397A336C3"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [{
+				id: "65B7FD56FF7573FB"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Novice Armor Set"
+			icon: {
+				id: "ars_nouveau:novice_robes"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 1.0d
+			description: ["Novice Armor Set"]
+			dependencies: ["076691DEA776E9D4"]
+			id: "439E9C09D633EB07"
+			tasks: [
+				{
+					id: "52EFC76ADEF7DA1A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C9A748343AA7CD8"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D52037ACFCC3A6A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D8A994A43FA9280"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "05C311C11A8818A6"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Mage Armor Set"
+			icon: {
+				id: "ars_nouveau:apprentice_robes"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 7.5d
+			y: 1.0d
+			description: ["Mage Armor Set"]
+			dependencies: ["439E9C09D633EB07"]
+			id: "6B908C81282AB304"
+			tasks: [
+				{
+					id: "1135C2DF773CB232"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "367768716533CAE6"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1065EDEC9A725F55"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71773592C8088287"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "06395F6E4EEB7FDB"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Archmage Armor Set"
+			icon: {
+				id: "ars_nouveau:archmage_robes"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 9.0d
+			y: 1.0d
+			description: ["Archmage Armor Set"]
+			dependencies: ["6B908C81282AB304"]
+			id: "4B1F7E3621D3AE4D"
+			tasks: [
+				{
+					id: "649BA65C80DB49C5"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78208EA0DA87FE46"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68E333F4BCCBDD3D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5ACD30166C10A046"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4B4AFF2AFC849E15"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Be Expertised"
+			x: 7.5d
+			y: -0.5d
+			description: ["Unlock tier 2 glyphs."]
+			dependencies: ["5CA8720FEB70E2F1"]
+			id: "59CE07F467DE5C3B"
+			tasks: [{
+				id: "7532B8909FE5A6D1"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [{
+				id: "26A898B9527AC844"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Here be Sages"
+			x: 9.0d
+			y: -0.5d
+			description: ["Unlock tier 3 glyphs. Congratulation!"]
+			dependencies: ["59CE07F467DE5C3B"]
+			id: "5819DD84771A3CFE"
+			tasks: [{
+				id: "0643E4E9EF40096D"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+			rewards: [{
+				id: "66CC389C47360DE1"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "The Source of Source"
+			icon: "ars_nouveau:mycelial_sourcelink"
+			x: -3.5d
+			y: 2.5d
+			description: ["Get Sources from world-interactions with Sourcelink. The Source would be used for some magical machines."]
+			id: "0368012E6FEF2DA8"
+			tasks: [{
+				id: "624DA6DED3E148D1"
+				type: "item"
+				title: "Any Sourcelink"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ars_nouveau:alchemical_sourcelink"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:mana_condenser"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:mycelial_sourcelink"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:vitalic_sourcelink"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:volcanic_accumulator"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "009A5C59A28B1564"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Mage's Friendly Plant"
+			x: -0.5d
+			y: 1.0d
+			description: ["Magebloom for fiber creation."]
+			dependencies: ["61E0C655AB30D9A6"]
+			id: "076691DEA776E9D4"
+			tasks: [{
+				id: "5F96CD747CD09C0B"
+				type: "item"
+				item: "ars_nouveau:mana_bloom_crop"
+			}]
+			rewards: [{
+				id: "56F8D396954665FD"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "A Magical Crafting"
+			icon: "ars_nouveau:enchanting_apparatus"
+			x: -2.5d
+			y: 1.0d
+			description: ["Using Enchanting Apparantus with Arcane Core and appropriate amount of Arcane Pedestals for magical crafting!"]
+			dependencies: ["0368012E6FEF2DA8"]
+			id: "61E0C655AB30D9A6"
+			tasks: [
+				{
+					id: "19C9B72FBF371A45"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "10AB8DF7B85DE113"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "39F8F77D25C70D5B"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+				}
+			]
+			rewards: [{
+				id: "33DDC3C71DE0B7F2"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Source Repository"
+			x: -3.5d
+			y: 3.5d
+			id: "5D96A55AE15D6E6E"
+			tasks: [{
+				id: "7EB7477242F5813C"
+				type: "item"
+				item: "ars_nouveau:mana_jar"
+			}]
+			rewards: [{
+				id: "3160DF271EA8584C"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "For the New Spells"
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["0368012E6FEF2DA8"]
+			id: "5EF2C78E5802F724"
+			tasks: [{
+				id: "6AE6C041A0A17463"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+			rewards: [{
+				id: "2508FE8FD0D05756"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Tier 1 Clay"
+			x: 1.5d
+			y: 2.5d
+			description: ["Usually used for Tier 1 Glyph crafting."]
+			id: "649CA305659C8BF2"
+			tasks: [{
+				id: "58B4041A124F499B"
+				type: "item"
+				item: "ars_nouveau:magic_clay"
+			}]
+			rewards: [{
+				id: "012A76ECAB3B49A3"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Tier 2 Clay"
+			x: 7.5d
+			y: 2.5d
+			description: ["Usually used for Tier 2 Glyph crafting."]
+			dependencies: ["649CA305659C8BF2"]
+			id: "5BA32D113DDA6D8D"
+			tasks: [{
+				id: "43705BD48D3757E0"
+				type: "item"
+				item: "ars_nouveau:marvelous_clay"
+			}]
+			rewards: [{
+				id: "57958A502BC85F89"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Tier 3 Clay"
+			x: 9.0d
+			y: 2.5d
+			description: ["Usually used for Tier 3 Glyph crafting."]
+			dependencies: ["5BA32D113DDA6D8D"]
+			id: "1EF8104F0142A30A"
+			tasks: [{
+				id: "4D4AB5A77F0119AA"
+				type: "item"
+				item: "ars_nouveau:mythical_clay"
+			}]
+			rewards: [{
+				id: "431F6849D66E059B"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "216B1F2EF0A405DC"
+			tasks: [{
+				id: "088F83BBF0CC9FB3"
+				type: "item"
+				item: "ars_nouveau:glyph_bounce"
+			}]
+			rewards: [{
+				id: "007BCE4CE43B7D00"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "1FE365D9E2C286CF"
+			tasks: [{
+				id: "725F238C623D85E2"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_steed"
+			}]
+			rewards: [{
+				id: "7C7ADC63C9159008"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "23AB34F938EAA9E2"
+			tasks: [{
+				id: "0BD8D3BB133CDCBC"
+				type: "item"
+				item: "ars_nouveau:glyph_craft"
+			}]
+			rewards: [{
+				id: "77A07EDB14220A5C"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "43B422BFB0CAFBCE"
+			tasks: [{
+				id: "02E50C2E32AC4351"
+				type: "item"
+				item: "ars_nouveau:glyph_cut"
+			}]
+			rewards: [{
+				id: "4535E901C2AAF17B"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "7A0B2D6D7309375F"
+			tasks: [{
+				id: "452CAF13CD8AF452"
+				type: "item"
+				item: "ars_nouveau:glyph_delay"
+			}]
+			rewards: [{
+				id: "12C58B6EA3BCDA16"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "160DF231FC64157C"
+			tasks: [{
+				id: "519F6A4C4A929D11"
+				type: "item"
+				item: "ars_nouveau:glyph_amplify"
+			}]
+			rewards: [{
+				id: "216E14B3FCD75485"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "13790269960DCD4A"
+			tasks: [{
+				id: "1CE8DB08C22AC630"
+				type: "item"
+				item: "ars_nouveau:glyph_place_block"
+			}]
+			rewards: [{
+				id: "47886679A5B3E755"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "4BD9171C5CC5E65F"
+			tasks: [{
+				id: "24DABF78D71D0B85"
+				type: "item"
+				item: "ars_nouveau:glyph_toss"
+			}]
+			rewards: [{
+				id: "3AD9CEF1DAF50626"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "7ABE9AD56F83C08F"
+			tasks: [{
+				id: "2886FA7DA63173E0"
+				type: "item"
+				item: "ars_nouveau:glyph_pull"
+			}]
+			rewards: [{
+				id: "1F42542C6B1BC1CB"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "79FE741189CE7FDB"
+			tasks: [{
+				id: "12466779EF33C062"
+				type: "item"
+				item: "ars_nouveau:glyph_redstone_signal"
+			}]
+			rewards: [{
+				id: "4F52956D9B14C652"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "6B0292D88A66A0D6"
+			tasks: [{
+				id: "006444740437D064"
+				type: "item"
+				item: "ars_nouveau:glyph_rune"
+			}]
+			rewards: [{
+				id: "5DC463DE44C7B931"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "7FECEB32E0F9385E"
+			tasks: [{
+				id: "36BBDF707BAC6BBD"
+				type: "item"
+				item: "ars_nouveau:glyph_underfoot"
+			}]
+			rewards: [{
+				id: "0C1C4C27C18A959B"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "14692A583F8606E5"
+			tasks: [{
+				id: "76B6B6505221E0EF"
+				type: "item"
+				item: "ars_nouveau:glyph_sensitive"
+			}]
+			rewards: [{
+				id: "54E71A5C89804DD9"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "5AFCA460483BCC46"
+			tasks: [{
+				id: "59E8AD8CEF037032"
+				type: "item"
+				item: "ars_nouveau:glyph_snare"
+			}]
+			rewards: [{
+				id: "76A8CC006C87006A"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "3E2950E43F4E6438"
+			tasks: [{
+				id: "738A01330A9C19C1"
+				type: "item"
+				item: "ars_nouveau:glyph_pickup"
+			}]
+			rewards: [{
+				id: "50015C95A66E692B"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "14CCB49542B999AE"
+			tasks: [{
+				id: "22837B411BA0EEFB"
+				type: "item"
+				item: "ars_nouveau:glyph_phantom_block"
+			}]
+			rewards: [{
+				id: "482F1019EE88FD77"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "11515E6740FB7DEE"
+			tasks: [{
+				id: "2843C57A43DDB3A6"
+				type: "item"
+				item: "ars_nouveau:glyph_light"
+			}]
+			rewards: [{
+				id: "5783F0436885082A"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "7A8F5CE9127BA764"
+			tasks: [{
+				id: "51A7BC8E3746CB25"
+				type: "item"
+				item: "ars_nouveau:glyph_leap"
+			}]
+			rewards: [{
+				id: "70F2792ED137E7FD"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "4C0A8CEAE409A9E3"
+			tasks: [{
+				id: "11DC41C352AFCE8C"
+				type: "item"
+				item: "ars_nouveau:glyph_launch"
+			}]
+			rewards: [{
+				id: "1DC94ED95DC34373"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "6A6DF570474E8F0E"
+			tasks: [{
+				id: "4773EE92DBBA075C"
+				type: "item"
+				item: "ars_nouveau:glyph_interact"
+			}]
+			rewards: [{
+				id: "53F0DEC6DD2A268E"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "7580D7D2AA9D0137"
+			tasks: [{
+				id: "594DDCD21992158F"
+				type: "item"
+				item: "ars_nouveau:glyph_freeze"
+			}]
+			rewards: [{
+				id: "2D2B9B9D4820A4D6"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "42ABF5E671C5AD24"
+			tasks: [{
+				id: "48400B8E7F5C9A68"
+				type: "item"
+				item: "ars_nouveau:glyph_gust"
+			}]
+			rewards: [{
+				id: "15DF0A487B62EEC3"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "60C46D0C7E42870B"
+			tasks: [{
+				id: "6DAC5448B30AC767"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_wolves"
+			}]
+			rewards: [{
+				id: "32E5000E3939664E"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "494909CCE531EC72"
+			tasks: [{
+				id: "167B13BFBAD62EBC"
+				type: "item"
+				item: "ars_nouveau:glyph_harvest"
+			}]
+			rewards: [{
+				id: "38C0333080E54044"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "4B1A16ECE1E81A62"
+			tasks: [{
+				id: "01486B10B5FA5709"
+				type: "item"
+				item: "ars_nouveau:glyph_haste"
+			}]
+			rewards: [{
+				id: "7A6328EB94A3F02F"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "1CD7DF233CEFB4E4"
+			tasks: [{
+				id: "3ABFEB9372109E63"
+				type: "item"
+				item: "ars_nouveau:glyph_ignite"
+			}]
+			rewards: [{
+				id: "62CBF5E8C327ADCF"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "7256DD278D6EC3A2"
+			tasks: [{
+				id: "16F237CDD40A5C46"
+				type: "item"
+				item: "ars_nouveau:glyph_evaporate"
+			}]
+			rewards: [{
+				id: "7F0D901828E8C653"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "05EA1DB218270A5D"
+			tasks: [{
+				id: "5BAB70A0B059B3A9"
+				type: "item"
+				item: "ars_nouveau:glyph_dispel"
+			}]
+			rewards: [{
+				id: "54CB3FC08BB45F5F"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"649CA305659C8BF2"
+				"5EF2C78E5802F724"
+			]
+			id: "506532F57E5F161C"
+			tasks: [{
+				id: "305925D6CB17C719"
+				type: "item"
+				item: "ars_nouveau:glyph_aquatic"
+			}]
+			rewards: [{
+				id: "614186E47A1C6B3E"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+	]
 }

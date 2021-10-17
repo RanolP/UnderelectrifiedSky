@@ -14,7 +14,10 @@
 			x: -8.0d
 			y: -4.5d
 			description: ["By using Simple Storage Network. You can easily find and organize your items."]
-			dependencies: ["62C14BFDFF55772E"]
+			dependencies: [
+				"62C14BFDFF55772E"
+				"298C274D7835403F"
+			]
 			id: "733F93BCB93E601C"
 			tasks: [
 				{
@@ -28,18 +31,11 @@
 					item: "storagenetwork:master"
 				}
 			]
-			rewards: [
-				{
-					id: "2DCEC36F5C89AF33"
-					type: "random"
-					table_id: 6359834731965744429L
-				}
-				{
-					id: "4B8BE8929B30DCE7"
-					type: "random"
-					table_id: 6359834731965744429L
-				}
-			]
+			rewards: [{
+				id: "2DCEC36F5C89AF33"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
 		}
 		{
 			title: "I See Items"

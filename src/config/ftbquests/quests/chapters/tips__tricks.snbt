@@ -217,7 +217,7 @@
 			}]
 		}
 		{
-			title: "Item Found"
+			title: "Catch me Catch you"
 			icon: "create:goggles"
 			x: -4.0d
 			y: -4.0d
@@ -273,6 +273,24 @@
 			}]
 			rewards: [{
 				id: "02BB4804E5132832"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Jumping on a Farmland"
+			icon: "minecraft:farmland"
+			x: 0.5d
+			y: -4.0d
+			description: ["You can jump freely on a farmland."]
+			id: "43C824FABC00BCAD"
+			tasks: [{
+				id: "6F90FBB0E0E06283"
+				type: "checkmark"
+				title: "Wow"
+			}]
+			rewards: [{
+				id: "754F261973F4A883"
 				type: "random"
 				table_id: 6359834731965744429L
 			}]

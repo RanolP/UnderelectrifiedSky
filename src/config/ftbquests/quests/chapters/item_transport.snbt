@@ -1,0 +1,192 @@
+{
+	id: "205D43D6BB787603"
+	group: "29F6CD7A60EFCCE0"
+	order_index: 3
+	filename: "item_transport"
+	title: "Item Transport"
+	icon: "create:brass_funnel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Kelp's Help"
+			x: -5.0d
+			y: -2.0d
+			description: ["You can get kelp by placing sieve in a water and sieving sands in the sieve."]
+			id: "1E8AF501439E4829"
+			tasks: [{
+				id: "16AA8CDE9DE07E71"
+				type: "item"
+				item: "minecraft:dried_kelp"
+			}]
+			rewards: [{
+				id: "15414FE5BF074E49"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "The Best Transporter"
+			x: -3.5d
+			y: -2.5d
+			description: ["You can transport items, entities, and even rotational forces!"]
+			dependencies: ["1E8AF501439E4829"]
+			id: "67271F6D400B9759"
+			tasks: [{
+				id: "4D155BA7549DC3BB"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "5A0189CFDCC7B14A"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "I'll Take It"
+			icon: "create:brass_funnel"
+			x: -5.0d
+			y: 0.0d
+			description: ["Extract item from container."]
+			id: "70F19D8FBDD2E6C3"
+			tasks: [{
+				id: "698FE4A512FBB9EC"
+				type: "item"
+				title: "Any Funnel"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "create:andesite_funnel"
+								Count: 1b
+							}
+							{
+								id: "create:brass_funnel"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BBEAEB71D499586"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Split before Take"
+			icon: "create:brass_tunnel"
+			x: -3.5d
+			y: 0.0d
+			description: ["Filter, sort, distribute items."]
+			id: "756333CB491C23C5"
+			tasks: [{
+				id: "30C2C455D1655BCD"
+				type: "item"
+				title: "Any Tunnel"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "create:andesite_tunnel"
+								Count: 1b
+							}
+							{
+								id: "create:brass_tunnel"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "30E4DD3243FE317C"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Hopper Revolution"
+			icon: "create:chute"
+			x: -2.0d
+			y: 0.0d
+			description: ["Hopper but can make items go upward with power of Encased Fan, and filter if it's smart chute."]
+			id: "3C806E7303FB9C4B"
+			tasks: [{
+				id: "19AA15767CBD293D"
+				type: "item"
+				title: "Any Chute"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "create:chute"
+								Count: 1b
+							}
+							{
+								id: "create:smart_chute"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4254AFC53F5FE441"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Filter, Smartly"
+			x: -5.0d
+			y: 1.5d
+			description: ["Provide more complex filtering operation."]
+			id: "40E7413A0CFF43BB"
+			tasks: [{
+				id: "0CC68B8AE67F49DB"
+				type: "item"
+				item: {
+					id: "create:filter"
+					Count: 1b
+					tag: {
+						Items: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "10A84C25776C2509"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Attributes? Filtered?"
+			x: -3.5d
+			y: 1.5d
+			id: "3EC6253F4390B603"
+			tasks: [{
+				id: "7AFD5AABECD6E5BE"
+				type: "item"
+				item: {
+					id: "create:attribute_filter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6BDEC2D724A23A0D"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+	]
+}

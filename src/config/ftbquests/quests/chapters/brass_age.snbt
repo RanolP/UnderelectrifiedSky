@@ -7,5 +7,176 @@
 	icon: "create:brass_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["0F2B4EF903C8AC5F"]
+			id: "298C274D7835403F"
+			tasks: [{
+				id: "243E40DF931A95DA"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [{
+				id: "16191B53E8D9A3B4"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Automated Crafting"
+			x: -2.5d
+			y: -0.5d
+			description: ["Automate shaped crafting recipes even if larger than 3x3."]
+			dependencies: [
+				"2A017BC5B7FC1FC3"
+				"298C274D7835403F"
+			]
+			id: "42AE0789416785AC"
+			tasks: [{
+				id: "2F8F96C293C7B792"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "581D0766EA69B56D"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Just an Empty Slot"
+			x: -3.0d
+			y: -2.0d
+			description: ["Sometimes you need empty slot for automated crafting."]
+			dependencies: ["42AE0789416785AC"]
+			id: "538EEABCFB7243AD"
+			tasks: [{
+				id: "35CD3605DCBF2B7A"
+				type: "item"
+				item: "create:crafter_slot_cover"
+			}]
+			rewards: [{
+				id: "1C40967C6B797342"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Hand-some Machine"
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["298C274D7835403F"]
+			id: "11384FF75B7121BB"
+			tasks: [{
+				id: "63732B17DE8FFE42"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "5DD36B3BD2A698F4"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Your Items Crushed"
+			x: 0.0d
+			y: 0.0d
+			description: ["Powerful version of millstone. Be careful, you can be crushed and the items from dead body also can be crushed."]
+			dependencies: ["42AE0789416785AC"]
+			id: "519FE6B9859261DB"
+			tasks: [{
+				id: "068D2C37ED964780"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3492E6B2BCB37F5F"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "For the Precise Control"
+			x: 0.0d
+			y: 2.5d
+			description: ["Use Deployers for creating this."]
+			dependencies: ["11384FF75B7121BB"]
+			id: "12B0AEA91AB1CC7B"
+			tasks: [{
+				id: "15E89D42D4EA404B"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "78C15879F5BD73FA"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Steam Link"
+			icon: "create:flywheel"
+			x: 0.0d
+			y: -1.5d
+			description: ["Furnace engine for compact \\& high stress capacity generator."]
+			dependencies: ["42AE0789416785AC"]
+			id: "7C3CED4FBAEFD55D"
+			tasks: [
+				{
+					id: "5FE48EBC585845EB"
+					type: "item"
+					item: "create:flywheel"
+				}
+				{
+					id: "24E7E2280C890CC0"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+			]
+			rewards: [{
+				id: "3A11CD9F93F68A54"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: ["For precise item moving."]
+			dependencies: ["12B0AEA91AB1CC7B"]
+			id: "239EBCB3D2CEE0F5"
+			tasks: [{
+				id: "3F9CE36ABD1A7E22"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "31818DE8595CD4AC"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Scroll the Speed"
+			x: 2.5d
+			y: 4.0d
+			description: ["You can set the speed!"]
+			dependencies: ["12B0AEA91AB1CC7B"]
+			id: "356CD9F4CA2BD6A2"
+			tasks: [{
+				id: "1EB6B384DE08DE63"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [{
+				id: "07E76BFF51E36633"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+	]
 }

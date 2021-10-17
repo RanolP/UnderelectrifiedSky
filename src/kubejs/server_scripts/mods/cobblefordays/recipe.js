@@ -9,7 +9,7 @@ onEvent('recipes', (event) => {
     'minecraft:glass',
     'cobblefordays:tier_1'
   );
-  event.shaped(Item.of('cobblefordays:tier_2'), ['AAA', 'WCL', 'AAA'], {
+  event.shaped('cobblefordays:tier_2', ['AAA', 'WCL', 'AAA'], {
     A: 'create:andesite_casing',
     C: 'create:large_cogwheel',
     W: 'minecraft:water_bucket',
@@ -32,7 +32,7 @@ onEvent('recipes', (event) => {
     'cobblefordays:tier_2'
   );
 
-  event.shaped(Item.of('cobblefordays:tier_3'), ['IZI', 'WCL', 'IZI'], {
+  event.shaped('cobblefordays:tier_3', ['IZI', 'WCL', 'IZI'], {
     I: 'create:iron_sheet',
     Z: 'create:zinc_block',
     C: 'create:chute',
@@ -56,7 +56,7 @@ onEvent('recipes', (event) => {
     'cobblefordays:tier_3'
   );
 
-  event.shaped(Item.of('cobblefordays:tier_4'), ['BHB', 'WCL', 'BHB'], {
+  event.shaped('cobblefordays:tier_4', ['BHB', 'WCL', 'BHB'], {
     B: 'create:brass_sheet',
     H: 'create:brass_hand',
     C: 'create:smart_chute',
@@ -75,7 +75,7 @@ onEvent('recipes', (event) => {
     'cobblefordays:tier_4'
   );
 
-  event.shaped(Item.of('cobblefordays:tier_5'), ['BHB', 'WCL', 'BHB'], {
+  event.shaped('cobblefordays:tier_5', ['BHB', 'WCL', 'BHB'], {
     B: 'minecraft:diamond_block',
     H: 'create:polished_rose_quartz',
     C: 'create:mechanical_arm',

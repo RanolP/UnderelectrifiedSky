@@ -13,7 +13,7 @@
 		{ item: "ironchest:diamond_chest" }
 		{ item: "ironfurnaces:diamond_furnace" }
 		{ item: "storagedrawers:compacting_drawers_3" }
-		{ item: "storagedrawers:oak_full_drawers_1", count: 4, weight: 5 }
+		{ item: "storagedrawers:oak_full_drawers_1", weight: 5 }
 		{ item: "storagedrawers:emerald_storage_upgrade" }
 		{ item: "minecraft:oak_log", count: 32, weight: 5 }
 		{
@@ -39,5 +39,54 @@
 		{ item: "minecraft:redstone", count: 16, weight: 3 }
 		{ item: "minecraft:quartz", count: 16 }
 		{ item: "minecraft:cooked_beef", count: 8, weight: 2 }
+		{ item: "minecraft:ender_pearl", count: 4 }
+		{ item: "create:brass_tunnel", count: 4 }
+		{ item: "create:brass_funnel", count: 4 }
+		{ item: "excompressum:compressed_gravel", count: 16 }
+		{ item: "excompressum:compressed_dust", count: 16 }
+		{
+			item: {
+				id: "exnihilosequentia:hammer_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "exnihilosequentia:crook_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:glass", count: 32, weight: 3 }
+		{
+			item: {
+				id: "constructionwand:infinity_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:trident"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmingforblockheads:fertilized_farmland_healthy", count: 8, weight: 3 }
+		{ item: "ars_nouveau:magic_clay", count: 16 }
+		{ item: "ars_nouveau:marvelous_clay", count: 4 }
+		{ item: "ars_nouveau:mythical_clay", count: 4 }
+		{ item: "botanypotstiers:elite_botany_pot", count: 4 }
+		{ item: "projecte:interdiction_torch", count: 32, weight: 6 }
+		{ item: "storagenetwork:kabel", count: 32, weight: 3 }
 	]
 }

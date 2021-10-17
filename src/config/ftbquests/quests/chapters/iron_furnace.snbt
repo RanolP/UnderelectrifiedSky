@@ -214,11 +214,18 @@
 				type: "item"
 				item: "ironfurnaces:million_furnace"
 			}]
-			rewards: [{
-				id: "4B408D275B068B7B"
-				type: "random"
-				table_id: 6359834731965744429L
-			}]
+			rewards: [
+				{
+					id: "4B408D275B068B7B"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+				{
+					id: "60955723D4634545"
+					type: "random"
+					table_id: 6359834731965744429L
+				}
+			]
 		}
 		{
 			x: -3.0d

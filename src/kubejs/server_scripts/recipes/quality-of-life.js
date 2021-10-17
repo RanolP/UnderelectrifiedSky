@@ -1,16 +1,16 @@
 onEvent('recipes', (event) => {
-  event.shapeless(Item.of('minecraft:clay_ball', 4), ['minecraft:clay']);
-  event.shapeless(Item.of('minecraft:flint'), [
+  event.shapeless('4x minecraft:clay_ball', ['minecraft:clay']);
+  event.shapeless('minecraft:flint', [
     '#forge:gravel',
     '#forge:gravel',
     '#forge:gravel',
   ]);
 
-  event.shaped(Item.of('minecraft:chest', 4), ['LLL', 'L L', 'LLL'], {
+  event.shaped('4x minecraft:chest', ['LLL', 'L L', 'LLL'], {
     L: '#minecraft:logs',
   });
 
-  event.shaped(Item.of('minecraft:stick', 16), ['L', 'L'], {
+  event.shaped('16x minecraft:stick', ['L', 'L'], {
     L: '#minecraft:logs',
   });
 });
