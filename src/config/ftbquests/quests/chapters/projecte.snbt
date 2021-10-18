@@ -14,5 +14,27 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		title: "An Alchemist's Best Friend!"
+		x: -1.5d
+		y: -2.0d
+		id: "44EA3EA47CBA5685"
+		tasks: [{
+			id: "55FD8045C5E0BDAD"
+			type: "item"
+			item: {
+				id: "projecte:philosophers_stone"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+		}]
+		rewards: [{
+			id: "698B3F7954F0D6B7"
+			type: "random"
+			table_id: 6359834731965744429L
+		}]
+	}]
 }

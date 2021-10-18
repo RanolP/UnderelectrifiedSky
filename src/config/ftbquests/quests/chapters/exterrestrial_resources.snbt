@@ -178,7 +178,8 @@
 			}]
 		}
 		{
-			x: -9.5d
+			title: "Very Basic Star"
+			x: -13.5d
 			y: -17.5d
 			id: "67D1E232618BEA48"
 			tasks: [{
@@ -204,6 +205,66 @@
 			}]
 			rewards: [{
 				id: "2EE392378CBE8966"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -13.5d
+			y: -18.5d
+			dependencies: [
+				"67D1E232618BEA48"
+				"527AA267FAAC0C87"
+			]
+			id: "2AFAD7A6C3D792C4"
+			tasks: [{
+				id: "59946DAABBDE6B61"
+				type: "item"
+				item: "extendedcrafting:ender_star"
+			}]
+			rewards: [{
+				id: "5CF4A46BBFFA0ED4"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "TIME = CRAFT"
+			icon: "extendedcrafting:ender_crafter"
+			x: -10.0d
+			y: -18.5d
+			description: ["The more alternator you have, the faster crafting will be. Note that the recipes are tweaked. "]
+			id: "527AA267FAAC0C87"
+			tasks: [
+				{
+					id: "5C3011369998870E"
+					type: "item"
+					item: "extendedcrafting:ender_crafter"
+				}
+				{
+					id: "0A6DE827CF036C1F"
+					type: "item"
+					item: "extendedcrafting:ender_alternator"
+				}
+			]
+			rewards: [{
+				id: "1F673F2AEC205CF9"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: -10.0d
+			y: -16.5d
+			dependencies: ["527AA267FAAC0C87"]
+			id: "639E439C2BB3508A"
+			tasks: [{
+				id: "151A86ED09FCCD3B"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+			}]
+			rewards: [{
+				id: "47B9D6785A0A0D2B"
 				type: "random"
 				table_id: 6359834731965744429L
 			}]

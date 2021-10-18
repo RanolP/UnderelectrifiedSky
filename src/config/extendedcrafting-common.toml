@@ -1,0 +1,11 @@
+[Singularities]
+defaultRecipes = false
+
+["Combination Crafting"]
+enabled = false
+
+["Table Crafting"]
+autoTablesEnabled = false
+
+["Quantum Compression"]
+enabled = false
