@@ -1,0 +1,14 @@
+name = "GeckoLib"
+filename = "geckolib-forge-1.16.5-3.0.47.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3495/709/geckolib-forge-1.16.5-3.0.47.jar"
+hash-format = "murmur2"
+hash = "3066877415"
+
+[update]
+[update.curseforge]
+file-id = 3495709
+project-id = 388172
+release-channel = "beta"

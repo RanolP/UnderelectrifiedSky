@@ -1,0 +1,14 @@
+name = "FTB Ultimine (Forge)"
+filename = "ftb-ultimine-forge-1605.3.0-build.33.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3490/776/ftb-ultimine-forge-1605.3.0-build.33.jar"
+hash-format = "murmur2"
+hash = "42899685"
+
+[update]
+[update.curseforge]
+file-id = 3490776
+project-id = 386134
+release-channel = "beta"

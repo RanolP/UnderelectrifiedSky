@@ -254,6 +254,7 @@
 			x: -1.0d
 			y: -4.5d
 			description: ["Good for storing limited type but high quantity items."]
+			dependencies: ["17F95235DA4B9203"]
 			id: "00029CA301F03F7B"
 			tasks: [{
 				id: "28FBFA55614C2DA3"
@@ -327,6 +328,7 @@
 			x: -2.0d
 			y: 1.5d
 			description: ["You can expand storage size with these upgrades."]
+			dependencies: ["7BB095CC68C71D69"]
 			id: "0682B5E6154C5C69"
 			tasks: [{
 				id: "70DA31E98387855F"
@@ -372,6 +374,7 @@
 			x: 0.0d
 			y: 1.5d
 			description: ["You can remove exceed items with this upgrade."]
+			dependencies: ["411782A0B13AC191"]
 			id: "5B80F149A12E3D9B"
 			tasks: [{
 				id: "4032EB0515D7D2FE"

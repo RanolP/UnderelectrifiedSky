@@ -13,6 +13,7 @@
 			x: -6.0d
 			y: -1.5d
 			description: ["Collect dropped eggs in range of 8 blocks."]
+			dependencies: ["17F95235DA4B9203"]
 			id: "64FA515B678A5DFC"
 			tasks: [{
 				id: "5B25186D366AD1E9"
@@ -30,6 +31,7 @@
 			x: -4.5d
 			y: -1.5d
 			description: ["Feed the animals in range of 8 blocks, max 8 animals per type."]
+			dependencies: ["7BB095CC68C71D69"]
 			id: "21D26D0573C9F8EB"
 			tasks: [{
 				id: "3BEDF9FE6BAA3CA0"
@@ -47,6 +49,7 @@
 			x: -3.0d
 			y: -1.5d
 			description: ["Fertilizer can work on Botany Pots as well as Fertilized Farmlands. Note that the effect of Green Fertilizer doesn't work on Botany Pot."]
+			dependencies: ["7BB095CC68C71D69"]
 			id: "085F733AA2F25D9C"
 			tasks: [{
 				id: "26B48FE50F4B0F25"

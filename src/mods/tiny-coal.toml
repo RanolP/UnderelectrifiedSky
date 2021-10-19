@@ -1,0 +1,14 @@
+name = "Tiny Coal"
+filename = "Tiny-Coal-1.16.4-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3100/603/Tiny-Coal-1.16.4-1.0.0.jar"
+hash-format = "murmur2"
+hash = "431585905"
+
+[update]
+[update.curseforge]
+file-id = 3100603
+project-id = 395272
+release-channel = "beta"

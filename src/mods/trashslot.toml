@@ -1,0 +1,14 @@
+name = "TrashSlot"
+filename = "TrashSlot_1.16.3-12.2.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3098/221/TrashSlot_1.16.3-12.2.1.jar"
+hash-format = "murmur2"
+hash = "85186671"
+
+[update]
+[update.curseforge]
+file-id = 3098221
+project-id = 235577
+release-channel = "beta"

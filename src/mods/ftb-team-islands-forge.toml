@@ -1,0 +1,14 @@
+name = "FTB Team Islands (Forge)"
+filename = "ftb-team-islands-forge-1605-2.1-build.24.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3469/438/ftb-team-islands-forge-1605-2.1-build.24.jar"
+hash-format = "murmur2"
+hash = "4027758984"
+
+[update]
+[update.curseforge]
+file-id = 3469438
+project-id = 284563
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "CobbleForDays"
+filename = "CobbleForDays-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3049/23/CobbleForDays-1.3.1.jar"
+hash-format = "murmur2"
+hash = "2244270282"
+
+[update]
+[update.curseforge]
+file-id = 3049023
+project-id = 349460
+release-channel = "beta"

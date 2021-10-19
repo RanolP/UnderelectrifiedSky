@@ -1,0 +1,14 @@
+name = "Ex Compressum"
+filename = "ExCompressum_1.16.5-4.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3368/7/ExCompressum_1.16.5-4.0.4.jar"
+hash-format = "murmur2"
+hash = "773676949"
+
+[update]
+[update.curseforge]
+file-id = 3368007
+project-id = 241967
+release-channel = "beta"

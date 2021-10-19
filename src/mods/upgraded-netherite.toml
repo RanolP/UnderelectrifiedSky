@@ -1,0 +1,14 @@
+name = "Upgraded Netherite"
+filename = "Upgraded Netherite 1.10.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3423/244/Upgraded Netherite 1.10.0.jar"
+hash-format = "murmur2"
+hash = "4281452451"
+
+[update]
+[update.curseforge]
+file-id = 3423244
+project-id = 400085
+release-channel = "beta"

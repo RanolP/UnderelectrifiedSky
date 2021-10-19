@@ -1,0 +1,12 @@
+name = "Underelectrified Sky"
+author = "Ranol_"
+version = "0.1.0-dev"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "f43d8e625d5da32d0f8e07490dcfee557b7d56539696b8d36b2406713603ba8c"
+
+[versions]
+forge = "36.2.8"
+minecraft = "1.16.5"

@@ -18,6 +18,10 @@
 		title: "An Alchemist's Best Friend!"
 		x: -1.5d
 		y: -2.0d
+		dependencies: [
+			"473479E135061C49"
+			"2AFAD7A6C3D792C4"
+		]
 		id: "44EA3EA47CBA5685"
 		tasks: [{
 			id: "55FD8045C5E0BDAD"

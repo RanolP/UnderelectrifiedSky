@@ -1,0 +1,14 @@
+name = "Forgiving Void"
+filename = "ForgivingVoid_1.16.5-5.2.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3330/716/ForgivingVoid_1.16.5-5.2.1.jar"
+hash-format = "murmur2"
+hash = "1913330427"
+
+[update]
+[update.curseforge]
+file-id = 3330716
+project-id = 271009
+release-channel = "beta"

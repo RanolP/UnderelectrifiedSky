@@ -11,6 +11,7 @@
 		x: -5.0d
 		y: -3.0d
 		description: ["Market provides a great seed seller."]
+		dependencies: ["17F95235DA4B9203"]
 		id: "15EB82516C369D94"
 		tasks: [{
 			id: "4D73CF34AA74D706"

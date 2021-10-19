@@ -1,0 +1,14 @@
+name = "Drawers Tooltip"
+filename = "DrawersTooltip-1.16.2-2.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3491/850/DrawersTooltip-1.16.2-2.1.1.jar"
+hash-format = "murmur2"
+hash = "270094340"
+
+[update]
+[update.curseforge]
+file-id = 3491850
+project-id = 381605
+release-channel = "beta"

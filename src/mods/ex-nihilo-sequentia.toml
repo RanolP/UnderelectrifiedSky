@@ -1,0 +1,14 @@
+name = "Ex Nihilo: Sequentia"
+filename = "exnihilosequentia-1.16-20211004011236.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3480/641/exnihilosequentia-1.16-20211004011236.jar"
+hash-format = "murmur2"
+hash = "2051309034"
+
+[update]
+[update.curseforge]
+file-id = 3480641
+project-id = 400012
+release-channel = "beta"

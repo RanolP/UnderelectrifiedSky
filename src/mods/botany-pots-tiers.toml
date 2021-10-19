@@ -1,0 +1,14 @@
+name = "Botany Pots Tiers"
+filename = "botanypotstiers-1.16.5-1.12.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3492/45/botanypotstiers-1.16.5-1.12.jar"
+hash-format = "murmur2"
+hash = "2470446338"
+
+[update]
+[update.curseforge]
+file-id = 3492045
+project-id = 526754
+release-channel = "beta"

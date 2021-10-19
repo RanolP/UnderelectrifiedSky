@@ -1,0 +1,14 @@
+name = "Extreme sound muffler (Forge)"
+filename = "extremeSoundMuffler-3.16_1.16.5.jar"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/3483/59/extremeSoundMuffler-3.16_1.16.5.jar"
+hash-format = "murmur2"
+hash = "331046537"
+
+[update]
+[update.curseforge]
+file-id = 3483059
+project-id = 363363
+release-channel = "beta"

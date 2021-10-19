@@ -12,6 +12,7 @@
 			title: "Very Basic Metal"
 			x: -13.5d
 			y: -14.5d
+			dependencies: ["033E4775324F3512"]
 			id: "71E514C2231F8435"
 			tasks: [{
 				id: "5978AEE6CE701C7D"
@@ -27,7 +28,10 @@
 		{
 			x: -14.0d
 			y: -16.5d
-			dependencies: ["71E514C2231F8435"]
+			dependencies: [
+				"71E514C2231F8435"
+				"596FB485E15C97B5"
+			]
 			id: "5A04B19010A72EB9"
 			tasks: [{
 				id: "0A756203B8F4BB80"
@@ -43,7 +47,10 @@
 		{
 			x: -13.0d
 			y: -16.5d
-			dependencies: ["71E514C2231F8435"]
+			dependencies: [
+				"71E514C2231F8435"
+				"596FB485E15C97B5"
+			]
 			id: "02A5EE6AE4C95E7F"
 			tasks: [{
 				id: "79122A59ABE96049"
@@ -59,7 +66,10 @@
 		{
 			x: -12.0d
 			y: -16.0d
-			dependencies: ["71E514C2231F8435"]
+			dependencies: [
+				"71E514C2231F8435"
+				"596FB485E15C97B5"
+			]
 			id: "3A0AD6EDBF8030C3"
 			tasks: [{
 				id: "7B49906EB6AED25C"
@@ -75,7 +85,10 @@
 		{
 			x: -11.5d
 			y: -15.0d
-			dependencies: ["71E514C2231F8435"]
+			dependencies: [
+				"71E514C2231F8435"
+				"596FB485E15C97B5"
+			]
 			id: "679EA5F160769E85"
 			tasks: [{
 				id: "34EC0939B6C630E2"
@@ -91,7 +104,10 @@
 		{
 			x: -11.5d
 			y: -14.0d
-			dependencies: ["71E514C2231F8435"]
+			dependencies: [
+				"71E514C2231F8435"
+				"596FB485E15C97B5"
+			]
 			id: "63CFCA0C75E3358F"
 			tasks: [{
 				id: "6EC15C00797116B4"
@@ -107,7 +123,10 @@
 		{
 			x: -12.0d
 			y: -13.0d
-			dependencies: ["71E514C2231F8435"]
+			dependencies: [
+				"71E514C2231F8435"
+				"596FB485E15C97B5"
+			]
 			id: "133BA32F897133D1"
 			tasks: [{
 				id: "00F6D590359D098D"
@@ -123,7 +142,10 @@
 		{
 			x: -13.0d
 			y: -12.5d
-			dependencies: ["71E514C2231F8435"]
+			dependencies: [
+				"71E514C2231F8435"
+				"596FB485E15C97B5"
+			]
 			id: "3F8FF7BCC9022174"
 			tasks: [{
 				id: "6EBB168A14948AF7"
@@ -139,7 +161,10 @@
 		{
 			x: -14.0d
 			y: -12.5d
-			dependencies: ["71E514C2231F8435"]
+			dependencies: [
+				"71E514C2231F8435"
+				"596FB485E15C97B5"
+			]
 			id: "6701FDB8FA71A8EA"
 			tasks: [{
 				id: "4CF7289B9FB1956C"
@@ -180,7 +205,7 @@
 		{
 			title: "Very Basic Star"
 			x: -13.5d
-			y: -17.5d
+			y: -18.0d
 			id: "67D1E232618BEA48"
 			tasks: [{
 				id: "38D9BAD69C10FA63"
@@ -196,7 +221,10 @@
 		{
 			x: -16.5d
 			y: -14.5d
-			dependencies: ["71E514C2231F8435"]
+			dependencies: [
+				"71E514C2231F8435"
+				"596FB485E15C97B5"
+			]
 			id: "132C18EFC399A3EF"
 			tasks: [{
 				id: "7A5FA0BF7A6CD7C0"
@@ -210,8 +238,8 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: -18.5d
+			x: -11.5d
+			y: -19.5d
 			dependencies: [
 				"67D1E232618BEA48"
 				"527AA267FAAC0C87"
@@ -231,9 +259,10 @@
 		{
 			title: "TIME = CRAFT"
 			icon: "extendedcrafting:ender_crafter"
-			x: -10.0d
-			y: -18.5d
+			x: -9.5d
+			y: -18.0d
 			description: ["The more alternator you have, the faster crafting will be. Note that the recipes are tweaked. "]
+			dependencies: ["42AE0789416785AC"]
 			id: "527AA267FAAC0C87"
 			tasks: [
 				{
@@ -254,8 +283,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: -16.5d
+			x: -9.5d
+			y: -19.5d
 			dependencies: ["527AA267FAAC0C87"]
 			id: "639E439C2BB3508A"
 			tasks: [{

@@ -1,0 +1,14 @@
+name = "Controlling"
+filename = "Controlling-7.0.0.26.jar"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/3480/210/Controlling-7.0.0.26.jar"
+hash-format = "murmur2"
+hash = "2840124715"
+
+[update]
+[update.curseforge]
+file-id = 3480210
+project-id = 250398
+release-channel = "beta"
