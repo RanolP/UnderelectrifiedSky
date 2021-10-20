@@ -4,6 +4,8 @@ A skyblock modpack without electricity.
 
 ## Mod List
 
+**Warning**: This list may be outdated but it's still useful. We're trying to auto generate the list.
+
 The mod list is sorted alphabetically with following markers.
 
 | Marker   | Meaning                               |
