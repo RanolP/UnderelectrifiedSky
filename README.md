@@ -2,7 +2,7 @@
 
 A skyblock modpack without electricity.
 
-**Warning**: This status of modpack is very WIP but usable. You may got bad experiences.
+**Warning**: The status of modpack is very WIP but usable. You may got bad experiences.
 
 ## Mod List
 
@@ -13,7 +13,7 @@ The mod list is sorted alphabetically with following markers.
 | Marker   | Meaning                               |
 | -------- | ------------------------------------- |
 | Admin    | Utility mod for server administration |
-| Devs     | Modpack developers' mod               |
+| Devs     | A mod for modpack developers          |
 | End-game | End-game mod                          |
 | Food     | Mod related to foods                  |
 | Just-Fun | Mod added just for funs               |
