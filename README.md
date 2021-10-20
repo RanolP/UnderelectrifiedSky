@@ -2,6 +2,8 @@
 
 A skyblock modpack without electricity.
 
+**Warning**: This status of modpack is very WIP but usable. You may got bad experiences.
+
 ## Mod List
 
 **Warning**: This list may be outdated but it's still useful. We're trying to auto generate the list.
