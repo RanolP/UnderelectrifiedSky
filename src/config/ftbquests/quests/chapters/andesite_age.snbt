@@ -576,7 +576,7 @@
 			title: "Shoot'em up!"
 			x: -4.5d
 			y: 3.0d
-			description: ["You can shoot items or entities?"]
+			description: ["You can shoot items or entities? Maybe useful for Sequenced Assembly."]
 			dependencies: ["28558DE71BFE0C45"]
 			id: "208F11612B0D3B97"
 			tasks: [{

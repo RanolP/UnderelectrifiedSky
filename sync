@@ -13,11 +13,15 @@ echo -e "\033[42m\033[30m >>> \033[0m Target directory is \033[32m$pathw\033[0m.
 echo
 
 symlink=config/ftbquests
+skip=mods/
 
 for files_to_link in `find ./src -mindepth 2 -maxdepth 2`; do
     cd $working_directory
     target=$pathw\\`echo $files_to_link | cut -b 7- | sed 's/\\//\\\\/g'`
     source=`wslpath -m $files_to_link | sed 's/\\//\\\\/g'`
+    if [[ "$files_to_link" =~ $skip ]]; then
+        continue
+    fi
     if [ -f "$files_to_link" ]; then
         rm_command='del'
         if [[ "$files_to_link" =~ $symlink ]]; then

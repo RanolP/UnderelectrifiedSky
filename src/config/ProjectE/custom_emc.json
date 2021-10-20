@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "item": "create:zinc_ingot",
+      "emc": 256
+    },
+    {
+      "item": "create:brass_ingot",
+      "emc": 512
+    },
+    {
+      "item": "create:polished_rose_quartz",
+      "emc": 768
+    },
+    {
+      "item": "create:copper_sheet",
+      "emc": 128
+    },
+    {
+      "item": "create:brass_sheet",
+      "emc": 512
+    },
+    {
+      "item": "create:iron_sheet",
+      "emc": 256
+    },
+    {
+      "item": "create:golden_sheet",
+      "emc": 2048
+    },
+    {
+      "item": "create:blaze_burner",
+      "emc": 6760
+    },
+    {
+      "item": "create:precision_mechanism",
+      "emc": 4096
+    },
+    {
+      "item": "create:cinder_flour",
+      "emc": 1
+    },
+    {
+      "item": "create:blaze_cake_base",
+      "emc": 48
+    },
+    {
+      "item": "create:blaze_cake",
+      "emc": 64
+    },
+    {
+      "item": "create:powdered_obsidian",
+      "emc": 64
+    },
+    {
+      "item": "create:chromatic_compound",
+      "emc": 2176
+    },
+    {
+      "item": "create:refined_radiance",
+      "emc": 2176
+    },
+    {
+      "item": "create:shadow_steel",
+      "emc": 2176
+    },
+    {
+      "item": "extendedcrafting:ender_star",
+      "emc": 160000
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot",
+      "emc": 89328
+    },
+    {
+      "item": "extendedcrafting:enhanced_ender_ingot",
+      "emc": 170554
+    },
+    {
+      "item": "ars_nouveau:mana_gem",
+      "emc": 864
+    },
+    {
+      "item": "exnihilosequentia:silkworm",
+      "emc": 768
+    },
+    {
+      "item": "exnihilosequentia:dust",
+      "emc": 1
+    },
+    {
+      "item": "ars_nouveau:mana_bloom_crop",
+      "emc": 3492
+    },
+    {
+      "item": "ars_nouveau:mana_bloom",
+      "emc": 4656
+    },
+    {
+      "item": "ars_nouveau:mana_berry",
+      "emc": 980
+    },
+    {
+      "item": "create:limesand",
+      "emc": 1
+    },
+    {
+      "item": "create:limestone",
+      "emc": 1
+    },
+    {
+      "item": "create:weathered_limestone",
+      "emc": 1
+    }
+  ]
+}

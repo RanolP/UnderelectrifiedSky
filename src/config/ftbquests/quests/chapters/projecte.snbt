@@ -14,31 +14,212 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "An Alchemist's Best Friend!"
-		x: -1.5d
-		y: -2.0d
-		dependencies: [
-			"473479E135061C49"
-			"2AFAD7A6C3D792C4"
-		]
-		id: "44EA3EA47CBA5685"
-		tasks: [{
-			id: "55FD8045C5E0BDAD"
-			type: "item"
-			item: {
-				id: "projecte:philosophers_stone"
-				Count: 1b
-				tag: { }
-				ForgeCaps: {
-					Parent: { }
+	quests: [
+		{
+			title: "An Alchemist's Best Friend!"
+			x: -1.5d
+			y: -1.5d
+			description: ["Transmute them all!"]
+			dependencies: [
+				"473479E135061C49"
+				"2AFAD7A6C3D792C4"
+			]
+			id: "44EA3EA47CBA5685"
+			tasks: [{
+				id: "55FD8045C5E0BDAD"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
 				}
-			}
-		}]
-		rewards: [{
-			id: "698B3F7954F0D6B7"
-			type: "random"
-			table_id: 6359834731965744429L
-		}]
-	}]
+			}]
+			rewards: [{
+				id: "698B3F7954F0D6B7"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Covalance Friends"
+			x: -1.5d
+			y: -3.5d
+			description: ["Basic crafting ingredient."]
+			dependencies: ["3F7899DCE8639535"]
+			id: "305A1E0C4A909D59"
+			tasks: [
+				{
+					id: "6964FB51BE466074"
+					type: "item"
+					item: "projecte:low_covalence_dust"
+				}
+				{
+					id: "484BFD39C28C2D69"
+					type: "item"
+					item: "projecte:medium_covalence_dust"
+				}
+				{
+					id: "323B312E5C3F37C3"
+					type: "item"
+					item: "projecte:high_covalence_dust"
+				}
+			]
+			rewards: [{
+				id: "237CE4EED39BF1A7"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "A Chest Downgrade?"
+			x: 1.5d
+			y: -3.5d
+			description: ["Well, it has less storage size than Obsidian Chest but can be used as an ingredient."]
+			dependencies: ["305A1E0C4A909D59"]
+			id: "5C8A56FF7E8FF5AA"
+			tasks: [{
+				id: "33C27986B09546B2"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+			rewards: [{
+				id: "22B4348953EBBF99"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["305A1E0C4A909D59"]
+			id: "786ADC903A624FAB"
+			tasks: [{
+				id: "3E4B86BF8BEB9C42"
+				type: "item"
+				item: {
+					id: "projecte:repair_talisman"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "72D043568C7761B6"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "All the Matters"
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["44EA3EA47CBA5685"]
+			id: "353D3F17E6700D77"
+			tasks: [{
+				id: "56495EA713A25EEF"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+			rewards: [{
+				id: "518AC3F10BFB2357"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "Even Better Matters!"
+			x: 1.5d
+			y: -1.5d
+			dependencies: [
+				"353D3F17E6700D77"
+				"527AA267FAAC0C87"
+			]
+			id: "216EE6A8BD980FB6"
+			tasks: [{
+				id: "6B4840DCA7BC7E0E"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+			rewards: [{
+				id: "595977565FE41EE0"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: [
+				"5C8A56FF7E8FF5AA"
+				"216EE6A8BD980FB6"
+			]
+			id: "154A8D8CE24B9110"
+			tasks: [{
+				id: "4F16B9A25E34AB90"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+			rewards: [{
+				id: "156BFD3B0C42B029"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			description: ["Note that Philosopher's Stone won't be consumed."]
+			dependencies: ["216EE6A8BD980FB6"]
+			id: "455193AE3934A698"
+			tasks: [{
+				id: "30038C12D13F9182"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+			rewards: [{
+				id: "200A2EDB5F64138C"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+		{
+			title: "The Last Armor?"
+			icon: "projecte:gem_chestplate"
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["216EE6A8BD980FB6"]
+			id: "1CB0AAB8A4371E3A"
+			tasks: [
+				{
+					id: "5188C2C2D713C29C"
+					type: "item"
+					item: "projecte:gem_helmet"
+				}
+				{
+					id: "4C07FE62FF94D451"
+					type: "item"
+					item: "projecte:gem_chestplate"
+				}
+				{
+					id: "04AA82627B8D78AA"
+					type: "item"
+					item: "projecte:gem_leggings"
+				}
+				{
+					id: "4B4EB53EC0F9B1E5"
+					type: "item"
+					item: "projecte:gem_boots"
+				}
+			]
+			rewards: [{
+				id: "5D5B395F9E3E30A8"
+				type: "random"
+				table_id: 6359834731965744429L
+			}]
+		}
+	]
 }

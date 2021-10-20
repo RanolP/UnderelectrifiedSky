@@ -1,3 +1,3 @@
 onEvent('recipes', (event) => {
-  event.remove({ id: 'patchouli:guide_book' });
+  event.remove({ output: 'patchouli:guide_book' });
 });

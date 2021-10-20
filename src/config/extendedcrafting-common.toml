@@ -9,3 +9,6 @@ autoTablesEnabled = false
 
 ["Quantum Compression"]
 enabled = false
+
+["Recipe Maker"]
+enabled = false
